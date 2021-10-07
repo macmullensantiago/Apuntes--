@@ -41,4 +41,6 @@
       * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
    
       * Retorna el primer elemento que cumpla con el criterio dado. Puede ser invocada sobre el document o sobre algún elemento. En caso de usarse sobre un elemento, las                 búsqueda se limita a los hijos de ese elemento. Si la búsqueda no encuentra nada, retorna null.
-    
+      
+      * querySelectorAll
+        Retorna todos los elementos que cumplan con el criterio dado. Al igual que querySelector puede ser invocada sobre el document o sobre algún elemento.
