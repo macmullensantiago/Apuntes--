@@ -36,3 +36,7 @@
     * event: a string that specifies the name of the event. We already mentioned load and click events.
     * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
     
+ ### querySelector
+ 
+   
+    
