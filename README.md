@@ -4,7 +4,7 @@
 
     * The forEach() method calls a function once for each element in an array, in order.
 
-    forEach() is not executed for array elements without values.
+     forEach() is not executed for array elements without values.
 
     * The forEach() method executes a provided function once for each array element.
 
@@ -44,3 +44,16 @@
       
       * querySelectorAll
         Retorna todos los elementos que cumplan con el criterio dado. Al igual que querySelector puede ser invocada sobre el document o sobre algún elemento.
+       
+      * El método querySelector () de JavaScript le permite recuperar un elemento del DOM, o la página web, usando un selector de CSS. Este método viene con una función hermana         llamada querySelectorAll () que selecciona todos los elementos que coinciden con un selector particular del DOM.
+
+        Estos dos métodos son increíblemente versátiles. Esto se debe a que la sintaxis del selector de CSS le permite seleccionar cualquier elemento de una página web.
+        
+  ### getElementById
+  
+      * getElementById
+       Retorna el primer elemento con el id especificado, es en muchos sentidos equivalente a hacer, querySelector('#elId'). Osea que retorna null si no hay elementos con dicho        Id.
+      
+     * The getElementById() method retrieves an element based on its ID attribute, hence the name.
+        This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
+        You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
