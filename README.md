@@ -36,7 +36,7 @@
     * event: a string that specifies the name of the event. We already mentioned load and click events.
     * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
     
- ### querySelector
+ ## querySelector
  
       * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
    
@@ -57,3 +57,5 @@
      * The getElementById() method retrieves an element based on its ID attribute, hence the name.
         This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
         You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
+        
+    ## Upload a Proyect to GitHub
