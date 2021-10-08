@@ -68,9 +68,9 @@
    ## Differences between Software Engineer, web developer and programmer
    
    * There are a few ways to spot the differences among software engineer, web developer, and programmer roles.
-    + Web developers: 
+    
        + Web developers are focused on creating browser apps with a combination of client-side and server-side programming languages. Generally speaking, they are involved in            designing interactive websites and building user-facing applications.
-    + Software Engineers:
+    
        + Software engineers are more likely to work on computer systems as a whole. They develop standalone programs and apps to help users perform various activities. For the            most part, they program, document, test, and maintain software by utilizing the best practices in DevOps.
    * Front-End & Back-End
        + The only real distinction you have to make is the one between front-end and back-end programming — whether you’re designing surface-level UI and user-centric                    applications or running hidden processes inside a database server.
