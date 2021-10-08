@@ -222,6 +222,11 @@ For developers new to the command line, the GitHub Training team has put togethe
       # push changes to github
       git push
       
+   ## GitHub Learning Resources
+      
+      * https://guides.github.com/
+      * https://www.youtube.com/githubguides
+      
    ## Differences between Software Engineer, Web developer and Programmer
    
    * There are a few ways to spot the differences among software engineer, web developer, and programmer roles.
