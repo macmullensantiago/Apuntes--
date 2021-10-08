@@ -57,6 +57,20 @@
      * The getElementById() method retrieves an element based on its ID attribute, hence the name.
         This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
         You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
+   ## Bucles
+      
+   # For
+   
+   
+   
+   # While
+   
+   
+   
+   # Do-While
+   
+   
+   
         
    ## Upload a Proyect to GitHub
     
