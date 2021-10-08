@@ -85,15 +85,15 @@
             * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
    # Git - GitHub
         
-    ## Upload a Proyect to GitHub
+   ## Upload a Proyect to GitHub
     
     * https://lab.github.com/
     * https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/
     * https://www.youtube.com/watch?v=MJUJ4wbFm_A
     * https://www.youtube.com/watch?v=eulnSXkhE7I
     
-      ## What’s a version control system?
-   
+   ## What’s a version control system?
+  
          A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence that any version can be recovered at any time. Developers can review project history to find out:
 
          Which changes were made?
@@ -101,7 +101,7 @@
          When were the changes made?
          Why were changes needed?
         
-    ## What’s a distributed version control system?
+   ## What’s a distributed version control system?
          
          Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
 
