@@ -17,6 +17,7 @@
   ### Events and Events Handler 
     
      *  Understanding Events and Event Handlers
+     
         Events are actions that happen when the user or browser manipulates a page. They play an important role as they can cause elements of a web page to change dynamically.
 
         For example, when the browser finishes loading a document, then a load event occurred. If a user clicks a button on a page, then a click event has happened.
@@ -28,6 +29,7 @@
   ### Syntax
   
     addEventListener() Syntax
+    
     Here's the syntax:
 
     target.addEventListener(event, function, useCapture)
@@ -52,9 +54,11 @@
   ### getElementById
   
       * getElementById
+      
        Retorna el primer elemento con el id especificado, es en muchos sentidos equivalente a hacer, querySelector('#elId'). Osea que retorna null si no hay elementos con dicho        Id.
       
      * The getElementById() method retrieves an element based on its ID attribute, hence the name.
+     
         This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
         You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
         
@@ -83,6 +87,7 @@
         * ### Do-While
    
             * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
+            
    # Git - GitHub
         
    ## Upload a Proyect to GitHub
@@ -148,7 +153,7 @@
    
    ## GitHub and the command line
    
-For developers new to the command line, the GitHub Training team has put together a series of tutorials on Git commands to guide the way. Sometimes, a series of commands can paint a picture of how to use Git:
+      For developers new to the command line, the GitHub Training team has put together a series of tutorials on Git commands to guide the way. Sometimes, a series of commands can paint a picture of how to use Git:
 
    ### Example: Contribute to an existing repository
 
@@ -307,14 +312,14 @@ For developers new to the command line, the GitHub Training team has put togethe
       
    ## Differences between Software Engineer, Web developer and Programmer
    
-   * There are a few ways to spot the differences among software engineer, web developer, and programmer roles.
+      * There are a few ways to spot the differences among software engineer, web developer, and programmer roles.
     
-       + Web developers are focused on creating browser apps with a combination of client-side and server-side programming languages. Generally speaking, they are involved in            designing interactive websites and building user-facing applications.
+         + Web developers are focused on creating browser apps with a combination of client-side and server-side programming languages. Generally speaking, they are involved in            designing interactive websites and building user-facing applications.
     
-       + Software engineers are more likely to work on computer systems as a whole. They develop standalone programs and apps to help users perform various activities. For the            most part, they program, document, test, and maintain software by utilizing the best practices in DevOps.
+          + Software engineers are more likely to work on computer systems as a whole. They develop standalone programs and apps to help users perform various activities. For the            most part, they program, document, test, and maintain software by utilizing the best practices in DevOps.
        
-   * Front-End & Back-End
+    * Front-End & Back-End
    
-       + The only real distinction you have to make is the one between front-end and back-end programming — whether you’re designing surface-level UI and user-centric                    applications or running hidden processes inside a database server.
+         + The only real distinction you have to make is the one between front-end and back-end programming — whether you’re designing surface-level UI and user-centric                    applications or running hidden processes inside a database server.
        
-   - "At the end of the day, we're all trying to solve business problems with code."
+      - "At the end of the day, we're all trying to solve business problems with code."
