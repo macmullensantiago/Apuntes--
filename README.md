@@ -137,6 +137,26 @@
    ## How GitHub works
    
       GitHub builds collaboration directly into the development process. Work is organized into repositories, where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page.
+      
+   ## 1.2 Initializing the repo
+   
+      Now it’s time to start creating a project and put it under version control with Git.
+      We’ll be making a simple website consisting of two pages, a Home page and an
+      About page.7 We’ll begin by making a directory with the generic name website
+      inside a directory called repos:
+      
+      [~]$ mkdir -p repos/website
+      
+      Here we’ve used the “make directory” command mkdir covered in Learn
+      Enough™ Command Line to Be Dangerous, together with the -p option, which
+      arranges for mkdir to create intermediate directories as required (in this case,
+      repos). Note also that I’ve included the current directory in the prompt (in this
+      case, [~]) as arranged by the configuration in Listing 33.
+      After making the directory, we can cd into it as follows:
+      
+      [~]$ cd repos/website/
+      
+      [website]$
 
    ## The GitHub flow
    
