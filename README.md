@@ -309,7 +309,7 @@
       
       * https://guides.github.com/
       * https://www.youtube.com/githubguides
-      * One helpful command for learning Git is **git help**, which by itself gives
+      * One helpful command for learning Git is git help, which by itself gives
       general guidelines on Git usage, and when applied to a specific command gives
       further information on that command. For example, git help add shows
       details about the git add command.
