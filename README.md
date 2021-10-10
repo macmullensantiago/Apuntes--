@@ -267,6 +267,15 @@
       Author: Michael Hartl <michael@michaelhartl.com>
       Date: Thu Dec 17 20:00:34 2015 -0800
       Initialize repository
+      
+      Opening a file to work on it
+      
+      (...) As in previous sections, we’ll be working on the main index.html file. Let’s start
+      by opening this file in both a text editor and in a web browser. My preferred
+      method for doing this is at the command line using the atom and open commands
+      (though the latter works only on Macintosh OS X):
+      [website (master)]$ atom index.html
+      [website (master)]$ open index.html
 
    ## The GitHub flow
    
