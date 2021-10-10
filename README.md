@@ -240,6 +240,21 @@
       that Git uses to label the commit and which lets Git retrieve the commit’s changes.
       In my case, the hash appears as
       879392a6bd8dd505f21876869de99d73f40299cc
+      
+      Git has a similar function, git diff, which by default just shows the difference
+      between the last commit and unstaged changes in the current project:
+      [website (master)]$ git diff
+      diff --git a/index.html b/index.html
+      index e69de29..4b5fa63 100644
+      --- a/index.html
+      +++ b/index.html
+      @@ -0,0 +1 @@
+      +hello, world
+      Because the content added in Section 1.3 was empty, here the diff appears simply
+      as an addition:
+      +hello, world
+      We can commit this change by passing the -a option (for “all”) to git commit,
+      which arranges to commit all the changes in currently existing files
 
    ## The GitHub flow
    
