@@ -255,6 +255,18 @@
       +hello, world
       We can commit this change by passing the -a option (for “all”) to git commit,
       which arranges to commit all the changes in currently existing files
+      
+      We can confirm that the change went through by
+      running git log:
+      [website (master)]$ git log
+      commit 03aff34ec4f9690228e057a4252bcca169a868b4
+      Author: Michael Hartl <michael@michaelhartl.com>
+      Date: Thu Dec 17 20:03:33 2015 -0800
+      Add content to index.html
+      commit 879392a6bd8dd505f21876869de99d73f40299cc
+      Author: Michael Hartl <michael@michaelhartl.com>
+      Date: Thu Dec 17 20:00:34 2015 -0800
+      Initialize repository
 
    ## The GitHub flow
    
@@ -345,11 +357,11 @@
       # push changes to github
       git push
    
-   ## Step 3: Make the move -> Moving your local project to GitHub
+   ## Make the move -> Moving your local project to GitHub
    
       Having a project already stored locally enables you to move it to GitHub rather quickly. The following activity provides instructions to move your local project to GitHub using various tools. Select the tool you are most comfortable with and get importing 😄.
 
-   ⌨️ Activity: Moving your local project 
+   ⌨️ Moving your local project 
       
       In the Code tab of this repository, copy the URL shown under Quick Setup.
       Follow the instructions below based on what tool you'd like to use locally.
