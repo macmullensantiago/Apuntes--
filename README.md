@@ -158,6 +158,51 @@
       
       [website]$
 
+      All Git commands consist of the command-line program git followed by the name
+      of the command, so the full command to initialize a repository is git init, as
+      shown in Listing 2.
+      
+      Listing 2: Initializing a Git repository.
+      [website]$ git init
+      Initialized empty Git repository in /Users/mhartl/repos/website/.git/
+      [website (master)]$
+      
+      The way to create a new repository with Git is with the init command (short for “initialize”),
+      which creates a special hidden directory where Git stores the information it needs
+      to track our project’s changes.
+      
+      Our first commit
+      
+      Git won’t let us complete the initialization of the repository while it’s empty, so we
+      need to make a change to the current directory. We’ll make a more substantive
+      change in a moment, but for now we’ll follow a common convention and simply
+      use touch to create an empty file (as mentioned in Learn Enough™ Command
+      Line to Be Dangerous). In this case, we’re making a simple website, and the nearuniversal
+      convention is to call the main page index.html:
+      
+      [website (master)]$ touch index.html
+      Having created this first file, we can use the git status command to see the
+      result:
+      
+      [website (master)]$ git status
+      On branch master
+      Initial commit
+      Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+      index.html
+      nothing added to commit but untracked files present (use "git add" to track)
+      
+      We see here that the index.html file is “untracked”, which means Git doesn’t yet
+      know about it. We can add it using the git add command:
+      [website (master)]$ git add -A
+      
+      As implied by the word “unstage”, the status of the file has been promoted from
+      untracked to staged, which means the file is ready to be added to the repository.
+      Untracked/unstaged and staged are two of the four states commonly used by Git,
+      as shown in Figure 4.
+
+      ![image](https://user-images.githubusercontent.com/75396649/136716446-c6a396d5-6765-49de-a922-06684dcfaf55.png)
+
    ## The GitHub flow
    
       The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
