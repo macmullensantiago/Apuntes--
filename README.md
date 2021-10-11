@@ -400,8 +400,66 @@
       git push                    Push to default                       $ git push
                                   remote        
       
+   Branching and merging
+   
+      One of the most powerful features of Git is its ability to make branches, which are
+      effectively complete self-contained copies of the project source, together with the
+      ability to merge one branch into another, thereby incorporating the changes into the
+      original branch. The best thing about a branch is that you can make your changes
+      to the project in isolation from the master copy of the code, and then merge your
+      changes in only when they’re done. This is especially helpful when collaborating
+      with other users (Section 4); having a separate branch lets you make changes
+      independently from other developers, reducing the risk of accidental conflicts.
      
+      Our plan is to make a series of changes on the about-page
+      branch, and then incorporate the changes back into the master branch using git
+      merge.
+      
+      [website (about-page)]$ git add -A && git commit -m "Add About page"
+      
+      Having finished with the changes to index.html, we can make a commit as usual
+      with git commit -am:
+      [website (about-page)]$ git commit -am "Add a link to the About page"
+      
+      Having merged in the changes, we can sync up the local master branch with the
+      version at GitHub (called origin/master) as usual:
+      [website (master)]$ git push
+      
+   Recovering from errors
+   
+      One of the most useful features of Git is its ability to let us recover from errors that
+      would otherwise be catastrophic. The error-recovery techniques themselves can be
+      dangerous, though, so they should always be implemented with care.
+      Let’s consider a common scenario where we make an unintentional change to a
+      project and want to get back to the state of the repository as of the most recent
+      commit (a state known as HEAD).
+      
+   	 Command                 Description                                  Example
+   
+      .gitignore           Tell Git which things to ignore              $ echo .DS_store >>
+                                                                        .gitignore
+      git checkout
+      <br>                 Check out a branch                          $ git checkout
+                                                                        master
+      git checkout
+      -b <br>              Check out & create a branch                  $ git checkout -b
+      about-page
+      git branch           Display local branches                       $ git branch
+      git merge
+      <br>                 Merge in a branch                            $ git merge aboutpage
+      git rebase           Do something possibly weird &                See figure 2 & 3
+                           confusing
+      
+      git branch -
+      d <br>               Delete branch (if merged)                    $ git branch -d
+                                                                        about-page
+      git branch -         Delete branch (even if
+      D <br>               unmerged) (dangerous)                        $ git branch -D
+                                                                          other-branch
      
+                           
+     
+
    ## The GitHub flow
    
       The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
