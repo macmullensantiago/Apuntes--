@@ -291,7 +291,7 @@
       
       Important commands from this section are summarized in Table 1.
       
-      Command         |   Description                     |    Example
+      Command         |   Description                           |    Example
             
       git help          Get help on a command                     $ git help push
       git config        Configure Git                             $ git config --
