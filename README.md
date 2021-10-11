@@ -456,7 +456,13 @@
       git branch -         Delete branch (even if
       D <br>               unmerged) (dangerous)                        $ git branch -D
                                                                           other-branch
+      git checkout         Force checkout, discarding                   $ git add -A && git
+      -f                   changes (dangerous)                            checkout -f
      
+                           
+      
+
+
                            
      
 
