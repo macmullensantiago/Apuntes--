@@ -459,8 +459,15 @@
       git checkout         Force checkout, discarding                   $ git add -A && git
       -f                   changes (dangerous)                            checkout -f
      
-                           
-      
+   Collaborating
+   
+      Now that we’ve covered some of the tools needed to use Git effectively on solo
+      projects, it’s time to learn about what is perhaps Git’s greatest strength: making it
+      easier to collaborate with other people. This is especially the case when using
+      repository hosts like GitHub or Bitbucket, but it is also possible to host Git
+      repositories on private servers (sometimes using software like GitLab to get many
+      GitHub-like benefits).                      
+
 
 
                            
