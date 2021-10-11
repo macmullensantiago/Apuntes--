@@ -291,30 +291,30 @@
       
       Important commands from this section are summarized in Table 1.
       
-      Command         |   Description                |    Example
-      
-      git help          Get help on a command           $ git help push
-      git config        Configure Git                   $ git config --
-                                                          global …
-                                                        $ source
-      source            Activate Bash changes            ~/.bash_profile
+      Command         |   Description                     |    Example
+            
+      git help          Get help on a command                     $ git help push
+      git config        Configure Git                             $ git config --
+                                                                   global …
+                                                                  $ source
+      source            Activate Bash changes                      ~/.bash_profile
       <file>
                         
-      mkdir -p          Make intermediate directories    $ mkdir -p
-                        as necessary                      repos/website 
+      mkdir -p          Make intermediate directories             $ mkdir -p
+                        as necessary                              repos/website 
 
-      git status        Show the status of the           $ git status
+      git status        Show the status of the                    $ git status
                         repository
 
-      touch <name>      Create empty file $ touch foo       $ touch foo
+      touch <name>      Create empty file $ touch foo             $ touch foo
       git add           -A Add all files or directories to
                         staging area
-      $ git add -A      Add given file or directory to     $ git add foo
+      $ git add -A      Add given file or directory to            $ git add foo
                         staging area
       git add
       <name>
 
-      git commit -m     Commit staged changes with a     $ git commit -m "Addthing"                       
+      git commit -m     Commit staged changes with a              $ git commit -m "Addthing"                       
                         message
 
       git commit -am    Stage and commit changes with a message   $ git commit -am
@@ -324,7 +324,7 @@
 
       git commit -      -amend Amend the last commit              $ git commit --amend
       git show
-      <SHA>             Show diff vs. the SHA               $ git show fb738e…
+      <SHA>             Show diff vs. the SHA                     $ git show fb738e…
 
    ## The GitHub flow
    
