@@ -468,6 +468,24 @@
       repositories on private servers (sometimes using software like GitLab to get many
       GitHub-like benefits).                      
 
+      Command                             Description                                  Example
+      
+      git clone                           Copy repo (incl. full history) to            $ git clone
+      <URL>                               local disk                                   https://ex.co/repo.git  
+      git pull                            Pull in changes from remote                  $ git pull
+                                          repository
+      git branch                          -a List all branches $ git branch -a         $ git checkout fix
+      git checkout                        Check out remote branch and                  trademark
+      <br>                                configure for push                           $ git push -u origin
+                                                                 
+      gh-pages                            Branch name for production                     gh-pages
+                                          website
+                                          
+     
+
+
+
+      
       
 
 
