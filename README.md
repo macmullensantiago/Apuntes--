@@ -327,7 +327,81 @@
       git commit -      -amend Amend the last commit              $ git commit --amend
       git show
       <SHA>             Show diff vs. the SHA                     $ git show fb738e…
+      
+   Backing up and sharing
+   
+      With the changes made in Section 1, we’re now ready to push a copy of our project
+      to a remote repository. This will serve as a backup of our project and its history,
+      and will also make it easier for collaborators to work with us on our site.
+      We’ll start by pushing our project up to GitHub, a site designed to facilitate
+      collaboration with Git repositories. For repositories that are publicly available,
+      GitHub is free, so we’ll plan to make our website’s repo public to take advantage
+      of this.
+      
+      Over time, releasing projects publicly on GitHub serves to build up
+      a portfolio, which is one good reason to make as much work public as possible.
+      
+   Remote repo
+   
+      After signing up for a GitHub account, the next step is to create a remote
+      repository.
+      After clicking the green “Create repository” button seen in Figure 18, you should
+      see a page like Figure 19 containing instructions for how to push your local
+      repository up to GitHub. The exact commands will be tailored to your personal
+      account name; the template looks like Listing 9. (It is not important to understand
+      these commands at this time.)
+      Listing 9: A template for the first push to GitHub.
+      [website (master)]$ git remote add origin https://github.com/<name>/website.git
+      [website (master)]$ git push -u origin master
 
+      Of course, you should replace <name> with your actual username. For example,
+      the commands for my username, which is mhartl, look like this (which you can
+      also see in Figure 19):
+      [website (master)]$ git remote add origin https://github.com/mhartl/website.git
+      [website (master)]$ git push -u origin master
+      
+      The two commands in Listing 9 first set GitHub as the remote origin and then push
+      the full repository.
+      
+      After executing the first git push as shown in Listing 9, you should reload the
+      current page (using, e.g., ⌘R or the icon shown in Figure 20). The result should
+      look something like Figure 21. If it does, you have officially shipped your first Git
+      repository!
+      
+   Adding a README
+   
+      Now that we’ve pushed up our repository, let’s add a second file and practice the
+      add, commit, and push sequence shown in Figure 4. You may have noticed in
+      Figure 21 that GitHub encourages the presence of a README file via the note
+      “Help people interested in this repository understand your project by adding a
+      README.”
+      
+      Now that we’ve created the README.md file, we’re ready to add it to our Git
+      repository and push it up. We can’t just run git commit -am because README.md
+      isn’t currently in the repository, so we have to add it first:
+      [website (master)]$ git add -A
+      
+      Then we commit as usual:
+      [website (master)]$ git commit -m "Add README file"
+      
+      Having added the file to the repository and made a commit, we’re now ready to
+      push up to GitHub.
+      
+      [website (master)]$ git push
+      
+      Important commands from this section are summarized in Table 2.
+      
+      Command                    Description                            Example
+      
+      git remote add              Add remote repo                        $ git remote add
+                                                                          origin
+      git push -u <loc>           Push to branch to                     $ git push -u origin
+      <br>                        remote                                  master
+      git push                    Push to default                       $ git push
+                                  remote        
+      
+     
+     
    ## The GitHub flow
    
       The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
