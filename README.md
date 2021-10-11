@@ -417,11 +417,11 @@
       # push changes to github
       git push
    
-   ## Make the move -> Moving your local project to GitHub
+   ## Make the move - Moving your local project to GitHub
    
       Having a project already stored locally enables you to move it to GitHub rather quickly. The following activity provides instructions to move your local project to GitHub using various tools. Select the tool you are most comfortable with and get importing 😄.
 
-   ⌨️ Moving your local project 
+   Moving your local project 
       
       In the Code tab of this repository, copy the URL shown under Quick Setup.
       Follow the instructions below based on what tool you'd like to use locally.
