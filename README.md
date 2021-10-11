@@ -217,7 +217,7 @@
       1 file changed, 0 insertions(+), 0 deletions(-)
       create mode 100644 index.html
       
-      Committing to Git
+   Committing to Git
       
       By design, Git requires every commit to include a commit message describing
       the purpose of the commit. Typically, this takes the form of a single line,
@@ -270,7 +270,7 @@
       Date: Thu Dec 17 20:00:34 2015 -0800
       Initialize repository
       
-      Opening a file to work on it
+   Opening a file to work on it
       
       (...) As in previous sections, we’ll be working on the main index.html file. Let’s start
       by opening this file in both a text editor and in a web browser. My preferred
