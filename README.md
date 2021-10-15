@@ -481,17 +481,7 @@
       gh-pages                            Branch name for production                     gh-pages
                                           website
                                           
-     
-
-
-
-      
-      
-
-
-                           
-     
-
+ 
    ## The GitHub flow
    
       The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
@@ -657,8 +647,99 @@
             * When asked for a remote, paste the URL you copied earlier.
             * Click next, and enter the branch name.
 
+   ## GitHub Pages
+        
+            Once you have an account at GitHub (and have verified your emailed address),
+            you can use a free feature called GitHub Pages that allows you to host simple
+            HTML sites for free on GitHub’s infrastructure.
+            This is a major advance compared to the bad old days of the early Web. For
+            example, if this were 1999, you’d not only have to pay money for the hosting, but
+            you’d also be on the hook for the cost of transferring the data to the people visiting
+            your site. For sites with even moderate traffic, the bills could add up fast.
+            Nowadays, we have many better options, GitHub Pages among them. Not
+            only is GitHub Pages free, but it is incredibly easy to use. When you host a repo at
+            GitHub, any valid HTML stored on the gh-pages branch of the repo is available
+            online (nearly) instantly. 
+            All you need to do is commit your changes on the branch
+            and push the commit to GitHub. GitHub Pages takes care of the rest.
+            
+            We’ll get started by making a directory and an initial repository for our
+            sample website. First, open a terminal window and make a directory called
+            sample_website:
+            
+            $ mkdir -p repos/sample_website
+            
+            Next, cd into the directory and touch the file for the main page of the site,
+            which should be called index.html:
+            
+            $ cd repos/sample_website
+            $ touch index.html
+            Then initialize the repository:
+            $ git init
+            $ git add -A
+            $ git commit -m "Initialize repository"
+            
+            The reason we created a file using touch is because Git won’t initialize an
+            empty repository.5 The reason we’ve called it index.html is because that’s
+            the default filename for “home” pages on theWeb, and most sites will automat-
+            ically serve up index.html when you hit the bare domain.
          
-
+            With the repo initialized, we’re now ready to push our (nearly) empty repo
+            up to GitHub. As in Learn Enough Git to Be Dangerous, you should go to
+            github.com, log in if necessary, and then create a new repository using the name
+            sample_website and the description
+            
+            After creating the remote repo, you should set the remote origin as the main
+            URL for the repo, which you can find as shown in Figure 8:
+            $ git remote add origin <repo url>
+            
+            At this point, you would ordinarily follow the instructions at GitHub by
+            pushing up the default master branch, but recall that GitHub Pages uses the
+            special gh-pages branch (Box 3) in place of master. As a result, before
+            proceeding we’ll create the gh-pages branch using the -b option to git
+            checkout7 and then push it to GitHub:
+            
+            $ git checkout -b gh-pages
+            $ git push -u origin gh-pages
+            
+            Note that the “URL” in this Figure 14 will be a local file, like this:
+            file:///Users/mhartl/repos/sample_website/index.html
+            This is because the index page is on our local system, and hasn’t yet been
+            deployed to the live Web.
+            We know how to remedy this, though—commit our changes to the local Git
+            repository and push up to GitHub Pages:
+            
+            $ git commit -am "Add a short paragraph"
+            $ git push
+            Upon refreshing
+            
+            With that, we’re ready to commit our changes and push the results to Git-
+            Hub Pages:
+            $ git commit -am "Convert index page to fully valid HTML"
+            $ git push
+            
+            In order to link the kitten image, we could link directly to the source of
+            Figure 33 from the live Web, like this:
+            <img src="http://example.com/images/kitten.jpg" alt="An adorable kitten">
+            This practice, called hotlinking, is generally considered bad form, for reasons
+            we’ll explain in Section 2.4.1. Instead, we’ll copy the image to the local com
+            puter, which will then be uploaded automatically when we deploy to GitHub
+            pages.
+            To do this, first create a directory called images:
+            $ mkdir images
+            Creating a separate images directory isn’t strictly necessary, but it’s useful for
+            keeping our main project directory tidy. Next, download the image to the local
+            disk using curl:12
+            $ curl -o images/kitten.jpg -OL cdn.learnenough.com/kitten.jpg
+            
+            With that, our sample website’s index page has (nearly) taken its final form,
+            so now is a good time to commit the changes and push to the live server at
+            GitHub Pages:
+            
+            $ git add -A
+            $ git commit -m "Add some images"
+            $ git push
+   
    ## GitHub Learning Resources
       
       * https://guides.github.com/
