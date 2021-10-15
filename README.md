@@ -739,6 +739,11 @@
             $ git add -A
             $ git commit -m "Add some images"
             $ git push
+            
+            Congratulations! You know know enough HTML to be dangerous. All that’s
+            left is to commit and deploy the final sample website:
+            $ git commit -am "Finish the sample website"
+            $ git
    
    ## GitHub Learning Resources
       
