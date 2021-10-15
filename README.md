@@ -744,6 +744,60 @@
             left is to commit and deploy the final sample website:
             $ git commit -am "Finish the sample website"
             $ git
+            
+            Tag                         Name                          Purpose
+            h1–h6                       headings                      include a heading (levels 1–6)
+            p                           paragraph                     include a paragraph of text
+            table                       table                         include a table
+            tr                          table                         row include a row of data
+            th                          table                         header make a table header
+            td                          table data                    include a table data cell
+            div                         division                      define block-level section in document
+            header                      header                        label the page header
+            ol                          ordered list                  list elements in numerical order
+            ul                          unordered list                list elements whose order doesn’t matter
+            li                          list item                     include a list item (ordered or unordered)
+            blockquote                  block quotation               show formatted quotation
+            br                          break                         enter line break
+            
+            
+
+            Tag               Name                 Purpose                 Example                          Result
+            em                emphasized           make emphasized         <em>technical                    technical sophis-
+                                                   text                    sophistication</em>              tication
+            strong            strong               make strong text        <strong>at                       at least a billion
+                                                                                                            people
+                                                                            least a
+                                                                            billion
+                                                                            people</strong>                       
+           a                   anchor               make hyperlink          <a                              Learn Enough
+                                                                            href="#">                    
+                                                                            Learn
+                                                                            Enough</a>
+           img                image                 include an image        <img
+                                                                            src="mhartl.jpg"
+                                                                            alt="Michael
+                                                                            Hartl">
+           code               code                   format as source       <code>table</code>              table
+                                                     code
+           span                span                  define inline sec-    <span>Call                       Call me Ishmael.
+                                                     tion in document       me
+                                                                            Ishmael.</span>         
+                                                      
+                                                      
+           
+            
+            
+           
+            
+           
+              
+           
+             
+            
+            
+            Table 3: The inline tags covered in this tutorial.
+            134
    
    ## GitHub Learning Resources
       
