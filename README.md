@@ -784,20 +784,6 @@
                                                      tion in document       me
                                                                             Ishmael.</span>         
                                                       
-                                                      
-           
-            
-            
-           
-            
-           
-              
-           
-             
-            
-            
-            Table 3: The inline tags covered in this tutorial.
-            134
    
    ## GitHub Learning Resources
       
