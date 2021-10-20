@@ -808,3 +808,7 @@
          + The only real distinction you have to make is the one between front-end and back-end programming — whether you’re designing surface-level UI and user-centric                    applications or running hidden processes inside a database server.
        
       - "At the end of the day, we're all trying to solve business problems with code."
+      
+  ## C++ documentation
+   
+      * https://www.isocpp.org/
