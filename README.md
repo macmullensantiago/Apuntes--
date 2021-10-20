@@ -812,3 +812,4 @@
   ## C++ documentation
    
       * https://www.isocpp.org/
+      * https://stroustrup.com/
