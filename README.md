@@ -813,3 +813,6 @@
    
       * https://www.isocpp.org/
       * https://stroustrup.com/
+      
+ ## Resume writing
+      * https://www.workitdaily.com/basic-resume-writing-tips
