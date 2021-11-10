@@ -797,6 +797,132 @@
       further information on that command. For example, git help add shows
       details about the git add command.
       
+   ## Stanford Git Resources
+   
+      * Using Git
+         Written by Li Deng, with modifications by Nick Troccoli
+
+         Disclaimer: Most students won't even notice or interact much with git during CS107. But for those of you who are curious to know more, here is an introduction to git.
+
+         You probably have seen the ubiquitous logo of github below(left), while rarely seeing the logo of git (right). Actually git is the workhorse behind the scene! git is a power tool in your arsenal as a software developer that lets you manage versions of your work.
+
+         Github
+         
+         Git
+
+         The use of git in CS107
+         Version control is a tool used by developers to manage the source code in a project and git is one of the most popular version control systems in use today.
+
+         CS107 uses git to distribute starter code to you and receive your submissions for grading. Most of the interaction with git is hidden away within our tools. This means you won't have to tackle learning the system now and will need only to learn a few simple commands for the quarter. However, you will eventually want to gain some mastery, so now could be your chance to practice with these tools in preparation for future need.
+
+         Your one git command
+         The one git command that you must know for CS107: git clone
+
+         Try running:
+
+         git clone /afs/ir/class/cs107/repos/assign0/$USER assign0
+         There is a remote repo already prepared for you at /afs/ir/class/cs107/repos/assign0/$USER, and you are fetching a local copy of that repo and putting it in a directory named assign0 in your current working directory.
+
+         The general format of the command is:
+
+         git clone <repo> <dirname>
+         and here is a specific instance to clone the lab1 starter:
+
+         git clone /afs/ir/class/cs107/repos/lab1/shared mylab1
+         This is the way that you will get starter code for every assignment and lab throughout this course.
+
+         When you are ready to submit, you will use our submit command:
+
+         tools/submit
+         This command submits your work to be graded; it uses git behind the scenes to copy your finished work into your class repo.
+
+         That's it! If you are comfortable having our tools take care of you, you can stop reading right here and sleep easy knowing that version control is working behind the scenes for you.
+
+         Going further with version control (optional)
+         You won't need to learn more for CS107, but if you are curious, below is an overview version control and introduction to a few basic git commands.
+
+         A version control system broadly does two things:
+
+         It tracks all changes made to each file (which you can review to see your progress or undo if some changes turned out to be a bad idea)
+         It can merge different versions (so team members can work independently and easily join their work together)
+         Version control allows you to explore changes while maintaining the option to undo them if they don't work. Saved versions (along with regular testing) makes it easy to pinpoint what code changes are responsible for a new bug so you can focus your attention on fixing the right code. And if you accidentally delete a critical file or munge an important code passage, it can save the day and retrieve the old version. Without version control, you could attempt to manually track your project history by saving copies of files along the way but this is tedious and error-prone. Instead you can have a complete history from which you can snapshot/view/retrieve versions.
+
+         Git is one of most flexible and powerful version control systems in use, but its industrial-strength nature makes it less nice for novices. It can be easy to mess up the repo if not careful enough, so for now, it is best to stick to these simple and safe commands:
+
+         git status: After cloning, and cding into the repo, First try running git status, you should see:
+
+         On branch master
+         Your branch is up-to-date with 'origin/master'.
+
+         nothing to commit, working directory clean
+         If you edit a file, say readme.txt, and run git status again:
+
+         Changes not staged for commit:
+           (use "git add <file>..." to update what will be committed)
+           (use "git checkout -- <file>..." to discard changes in working directory)
+
+             modified:   readme.txt
+         which means that your change on the file has been detected by git, but not staged/added to git internal index.
+
+         git diff: as can be told from the command itself, it allows you to inspect what changes have been made from the last staged state. You may also diff on a single file, like git diff readme.txt, and you should see something like this:
+
+         --- a/readme.txt
+         +++ b/readme.txt
+          ----------------------
+          File: readme.txt
+          Assignment: assign0
+         -Author: YOUR NAME HERE
+         +Author: My Name
+          ----------------------
+         git add: this command adds/stages the change you have made on certain files. Try running git add readme.txt, and you should see:
+
+         Changes to be committed:
+           (use "git reset HEAD <file>..." to unstage)
+
+             modified:   readme.txt
+         Which means that your update on readme.txt has been added to the git index. Now it's time to set a milestone!
+
+         git commit: A commit sets a milestone in the version history, a place you revisit later. Try running git commit -m "add name to readme.txt", and you will see:
+
+         [master 5dd152e] add name to readme.txt
+          1 file changed, 1 insertion(+), 1 deletion(-)
+         Here what's after -m is whatever message you'd like to comment for this commit. You may also just use git commit, after which you may prepare a more verbose commit message in your editor. (Important aside: commit only sets a milestone in your local repo. You still must submit your code to CS107 for grading using the submit tool! )
+
+         git log: This is the command to view your the commit history:
+
+         commit 5dd152eff15d52598d990f775f9b5742fcf6d729
+         Author: dengl11 <dengl11@stanford.edu>
+         Date:   Mon Sep 25 20:59:51 2017 -0700
+
+             add name to readme.txt
+
+         commit 6c09c2c89f1471e6204ce1bf64bcad2981770704
+         Author: CS107 tools <cs107@cs.stanford.edu>
+         Date:   Thu Sep 21 15:31:03 2017 -0700
+
+             Created starter 17-1 assign0 dengl11
+
+         commit 1399dc47471f304b0eef98aea1d119389f0ccfb0
+         Author: CS107 tools <cs107@cs.stanford.edu>
+         Date:   Thu Sep 21 15:31:03 2017 -0700
+
+         Init empty repo
+         For a tutorial on git, also check out the guided online tutorial from Try Git.
+
+         Common questions
+         What is the hidden .git directory and .gitignore file?
+         Sharp eyes! Every git repo has a .git hidden directory which stores the repo housekeeping, configuration settings, and complete version history. Do not delete this directory! It contains critical data for the repo.
+
+         The .gitignore file is lists files thare are intentionally excluded from being tracked. For example, .o files and executable programs are made when you compile (make). Those files can be quite large in size and there is no point in tracking their versions, since we can always rebuild from the original source code. To keep our git repo as light as possible, we exclude those files.
+
+         I don't like the default editor popped up after I type git commit. Can I use my favorite editor, like Vim?
+         Yes! The following command configures which editor to use with git. (replace vim as emacs if you prefer):
+
+             git config --global core.editor vim
+         One last thought: git has an enormous set of features and the indiscriminate use of various commands can easily hose your repo. If you want to play around, be sure to do your experimentation on some throwaway repo, not your important assignment work, please!
+
+
+      
    ## Differences between Software Engineer, Web developer and Programmer
    
       * There are a few ways to spot the differences among software engineer, web developer, and programmer roles.
