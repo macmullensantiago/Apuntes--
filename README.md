@@ -97,6 +97,9 @@
     * https://www.youtube.com/watch?v=MJUJ4wbFm_A
     * https://www.youtube.com/watch?v=eulnSXkhE7I
     * https://www.kyocode.com/2018/05/subir-codigo-a-github-con-visual-studio-code/
+    * https://eagledev.hashnode.dev/how-to-upload-an-existing-project-to-github-using-vsc-visual-studio-code
+    * https://dev.to/codebeast/how-to-publish-a-new-project-to-github-with-vs-code-47hb
+    * 
     
    ## What’s a version control system?
   
