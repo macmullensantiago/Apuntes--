@@ -799,6 +799,7 @@
       general guidelines on Git usage, and when applied to a specific command gives
       further information on that command. For example, git help add shows
       details about the git add command.
+      * https://riskledger.com/blog/git-basics-at-risk-ledger/
       
    ## Stanford Git Resources
    
