@@ -800,6 +800,7 @@
       further information on that command. For example, git help add shows
       details about the git add command.
       * https://riskledger.com/blog/git-basics-at-risk-ledger/
+      * https://docs.github.com/es/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
       
    ## Stanford Git Resources
    
