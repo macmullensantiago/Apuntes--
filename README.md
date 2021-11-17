@@ -976,3 +976,7 @@
       If the implementation is hard to explain, it's a bad idea.
       If the implementation is easy to explain, it may be a good idea.
       Namespaces are one honking great idea – let's do more of those!
+      
+   ## Important publications in Computer Science
+   
+      * https://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science
