@@ -989,3 +989,6 @@
       * https://www.saulsolorzano.com/usando-git-deploy/
       * https://www.hostingplus.com.ar/blog/deploy-en-que-consiste-y-como-hacerlo/
       * https://www.linuxito.com/programacion/880-como-implementar-deploy-automatico-en-git
+      
+   ## DevOps
+      * https://lab.github.com/githubtraining/devops-with-github-actions
