@@ -992,3 +992,6 @@
       
    ## DevOps
       * https://lab.github.com/githubtraining/devops-with-github-actions
+      
+   ## Specialize
+      * https://amaca.substack.com/p/how-i-got-wealthy-without-working
