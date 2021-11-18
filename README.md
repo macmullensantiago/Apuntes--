@@ -929,7 +929,9 @@
    ## University of Washington Git resources
          
         * https://courses.cs.washington.edu/courses/cse154/20sp/resources/assets/vscode-git-tutorial/windows/index.html
-
+        
+   ## MIT The Missing Semester of your CS Education
+        * https://missing.csail.mit.edu/2020/version-control/
 
       
    ## Differences between Software Engineer, Web developer and Programmer
