@@ -952,6 +952,10 @@
    
       * https://www.isocpp.org/
       * https://stroustrup.com/
+      * https://www.youtube.com/watch?v=Q7HcwDE3lsU
+      * https://www.youtube.com/watch?v=fX2W3nNjJIo
+      * https://www.youtube.com/watch?v=HddFGPTAmtU
+      * https://www.youtube.com/watch?v=uTxRF5ag27A&t=1s
       
  ## Resume writing
       * https://www.workitdaily.com/basic-resume-writing-tips
