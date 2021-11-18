@@ -926,11 +926,10 @@
              git config --global core.editor vim
          One last thought: git has an enormous set of features and the indiscriminate use of various commands can easily hose your repo. If you want to play around, be sure to do your experimentation on some throwaway repo, not your important assignment work, please!
          
-   ## University of Washington Git resources
-         
+   ## University of Washington Git resources      
         * https://courses.cs.washington.edu/courses/cse154/20sp/resources/assets/vscode-git-tutorial/windows/index.html
         
-   ## MIT The Missing Semester of your CS Education
+   ## MIT The Missing Semester of your CS Education GIT
         * https://missing.csail.mit.edu/2020/version-control/
 
       
