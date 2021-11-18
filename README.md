@@ -980,3 +980,12 @@
    ## Important publications in Computer Science
    
       * https://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science
+      
+   ## Deploy
+   
+      * https://dev.to/gedgonz/haciendo-deploy-de-una-app-en-react-a-github-pages-95p
+      * https://platzi.com/tutoriales/1111-vuejs-2017/3441-como-hacer-deploy-de-una-aplicacion-de-vuejs-hacia-github-pages-usando-vue-cli-3/
+      * https://www.freecodecamp.org/espanol/news/dos-maneras-de-desplegar-un-sitio-publico-de-github-pages-desde-un-repositorio-privado-de-hugo/
+      * https://www.saulsolorzano.com/usando-git-deploy/
+      * https://www.hostingplus.com.ar/blog/deploy-en-que-consiste-y-como-hacerlo/
+      * https://www.linuxito.com/programacion/880-como-implementar-deploy-automatico-en-git
