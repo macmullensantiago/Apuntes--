@@ -1000,3 +1000,6 @@
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
+      
+   ## Interview
+      * https://www.acefrontend.com/
