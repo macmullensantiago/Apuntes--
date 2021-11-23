@@ -948,6 +948,25 @@
       - "At the end of the day, we're all trying to solve business problems with code."
       
       
+  ## Public vs Private
+   Public	                                                                                                                  Private
+All the class members declared under public will be available to everyone.	                                                   The class members declared as private can be                                                                                                                                     accessed only by the functions inside the class.
+The data members and member functions declared public can be accessed by other classes too.	                                 Only the member functions or the friend functions                                                                                                                               are allowed to access the private data members of                                                                                                                               a class.
+The public members of a class can be accessed from anywhere in the program using the direct member access operator 
+(.) with the object of that class.	                                                                                         They are not allowed to be accessed directly by any                                                                                                                              object or function outside the class.
+
+
+   ## Interger (INT)
+      An integer, in the context of computer programming, is a data type used to represent real numbers that do not have fractional values.
+
+      Different types of integer data types are stored on machines in different ways. For example, a short integer in many common programming languages is limited to a range of       between 32,767 and -32,768. These limited ranges reveal the relationship between a numerical value as interpreted by humans, and how these values are stored in computer memory.
+
+   ## Static
+      Las variables declaradas como estáticas (static) son, esencialmente, variables globales. Cuando se declara un objeto, no se realiza una copia de una variable estática. En       cambio, todas las instancias de la clase comparten la misma variable estática. Aquí hay un ejemplo que muestra las diferencias entre una variable estática y una variable        de instancia:  
+
+   ## Void
+      El tipo void se utiliza para indicar que algo no tiene tipo. Por ejemplo, para indicar que un método no devuelve un resultado se le indica que devuelve void.
+      
   ## C++ documentation
    
       * https://www.isocpp.org/
