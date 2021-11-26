@@ -23,6 +23,9 @@
             
             SQL - Stores data in rows and columns
             NoSQL - Stores data all together in a hierarchical structure
+            
+ ## The Cloud
+ 
 
 ## ForEach
 
