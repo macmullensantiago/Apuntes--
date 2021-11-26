@@ -20,6 +20,28 @@
      * Threads
      * Events
       
+      List of programming languages
+      * Bash
+      * C
+      * C++
+      * C#
+      * Clojure
+      * Erlang
+      * F#
+      * Go
+      * Haskell
+      * Java
+      * JavaScript
+      * Objective-C
+      * OCaml
+      * PHP
+      * Python
+      * R
+      * Ruby
+      * Scala
+      * Scheme
+      * SQL
+      * Swift
       
       
       
