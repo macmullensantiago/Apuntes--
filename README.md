@@ -11,14 +11,14 @@
   # What is code?
      * Code is just a technical implementation of algorithms, wich are step-by-step instructions for solving problems.
       
- # What share in common computer programs?
-     * Functions
-     * Loops
-     * Conditions
-     * Boolean Expressions
-     * Variables
-     * Threads
-     * Events
+ # What share in common computer programs? // Definir
+     * Functions: A function is a block of code that performs a task.
+     * Loops: A loop is used to execute a group of instructions or a block of code multiple times, without writing it repeatedly.
+     * Conditions: Conditional statements check whether a programmer-specified Boolean condition is true or false. 
+     * Boolean Expressions: A Boolean expression is an expression used in programming languages that produces a Boolean value when evaluated. A Boolean value is either true or false.
+     * Variables: A variable is a container for a particular set of bits or type of data (like integer, float, String etc...). A variable can eventually be associated with or identified by a memory address.
+     * Threads: A thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system.
+     * Events: An event is an action or occurrence recognized by software, often originating asynchronously from the external environment, that may be handled by the software. Computer events can be generated or triggered by the system, by the user, or in other ways. Typically, events are handled synchronously with the program flow; that is, the software may have one or more dedicated places where events are handled, frequently an event loop.
       
       List of programming languages
       * Bash
@@ -42,9 +42,6 @@
       * Scheme
       * SQL
       * Swift
-      
-      
-      
       
 ## Front End - Client Side
      * HTML, CSS, JavaScript
