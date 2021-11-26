@@ -25,12 +25,19 @@
             NoSQL - Stores data all together in a hierarchical structure
             
  ## The Cloud
- 
+            
+         Basically is using someone else's server to put your data.
+         
+         It makes much easier for people and smaller companies to scale automatically.
+         
          DNS (Domain Name System) -  Es un sistema de nomenclatura jerárquico descentralizado para dispositivos conectados a redes IP como Internet o una red privada. Este sistema asocia información variada con nombres de dominio asignados a cada uno de los participantes. Su función más importante es "traducir" nombres inteligibles para las personas en identificadores binarios asociados con los equipos conectados a la red, esto con el propósito de poder localizar y direccionar estos equipos mundialmente.
          El servidor DNS utiliza una base de datos distribuida y jerárquica que almacena información asociada a nombres de dominio en redes como Internet. Aunque como base de datos el DNS es capaz de asociar diferentes tipos de información a cada nombre, los usos más comunes son la asignación de nombres de dominio a direcciones IP y la localización de los servidores de correo electrónico de cada dominio.
 
          IP - Los dispositivos se conectan entre sí mediante sus respectivas direcciones IP. Sin embargo, para las personas es más fácil recordar un nombre de dominio que los números de la dirección IP. Los servidores de nombres de dominio DNS, "traducen" el nombre de dominio en una dirección IP. Si la dirección IP dinámica cambia, es suficiente actualizar la información en el servidor DNS. El resto de las personas seguirán accediendo al dispositivo por el nombre de dominio.
  
+        PaaS - Platform as Service. Example: Heroku. It makes it easier for you to run your applications in the cloud.
+        
+        SaaS - Software as Service. Example: Gmail.com. Web-based email service.
 
 ## ForEach
 
