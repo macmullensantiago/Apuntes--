@@ -1,5 +1,29 @@
 # Apuntes--
 
+## Front End - Client Side
+      HTML, CSS, JavaScript
+      Angular, Ember, Meteor, React, Vue
+      Bootstrap, Foundation, Semantic UI
+      
+ ## Framework - 
+      A way of doing things. 
+      
+## Back End - Server Side
+      Go, Java, JavaScript, .NET, PHP, Python, Ruby, Scala, Django, Flask, Laravel, Node.js...
+      
+   ### Database
+      SQL, NoSQL, MariaDB, MySQL, Oracle, PostgreSQL, SQL Server, Bigtable, Cassandra, HBase, MongoDB...
+      
+      What does a data base?
+         Support these opperations
+            * Create        // C
+            * Read         //  R
+            * Upload      //   U
+            * Deleat     //    D
+            
+            SQL - Stores data in rows and columns
+            NoSQL - Stores data all together in a hierarchical structure
+
 ## ForEach
 
     * The forEach() method calls a function once for each element in an array, in order.
