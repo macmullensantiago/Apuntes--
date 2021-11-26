@@ -1,11 +1,35 @@
 # Apuntes--
 
+## What is programming?
+      It's about making software.
+      
+  # What is software?
+      It's what runs in our hardware, runs in our computer.
+      Software is the files that you can open up in your computer and you can interact with.
+      It's what is written using programming code.
+      
+  # What is code?
+      Code is just a technical implementation of algorithms, wich are step-by-step instructions for solving problems.
+      
+ # What share in common computer programs?
+     * Functions
+     * Loops
+     * Conditions
+     * Boolean Expressions
+     * Variables
+     * Threads
+     * Events
+      
+      
+      
+      
+      
 ## Front End - Client Side
       HTML, CSS, JavaScript
       Angular, Ember, Meteor, React, Vue
       Bootstrap, Foundation, Semantic UI
       
- ## Framework - 
+  ### Framework - 
       A way of doing things. 
       
 ## Back End - Server Side
