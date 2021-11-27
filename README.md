@@ -1098,6 +1098,24 @@ The public members of a class can be accessed from anywhere in the program using
       
    ## DevOps
       * https://lab.github.com/githubtraining/devops-with-github-actions
+      * https://www.udemy.com/course/learn-complete-devops-with-python-docker-kubernetes-git/?ranMID=39197&ranEAID=d2gvurItCFk&ranSiteID=d2gvurItCFk-Kt48PBRlNPRSvA_u04C3kQ&LSNPUBID=d2gvurItCFk&utm_source=aff-campaign&utm_medium=udemyads
+      * https://www.udemy.com/course/docker-devops/?ranMID=39197&ranEAID=d2gvurItCFk&ranSiteID=d2gvurItCFk-Fj7_9HEpJG_Ut7eph9_cQg&LSNPUBID=d2gvurItCFk&utm_source=aff-campaign&utm_medium=udemyads
+   
+   ## Kurbernets, Docker
+    
+    * https://iximiuz.com/en/posts/container-learning-path/
+    * https://iximiuz.com/en/posts/containers-vs-pods/
+    * https://www.freecodecamp.org/news/how-to-become-a-certified-kubernetes-application-developer/
+    * https://anthonynsimon.com/blog/kubernetes-cluster-raspberry-pi/
+    * https://www.infoq.com/news/2021/11/kubernetes-cluster-api/
+    * https://techchannel.com/SMB/06/2019/kubernetes-management-aix
+    * https://bootstrap-it.com/docker-images/
+    
+   ## SEO
+   
+     * https://boringseo.org/
+    
+   ## Jira, Docker, Travis CI
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
