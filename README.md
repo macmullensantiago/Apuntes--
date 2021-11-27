@@ -81,6 +81,8 @@
         * PaaS - Platform as Service. Example: Heroku. It makes it easier for you to run your applications in the cloud.
         
         * SaaS - Software as Service. Example: Gmail.com. Web-based email service.
+        
+        * https://bush-socks-586.notion.site/Curso-de-Introducci-n-a-la-Nube-con-Azure-902361fc98974378874c7ce1943cd5e4
 
 ## ForEach
 
