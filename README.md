@@ -1111,6 +1111,9 @@ The public members of a class can be accessed from anywhere in the program using
     * https://techchannel.com/SMB/06/2019/kubernetes-management-aix
     * https://bootstrap-it.com/docker-images/
     
+   ## Azure
+    * https://docs.google.com/document/d/1nT6lvqlRPhlPCy1a-Xknp-aPwBjm5gKHqk5QW2CLj6s/edit
+    
    ## SEO
    
      * https://boringseo.org/
