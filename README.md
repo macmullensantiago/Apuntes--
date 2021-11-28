@@ -1127,3 +1127,6 @@ The public members of a class can be accessed from anywhere in the program using
       
    ## Interview
       * https://www.acefrontend.com/
+      * PRACTICE PLATFORMS: LeetCode, HackerRank, Pramp, ExpertMitra, interviewing.io, HackerEarth, AlgoExpert
+
+      * INTERVIEW GUIDES: Tech Interview Handbook, Coding Interview University, “How to ace coding interviews”, Interviews.school
