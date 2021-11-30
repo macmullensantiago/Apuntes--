@@ -83,6 +83,17 @@
         * SaaS - Software as Service. Example: Gmail.com. Web-based email service.
         
         * https://bush-socks-586.notion.site/Curso-de-Introducci-n-a-la-Nube-con-Azure-902361fc98974378874c7ce1943cd5e4
+        
+## Data Structures and Algorithms
+    * Arrays                                                        * Sorting, searching, and binary search
+    * Linked list                                                   * Divide and conquer
+    * Stacks                                                        * Dynamic programming and memorization
+    * Queues                                                        * Greedy Algorithms
+    * Sets                                                          * Recursion
+    * Maps                                                          * Graph traversal, breath and depth-first
+    * Binary Trees
+    * Heaps
+    * Graphs
 
 ## ForEach
 
