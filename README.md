@@ -1142,3 +1142,4 @@ The public members of a class can be accessed from anywhere in the program using
       * INTERVIEW GUIDES: Tech Interview Handbook, Coding Interview University, “How to ace coding interviews”, Interviews.school
       * https://www.educative.io/blog/crack-amazon-coding-interview-questions // Amazon
       * https://lanie.dev/tech/interviewing/
+      * https://www.reddit.com/r/berkeley/comments/ly5bce/i_made_a_chrome_extension_that_autofills_job_apps/ // Job filling application
