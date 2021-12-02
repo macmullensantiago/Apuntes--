@@ -1132,6 +1132,10 @@ The public members of a class can be accessed from anywhere in the program using
      * https://boringseo.org/
     
    ## Jira, Docker, Travis CI
+   
+   ## AWS
+    
+     * https://aws.amazon.com/es/blogs/aws/new-aws-scholarship-program-helps-underrepresented-and-underserved-students-prep-for-careers-in-ai-and-ml/
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
