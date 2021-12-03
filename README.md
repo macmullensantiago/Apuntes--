@@ -1156,6 +1156,9 @@ The public members of a class can be accessed from anywhere in the program using
 
         KALU RINPOCHE, TIBETAN LAMA
         
+        In its truest expression, meditation goes beyond notions
+        of success and failure.
+        
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
