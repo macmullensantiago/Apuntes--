@@ -1143,7 +1143,21 @@ The public members of a class can be accessed from anywhere in the program using
         capable of learning and modifying their output on the basis of their input
         (“experience”), machines themselves rather than people will design the next
         generations of machines.
-      
+        
+   ## Quotes
+      * You live in illusions and the appearance of things.
+        There is a Reality, you are that Reality.
+        When you recognize this you will realize that you are nothing,
+        and being nothing, you are everything. That is all.
+        
+
+        KALU RINPOCHE, TIBETAN LAMA
+        
+   ## Mindfulness
+      * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
+        www.mindandlife.org Mind and Life Institute
+        www.dharma.org Vipassana retreat centers and schedules
+
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
