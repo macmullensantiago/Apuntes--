@@ -1162,6 +1162,9 @@ The public members of a class can be accessed from anywhere in the program using
         When the dharma is really taking care of the problems of life, it is
         true dharma.
         
+        A child may try to help a butterfly to emerge by breaking open
+        its chrysalis.
+        
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
