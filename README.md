@@ -1165,6 +1165,10 @@ The public members of a class can be accessed from anywhere in the program using
         A child may try to help a butterfly to emerge by breaking open
         its chrysalis.
         
+        It is far better to trust in your intuition
+        and your own authority, even if you make some “mistakes” along
+        the way, than always to look outside yourself for guidance.
+        
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
