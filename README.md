@@ -1169,6 +1169,11 @@ The public members of a class can be accessed from anywhere in the program using
         and your own authority, even if you make some “mistakes” along
         the way, than always to look outside yourself for guidance.
         
+        The answer is that once you start meditating, breathing is no 
+        longer just breathing. When we start paying attention to our 
+        breathing on a regular basis, our relationship to it changes 
+        dramatically. 
+        
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
