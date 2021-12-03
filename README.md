@@ -1136,6 +1136,13 @@ The public members of a class can be accessed from anywhere in the program using
    ## AWS
     
      * https://aws.amazon.com/es/blogs/aws/new-aws-scholarship-program-helps-underrepresented-and-underserved-students-prep-for-careers-in-ai-and-ml/
+     
+   ## Artificial Intelligence
+       * Many digital engineers believe, Kurzweil among them, that as machines
+        are programmed to become more and more “intelligent,” in the sense of
+        capable of learning and modifying their output on the basis of their input
+        (“experience”), machines themselves rather than people will design the next
+        generations of machines.
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
