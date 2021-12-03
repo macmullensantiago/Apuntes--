@@ -1178,6 +1178,13 @@ The public members of a class can be accessed from anywhere in the program using
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
         www.dharma.org Vipassana retreat centers and schedules
+        
+   ## Yoga
+      * Yoga is also good exercise because it is a type of full-body
+        conditioning. It improves strength, balance, and flexibility in the
+        entire body. It’s like swimming, in that every part of your body is
+        involved and bene􀉹ts. It can even have cardiovascular bene􀉹ts
+        when done vigorously.
 
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
