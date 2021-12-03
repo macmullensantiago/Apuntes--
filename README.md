@@ -1074,6 +1074,9 @@ The public members of a class can be accessed from anywhere in the program using
  ## Resume writing
       * https://www.workitdaily.com/basic-resume-writing-tips
       
+ ## Ideas de Proyectos
+      * http://better-dpt-roll.github.io/
+      
  ## Zen of Python
    
       Beautiful is better than ugly.
