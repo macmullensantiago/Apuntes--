@@ -1182,6 +1182,7 @@ The public members of a class can be accessed from anywhere in the program using
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
         www.dharma.org Vipassana retreat centers and schedules
+        Oxford University Mindfulness Centre
         
    ## Yoga
       * Yoga is also good exercise because it is a type of full-body
