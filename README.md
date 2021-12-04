@@ -1204,6 +1204,8 @@ The public members of a class can be accessed from anywhere in the program using
         entire body. It’s like swimming, in that every part of your body is
         involved and bene􀉹ts. It can even have cardiovascular bene􀉹ts
         when done vigorously.
+        
+   ## Synchronicity
 
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
