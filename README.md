@@ -1152,7 +1152,6 @@ The public members of a class can be accessed from anywhere in the program using
         There is a Reality, you are that Reality.
         When you recognize this you will realize that you are nothing,
         and being nothing, you are everything. That is all.
-        
 
         KALU RINPOCHE, TIBETAN LAMA
         
@@ -1173,6 +1172,10 @@ The public members of a class can be accessed from anywhere in the program using
         longer just breathing. When we start paying attention to our 
         breathing on a regular basis, our relationship to it changes 
         dramatically. 
+        
+        Time past and time future
+        Allow but a little consciousness.
+        To be conscious is not to be in time …
         
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
