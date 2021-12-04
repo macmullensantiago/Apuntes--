@@ -1177,6 +1177,7 @@ The public members of a class can be accessed from anywhere in the program using
         Allow but a little consciousness.
         To be conscious is not to be in time …
         
+        Think locally, act globally.
    ## Mindfulness
       * www.umassmed.edu/cfm Center for Mindfulness, UMass Medical School
         www.mindandlife.org Mind and Life Institute
