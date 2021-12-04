@@ -1183,6 +1183,20 @@ The public members of a class can be accessed from anywhere in the program using
         www.mindandlife.org Mind and Life Institute
         www.dharma.org Vipassana retreat centers and schedules
         Oxford University Mindfulness Centre
+        http://oxfordmindfulness.org
+        University of Massachusetts Medical School
+        Worcester, Massachusetts
+        http://www.umassmed.edu/cfm/index.aspx
+        University of California Center for Mindfulness
+        San Diego, California
+        http://health.ucsd.edu/specialties/mindfulness/Pages/default.a
+        spx
+        Open Ground Mindfulness Training
+        Sydney, Australia
+        http://www.openground.com.au
+        Mindful Psychology
+        Auckland, New Zealand
+        http://www.mindfulpsychology.co.nz/trainers.html
         
    ## Yoga
       * Yoga is also good exercise because it is a type of full-body
