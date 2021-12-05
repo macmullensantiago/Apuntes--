@@ -1207,6 +1207,8 @@ The public members of a class can be accessed from anywhere in the program using
         
    ## Synchronicity
 
+   ## Flores de Bach
+      * http://www.institutobach.com.ar/cursos/category/las-38-flores/page/3/
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
