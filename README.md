@@ -11,7 +11,7 @@
   # What is code?
      * Code is just a technical implementation of algorithms, wich are step-by-step instructions for solving problems.
       
- # What share in common computer programs? // Definir
+ # What share in common computer programs?
      * Functions: A function is a block of code that performs a task.
      * Loops: A loop is used to execute a group of instructions or a block of code multiple times, without writing it repeatedly.
      * Conditions: Conditional statements check whether a programmer-specified Boolean condition is true or false. 
