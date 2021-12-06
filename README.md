@@ -4,16 +4,19 @@
 
   # What does it means to do computation?
     
-   ## What is knowledge?
+   # What is knowledge?
    
      * Declarative and Imperative
      
      Imperative - It tells you how you might test something but it doesn't tells you how to.
+     
      Imperative knowledge is a description of how to deduce something.
+     
      It's a sequence of specific instructions that I do in order. Along the way I have some tests and depending on the value of that test, I may change where I am in that            sequence of instructions. 
      
   # Program is a recipe
      * Given a set fixed of primitives a good programmer can program anything.
+     
   # What is programming?
      * It's about making software.
       
