@@ -1576,6 +1576,187 @@ The public members of a class can be accessed from anywhere in the program using
         the synchronicity in the other two cases can only be verified subsequently,
         though the synchronistic event as such is formed by the coincidence of a
         neutral psychic state with a phantasm (dream or vision).
+        
+        Las leyes naturales son verdades estadísticas, esto es, sólo son completamente
+        válidas donde se trata de magnitudes macrofísicas,
+        mientras que en el ámbito de las magnitudes ínfimas el pronóstico
+        se vuelve incierto o imposible, por cuanto las magnitudes ínfimas
+        no se conducen conforme a las leyes naturales conocidas.
+        
+        El principio filosófico en el cual se basa nuestra concepción
+        de la legalidad natural es el de causalidad. Pero si el nexo entre
+        causa y efecto posee una validez únicamente estadística, o sea,
+        una verdad relativa, entonces también el mismo principio de
+        causalidad tiene, en último término, una aplicación sólo relativa
+        para la explicación de los procesos naturales, y supone, en
+        consecuencia, la existencia de uno o varios otros factores, necesarios
+        para una explicación adecuada. Lo que viene a significar que
+        el nexo vigente entre ciertos sucesos puede ser en determinadas
+        circunstancias de índole no causal, o sea, que exige otro principio
+        explicativo.
+        
+        Ahora bien, hay en nuestra experiencia un campo de inmensa
+        amplitud, cuya extensión equilibra, por así decirlo, la del dominio
+        de la causalidad: es el mundo del azar1.
+        
+        Así, por ejemplo el señor Gross (grande)
+        padece de megalomanía, el señor Kleiner (pequeño) tiene un complejo
+        de inferioridad. Dos hermanas Altmann (hombre viejo) se casan ambas
+        con hombres que les llevan veinte años de edad; el señor Feist (obeso)
+        es ministro de alimentación; el señor Rosstäuscher (chalán tramposo) es
+        abogado; el señor Kalberer (comadrón veterinario) es partero; el señor
+        Freud (alegría) sostiene el principio del placer; el señor Adler (águila)
+        sostiene la voluntad de poder; el señor Jung (joven) la idea de renacimiento,
+        etc. ¿Trátase aquí de absurdos caprichos del azar o de un efecto
+        sugestivo del nombre, como parece suponer Stekel, o de "coincidencias
+        significativas"?
+        
+        En esta concepción, "el sujeto del gran sueño de la vida. . .
+        es sólo uno", la voluntad trascendental, la prima causa de la
+        cual irradian todas las series causales como meridianos desde
+        el polo, guardando entre sí una significativa relación de simultaneidad
+        en virtud de los círculos paralelos 11. Schopenhauer creía
+        en el determinismo absoluto del proceso natural y también en una
+        causa primera. Nada hay que confirme ninguno de los dos supuestos.
+        La causa primera no es sino un mitologema filosófico que
+        sólo merece fe donde aparece en la forma de la antigua paradoja
+        (En to\ pa=n, a saber, como unidad y multiplicidad al mismo tiempo.
+        
+        Los acontecimientos sincronísticos se basan en la simultaneidad
+        de dos diferentes estados psíquicos. Uno de ellos es el normal y
+        probable (es decir, causalmente explicable); el otro, la vivencia
+        crítica, es el estado que no cabe deducir causalmente del primero.
+        
+        El fenómeno de
+        la sincronización consiste, por lo tanto, en dos factores: 1. Una
+        imagen inconsciente entra en lo consciente directamente (es decir,
+        literalmente) o indirectamente (simbolizada o insinuada) como
+        sueño, ocurrencia o premonición. 2. Una situación objetiva coincide
+        con ese contenido.
+        
+        "Encontré una explicación instructiva (de la magia) en el Liber
+        sextus naturalium de Avicena, en el que se afirma que en el alma humana
+        mora una cierta facultad (virtus) de cambiar las cosas y de subordinar
+        a ella las demás cosas, en particular cuando es arrebatada por un gran
+        exceso de amor u odio o algo semejante (quando ipsa fertur in magnum
+        amoris excessum aut odii aut alicuius talium). Cuando, pues, el alma de
+        un hombre es presa de un gran exceso de alguna pasión, puede probarse
+        por el experimento que ése [el exceso] liga a las cosas [mágicamente]
+        y las modifica en el sentido que desea (fertur in grandem excessum
+        alicuius passionis invenitur experimento manifesto quod ipse ligat
+        res et alterat ad idem quod desiderat et diu non credidi illud); por
+        largo tiempo no lo quise creer, pero después de haber leído libros nigrománticos
+        y otros sobre signos mágicos (imaginum) y magia, encontré
+        que la emocionalidad (affectio) del alma humana es la raiz principal
+        de todas esas cosas, ya sea porque debido a su gran emoción va alterando
+        su cuerpo y las cosas a que tiende, ya sea porque a causa de su
+        dignidad las otras cosas inferiores le están sujetas, ya sea porque la hora
+        sideral apropiada o la situación astrológica o alguna otra fuerza coinciden
+        con un tal afecto, que trasciende todos los límites, haciéndonos creer [en
+        consecuencia] que todo cuanto haga esa fuerza es hecho por el alma
+        (cum tali affectione exterminata concurrat hora conveniens aut ordo coelestis
+        aut alia virtus, quae quodvis faciet, illud reputavimus tunc animam
+        facere). .. Quien desee conocer el secreto de hacer y deshacer todo eso,
+        debe saber que cualquiera puede influir mágicamente en todas las cosas
+        si llega a ser presa de un gran exceso, y hacerlo con las cosas que el alma
+        le prescriba. Pues el alma hállase entonces tan ansiosa de las cosas
+        que quiete realizar, que espontáneamente aprovecha la hora sideral más
+        significativa y más favorable, la cual gobierna también las cosas que mejor
+        convengan a ello. .. y así es el alma que apetece las cosas con mayor
+        intensidad la que las hace más efectivas y más semejantes a lo que luego
+        resulta. .. de manera similar se produce todo cuanto el alma apetece con
+        deseo intenso. Todo lo que el alma hace con ese fin, posee energía motriz
+        y eficiencia para lo que ella anhela"
+        
+        "Todos
+        tenemos ciertos poderes eléctricos y magnéticos dentro de nosotros,
+        y ejercemos, como el imán, una fuerza de atracción o de repulsión,
+        según que entremos en contacto con algo homogéneo o heterogéneo"
+        
+        (...) todos los números de 1 a 9 son "sagrados", así como
+        el 10, 12, 13, 14, 28, 32 y 40 tienen un significado especial.
+        
+        Las potencias eficientes
+        (numinosas) de lo inconsciente son los arquetipos.
+        
+        La gran
+        mayoría de los fenómenos de sincronicidad espontáneos que tuve
+        ocasión de observar y analizar permitieron reconocer sin dificultad
+        su relación directa con el arquetipo.
+        
+        El principio de sincronicidad afirma
+        que los miembros de una coincidencia significativa están vinculados
+        por la simultaneidad y el significado.
+        
+        La sede de la sincronicidad no está, afirma, en los planetas,
+        sino en la tierra, pero no en la materia, sino precisamente en
+        el anima telluris.
+        
+        "el alma obedece a
+        sus propias leyes, lo mismo que el cuerpo a las suyas, pero ambos
+        concuerdan en virtud de la armonía preestablecida entre todas las
+        substancias, dado que todas ellas son representaciones del mismo
+        universo"
+        
+        Está aquí claramente expresado el pensamiento de
+        que el hombre es un microcosmos. Las almas en general, dice Leibniz,
+        "son los espejos o imágenes vivientes del universo de las cosas
+        creadas". El distingue, por una parte, los espíritus, que son
+        "imágenes de la divinidad" y "capaces de comprender el sistema
+        del universo y de imitar una parte del mismo con pruebas constructivas,
+        puesto que cada espíritu es dentro de su ámbito una
+        pequeña divinidad"54; y por la otra los cuerpos, que actúan
+        "conforme a las leyes de las causas finales mediante apeticiones,
+        fines y medios"
+        
+        La filosofía china, en cambio, a partir de la connotación de lo
+        mágico produjo el "concepto" de Tao y no una ciencia natural
+        basada en la causalidad.
+        La sincronicidad presupone un significado que es a priori
+        con respecto a la conciencia humana, y que parece existir fuera
+        del hombre
+        
+        El "saber absoluto", es decir, el conocimiento que no ha
+        sido alcanzado a través de ningún órgano sensorial, que caracteriza
+        al fenómeno sincronístico, confirma la hipótesis de un significado
+        o sentido existentes de por sí, o incluso expresa su existencia. Una
+        forma tal de existencia sólo puede ser trascendental, dado que,
+        como lo demuestra el conocimiento de hechos futuros o espacialmente
+        lejanos, se encuentra en un espacio y un tiempo psíquicamente
+        relativos, es decir, en un continuo espacio-temporal irrepresentable.
+        
+        La sincronicidad no es más enigmática o misteriosa que los
+        discontinuos de la física.
+        
+        Coincidences are also a kind of message. By paying attention to
+        life’s coincidences, you can learn to hear their messages more clearly.
+        
+        When you live your life with an appreciation of coincidences and their
+        meanings, you connect with the underlying field of infinite possibilities. This is
+        when the magic begins. This is a state I call synchrodestiny, in which it becomes
+        possible to achieve the spontaneous fulfillment of our every desire.
+        Synchrodestiny requires gaining access to a place deep within yourself, while at
+        the same time awakening to the intricate dance of coincidences out in the
+        physical world. It requires understanding the profound nature of things,
+        recognizing the wellspring of intelligence that endlessly creates our universe,
+        and yet having the intention to pursue specific opportunities for change as they
+        appear.
+        
+        Seeing the web of coincidence in our lives, however, is just the first stage in
+        understanding and living synchrodestiny.
+        
+        The next stage is to develop an
+        awareness of coincidences while they are happening. It is easy to see them in
+        hindsight, but if you catch coincidences at the moment they occur, you are better
+        positioned to take advantage of the opportunities they may be presenting. Also,
+        awareness translates into energy. The more attention you give to coincidences,
+        the more likely they are to appear, which means you begin to gain greater and
+        greater access to the messages being sent to you about the path and direction of
+        your life.
+        
+        We consciously shape our destinies into the limitlessly creative expressions they
+        were meant to be, and by doing so we live out our most profound dreams,
+        moving closer to enlightenment.
    ## Flores de Bach
       * http://www.institutobach.com.ar/cursos/category/las-38-flores/page/3/
    ## Specialize
