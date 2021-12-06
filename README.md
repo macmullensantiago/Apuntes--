@@ -1,6 +1,10 @@
 # Apuntes--
 
-## What is programming?
+# Think like a Computer Scientist
+
+  # What does it means to do computation?
+    
+  # What is programming?
      * It's about making software.
       
   # What is software?
