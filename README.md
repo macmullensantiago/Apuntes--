@@ -4,7 +4,7 @@
 
   # What does it means to do computation?
     
-   # What is knowledge?
+   ### What is knowledge?
    
      * Declarative and Imperative
      
@@ -14,21 +14,50 @@
      
      It's a sequence of specific instructions that I do in order. Along the way I have some tests and depending on the value of that test, I may change where I am in that            sequence of instructions. 
      
-  # Program is a recipe
+  ### Program is a recipe
      * Given a set fixed of primitives a good programmer can program anything.
+     * Our goal is to take problems a break them into these computational steps, these sequence of instructions that allow us to take capture that process.
      
-  # What is programming?
+  ### Static semantics
+     * Which expressions makes sense.
+     Semantics - What the meaning of this piece of code is?
+     
+  ### Statements
+    * Legal commands that Python can interpret
+      - Print, assignment
+   
+  ### Expressions 
+    * Operands  
+      - In computing, an operand is the part of a computer instruction which specifies what data is to be manipulated or operated on, while at the same time representing the data itself.
+    * Operators 
+     - In computer programming, operators are constructs defined within programming languages which behave generally like functions, but which differ syntactically or semantically.
+    
+  ### Data Structures - Types and Values
+      A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.
+    * Numbers
+      - Intergers
+      - Floats
+    * Strings -  Strings are strings
+    * Booleans
+    
+    * Numbers
+     - 3 - interger
+     - 3.14 - floating point
+    * Strings
+     -'abc'
+     
+  ### What is programming?
      * It's about making software.
       
-  # What is software?
+  ### What is software?
      * It's what runs in our hardware, runs in our computer.
      * Software is the files that you can open up in your computer and you can interact with.
      * It's what is written using programming code.
       
-  # What is code?
+  ### What is code?
      * Code is just a technical implementation of algorithms, wich are step-by-step instructions for solving problems.
       
- # What share in common computer programs?
+ ### What share in common computer programs?
      * Functions: A function is a block of code that performs a task.
      * Loops: A loop is used to execute a group of instructions or a block of code multiple times, without writing it repeatedly.
      * Conditions: Conditional statements check whether a programmer-specified Boolean condition is true or false. 
@@ -112,33 +141,11 @@
     * Heaps
     * Graphs
 
-## ForEach
-
-    * The forEach() method calls a function once for each element in an array, in order.
-
-     forEach() is not executed for array elements without values.
-
-    * The forEach() method executes a provided function once for each array element.
-
-    * Foreach (de la palabra inglesa for each = para cada uno) es un bloque constructivo de los lenguajes de programación para recorrer los elementos de una colección. Foreach        se utiliza por lo general en lugar de una norma para la declaración. A diferencia de otras construcciones de bucle, los bucles foreach por lo general no mantienen contra-        indicación explícita, que esencialmente dice "haga esto a todo en este juego" en lugar de "hacer esto x veces." Esto evita posibles errores off-by-one y hace el código más      fácil de leer. En lenguajes orientados a objetos un iterador, aunque implícito, a menudo se utiliza como medio de recorrido. Este bucle, implementado a partir de las            versiones de PHP4, nos ayuda a recorrer los valores de un array, lo cual puede resultar muy útil por ejemplo para efectuar una lectura rápida del mismo. Recordemos que un        array es una variable que guarda un conjunto de elementos (valores) catalogados por claves
-
-## addEventListener 
-
-    * The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.
-  
-  ### Events and Events Handler 
+  ## Syntax
     
-     *  Understanding Events and Event Handlers
-     
-        Events are actions that happen when the user or browser manipulates a page. They play an important role as they can cause elements of a web page to change dynamically.
-
-        For example, when the browser finishes loading a document, then a load event occurred. If a user clicks a button on a page, then a click event has happened.
-
-        Many events can happen once, multiple times, or never. You also may not know when an event will happen, especially if it is user generated.
-
-        In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
-
-  ### Syntax
+  ### What is Syntax?
+  
+    * Syntax says what are the legal expressions in this language.
   
     addEventListener() Syntax
     
@@ -199,6 +206,32 @@
         * ### Do-While
    
             * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
+            
+   ## ForEach
+
+    * The forEach() method calls a function once for each element in an array, in order.
+
+     forEach() is not executed for array elements without values.
+
+    * The forEach() method executes a provided function once for each array element.
+
+    * Foreach (de la palabra inglesa for each = para cada uno) es un bloque constructivo de los lenguajes de programación para recorrer los elementos de una colección. Foreach        se utiliza por lo general en lugar de una norma para la declaración. A diferencia de otras construcciones de bucle, los bucles foreach por lo general no mantienen contra-        indicación explícita, que esencialmente dice "haga esto a todo en este juego" en lugar de "hacer esto x veces." Esto evita posibles errores off-by-one y hace el código más      fácil de leer. En lenguajes orientados a objetos un iterador, aunque implícito, a menudo se utiliza como medio de recorrido. Este bucle, implementado a partir de las            versiones de PHP4, nos ayuda a recorrer los valores de un array, lo cual puede resultar muy útil por ejemplo para efectuar una lectura rápida del mismo. Recordemos que un        array es una variable que guarda un conjunto de elementos (valores) catalogados por claves
+
+## addEventListener 
+
+    * The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.
+  
+  ### Events and Events Handler 
+    
+     *  Understanding Events and Event Handlers
+     
+        Events are actions that happen when the user or browser manipulates a page. They play an important role as they can cause elements of a web page to change dynamically.
+
+        For example, when the browser finishes loading a document, then a load event occurred. If a user clicks a button on a page, then a click event has happened.
+
+        Many events can happen once, multiple times, or never. You also may not know when an event will happen, especially if it is user generated.
+
+        In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
             
    # Git - GitHub
         
@@ -333,7 +366,7 @@
       1 file changed, 0 insertions(+), 0 deletions(-)
       create mode 100644 index.html
       
-   Committing to Git
+   ## Committing to Git
       
       By design, Git requires every commit to include a commit message describing
       the purpose of the commit. Typically, this takes the form of a single line,
@@ -386,7 +419,7 @@
       Date: Thu Dec 17 20:00:34 2015 -0800
       Initialize repository
       
-   Opening a file to work on it
+  ## Opening a file to work on it
       
       (...) As in previous sections, we’ll be working on the main index.html file. Let’s start
       by opening this file in both a text editor and in a web browser. My preferred
@@ -444,7 +477,7 @@
       git show
       <SHA>             Show diff vs. the SHA                     $ git show fb738e…
       
-   Backing up and sharing
+  ## Backing up and sharing
    
       With the changes made in Section 1, we’re now ready to push a copy of our project
       to a remote repository. This will serve as a backup of our project and its history,
@@ -457,7 +490,7 @@
       Over time, releasing projects publicly on GitHub serves to build up
       a portfolio, which is one good reason to make as much work public as possible.
       
-   Remote repo
+  ## Remote repo
    
       After signing up for a GitHub account, the next step is to create a remote
       repository.
@@ -484,7 +517,7 @@
       look something like Figure 21. If it does, you have officially shipped your first Git
       repository!
       
-   Adding a README
+  ## Adding a README
    
       Now that we’ve pushed up our repository, let’s add a second file and practice the
       add, commit, and push sequence shown in Figure 4. You may have noticed in
@@ -516,7 +549,7 @@
       git push                    Push to default                       $ git push
                                   remote        
       
-   Branching and merging
+  ## Branching and merging
    
       One of the most powerful features of Git is its ability to make branches, which are
       effectively complete self-contained copies of the project source, together with the
@@ -541,7 +574,7 @@
       version at GitHub (called origin/master) as usual:
       [website (master)]$ git push
       
-   Recovering from errors
+ ##  Recovering from errors
    
       One of the most useful features of Git is its ability to let us recover from errors that
       would otherwise be catastrophic. The error-recovery techniques themselves can be
@@ -575,7 +608,7 @@
       git checkout         Force checkout, discarding                   $ git add -A && git
       -f                   changes (dangerous)                            checkout -f
      
-   Collaborating
+  ## Collaborating
    
       Now that we’ve covered some of the tools needed to use Git effectively on solo
       projects, it’s time to learn about what is perhaps Git’s greatest strength: making it
@@ -1777,6 +1810,7 @@ The public members of a class can be accessed from anywhere in the program using
         
    ## Flores de Bach
       * http://www.institutobach.com.ar/cursos/category/las-38-flores/page/3/
+      
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
