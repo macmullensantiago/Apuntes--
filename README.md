@@ -1328,6 +1328,7 @@ The public members of a class can be accessed from anywhere in the program using
         Mindful Psychology
         Auckland, New Zealand
         http://www.mindfulpsychology.co.nz/trainers.html
+     * https://www.youtube.com/watch?v=3nwwKbM_vJc // Jon Kabat Zinn
         
    ## Yoga
       * Yoga is also good exercise because it is a type of full-body
