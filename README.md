@@ -3,6 +3,8 @@
 # Think like a Computer Scientist
 
   # What does it means to do computation?
+  
+  
     
    ### What is knowledge?
    
