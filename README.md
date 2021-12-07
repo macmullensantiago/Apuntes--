@@ -71,8 +71,9 @@
   foo = (1, 2, 3, 4)
   Selection foo[0]
   Slicing foo[1;3]
+  
     
-    ### Languages
+  ### Languages
         We have
           * Assignment
           * Conditionals
