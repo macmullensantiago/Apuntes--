@@ -46,6 +46,84 @@
     * Strings
      -'abc'
      
+  Data                      Operations                            Commands
+  Number                        +,*                               assignment
+  Strings                                                         input/output
+  Booleans                    and, or                             conditionals, loop mechanisms(while)
+  
+  ### Iterative programs
+    - Choose variable that counts
+    - Initiliaze outside the loop
+    - Set up end test (variable)
+    - Construct block
+    - Change the variable
+    - What to do when done
+    
+  For <var> in <some collection>
+          |
+          |block of code
+          |
+          |
+          |
+  
+  Tuple - ordered sequence of elements (inmutable)
+  
+  foo = (1, 2, 3, 4)
+  Selection foo[0]
+  Slicing foo[1;3]
+    
+    ### Languages
+        We have
+          * Assignment
+          * Conditionals
+          * Input/Output
+          * Looping constructs (for/while)
+        We don't have
+          * Decomposition
+          * Abstraction
+  
+  ### Functions 
+    The idea of function is I wanna capture a common pattern of computation
+       * Break up into modules
+       * Supress detailed
+       * Create "new primites"
+  
+      * Def (definition or define) - keyword
+        - Name(x) --> formal parameters
+        - return - keyword (when you get to this point in the computation, stop the computation.
+        - None - special value
+    Invoke a function by passing in values for the parameters
+      Example sqrt(16)
+        This binds x to 16
+  
+   ### Recursion
+       The idea of recursion is that i'm gonna take a problem and beak it down to a simpler version of the same problem plus some steps I can execute.
+          - Base case - simplest possible solution
+          - Inductive step - break the problem into a simpler version of the same problem and some other steps.
+          Example: If you're born in the United States you're by definition a natural born US citizen. 
+                   if you're not born in the United States, you may still be, under definition, a natural born US Citizen if you're born outside the United States, both of 
+                   your parents are citizens of the United States and at least one parent has lived in the United States.
+  
+  ###  Fibonacci 
+         Pairs(0) = 1
+         Pairs(1) = 1
+         Pairs(n) = (n - 1) + (n - 2) 
+  
+    
+    
+     
+  If <some test>
+          |
+          |Block of instructions
+          |
+  else:
+          |
+          |Block of instructions
+          |
+     
+  
+  Boolean combination or iteration or loops
+  
   ### What is programming?
      * It's about making software.
       
