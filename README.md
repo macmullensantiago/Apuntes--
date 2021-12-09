@@ -3,23 +3,37 @@
 # Think like a Computer Scientist
 
   # What does it means to do computation?
-  
-  
+    * Computers only do what you tell them to do, they are not magical.
+    * Computers don't know anything.
     
    ### What is knowledge?
-   
      * Declarative and Imperative
      
-     Imperative - It tells you how you might test something but it doesn't tells you how to.
+      * Imperative - It tells you how you might test something but it doesn't tells you how to.
      
      Imperative knowledge is a description of how to deduce something.
      
      It's a sequence of specific instructions that I do in order. Along the way I have some tests and depending on the value of that test, I may change where I am in that            sequence of instructions. 
      
+      * Declarative - 
+     
   ### Program is a recipe
      * Given a set fixed of primitives a good programmer can program anything.
      * Our goal is to take problems a break them into these computational steps, these sequence of instructions that allow us to take capture that process.
      
+  ### What is a recipe?
+    * Sequence of simple steps
+    * Flow of control process that specifies when each step is executed
+    * A means of determining when to stop
+    
+  ### Basic Primitives
+    * Move left
+    * Move right
+    * Read
+    * Write
+    * Scan 
+    * Do nothing
+    
   ### Class 
     * A template for creating instances of an object
     * A template for an abstract data type
@@ -48,10 +62,26 @@
     ### __eq__
       * Same
 
-  
-   
   ### Data Hiding
     * One can only access instances values through defined methods. (Python doesn't do this)
+  
+## Where things go wrong?
+ 
+ ## Syntax
+    
+  ### What is Syntax?
+  
+    * Syntax says what are the legal expressions in this language.
+  
+    addEventListener() Syntax
+    
+    Here's the syntax:
+
+    target.addEventListener(event, function, useCapture)
+    
+    * target: the HTML element you wish to add your event handler to. This element exists as part of the Document Object Model (DOM)
+    * event: a string that specifies the name of the event. We already mentioned load and click events.
+    * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
      
   ### Static semantics
      * Which expressions makes sense.
@@ -145,8 +175,6 @@
          Pairs(1) = 1
          Pairs(n) = (n - 1) + (n - 2) 
   
-    
-    
      
   If <some test>
           |
@@ -255,21 +283,7 @@
     * Heaps
     * Graphs
 
-  ## Syntax
-    
-  ### What is Syntax?
-  
-    * Syntax says what are the legal expressions in this language.
-  
-    addEventListener() Syntax
-    
-    Here's the syntax:
-
-    target.addEventListener(event, function, useCapture)
-    
-    * target: the HTML element you wish to add your event handler to. This element exists as part of the Document Object Model (DOM)
-    * event: a string that specifies the name of the event. We already mentioned load and click events.
-    * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
+ 
     
  ## querySelector
  
