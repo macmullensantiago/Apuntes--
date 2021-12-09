@@ -20,6 +20,39 @@
      * Given a set fixed of primitives a good programmer can program anything.
      * Our goal is to take problems a break them into these computational steps, these sequence of instructions that allow us to take capture that process.
      
+  ### Class 
+    * A template for creating instances of an object
+    * A template for an abstract data type
+    * Is used to make instances, meaning particular versions of that structure
+    
+      #### Superclass - Person
+      #### Subclass - MITPerson           // Inheritance
+    
+ 
+  ### Instances 
+    * Will have some internal attributes
+    * Inside instances we have a set of attributes
+    
+  ### Methods
+    * Can access the value of the specific instance
+   
+    ### __init__
+      * Creates an instance
+
+    ### __str__
+      * It converts things into a string type. It tells us how we want to have it printed out.
+
+    ### __cmp__ 
+      * Comparison
+
+    ### __eq__
+      * Same
+
+  
+   
+  ### Data Hiding
+    * One can only access instances values through defined methods. (Python doesn't do this)
+     
   ### Static semantics
      * Which expressions makes sense.
      Semantics - What the meaning of this piece of code is?
