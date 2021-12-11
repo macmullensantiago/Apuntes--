@@ -26,7 +26,7 @@
     * Flow of control process that specifies when each step is executed
     * A means of determining when to stop
     
-  ### Basic Primitives
+  ### Basic Primitives                     
     * Move left
     * Move right
     * Read
@@ -34,10 +34,24 @@
     * Scan 
     * Do nothing
     
+  ### List of Primitives
+    * Intergers
+    * Floats
+    * Booleans
+    * Strings
+    
   ### Class 
     * A template for creating instances of an object
     * A template for an abstract data type
     * Is used to make instances, meaning particular versions of that structure
+    * Provide a convinient way to aggregate procedures and data in a single estructure
+      
+      class Student:
+        school = 'MIT'
+        def calculateFinalGrade(self):
+              return theFinalGrade
+              
+    * classes can include attributes (data) and methods (procedures).
     
       #### Superclass - Person
       #### Subclass - MITPerson           // Inheritance
@@ -46,6 +60,37 @@
   ### Instances 
     * Will have some internal attributes
     * Inside instances we have a set of attributes
+    * Inherit the methods and attributes of their class
+    * Can also contain new attributes and methods
+    
+  ### Inheritance
+    * Dog <- Retriever <- Golden
+    
+    class Dog():
+      cry = "Bark"
+      def __init__(self, name):
+        self.name = name
+        
+        def greetings(self):
+          return "I'm" + self.name + ", " + self.cry
+          
+          Lassie = Dog("Lassie")
+          Lassie.name
+          
+     class Retriever(Dog):
+          pass
+     Benji = Retriever ("Benji")
+     Benji.greeting()
+     
+     class Golden(Retriever):
+        def greeting(self):
+        return "OHAI!"
+        
+        Retriever.greetings(self)
+        Sydney = Golden ("Sidney")
+        Sydney.greetings()
+        
+        
     
   ### Methods
     * Can access the value of the specific instance
@@ -65,6 +110,48 @@
   ### Data Hiding
     * One can only access instances values through defined methods. (Python doesn't do this)
   
+### Programming Styles for Managing Complexity
+    Structure of program has significant effect on its modularity
+    
+    Imperative (procedural) programming
+      * Focus on step-by-step instructions to accomplis task
+      * Organize program using structured conditionals and loops
+    
+    Functional Programming
+      * Focus on procedures that mimic mathematical functions, producing outputs from inputs without side effects
+      * Functions are first-class objects used in data structures, arguments to procedure, and can be returned by procedures
+      
+    Object-oriented Programming
+      * Focus on collections of related procedures and data
+      * Organize programs as hierarchies of related classes and instances
+      
+      
+ 
+### Python 
+    * def combines operations into a procedure and binds a name to it
+    * lists provide flexible and hierarchical structure for data
+    * variables associates names with data
+    * classes associates data (attributes) and procedures (methods)
+    
+                                  Procedures                  Data
+    Primitives                    +, *, ==, !=                numbers, booleans, strings
+    Combination                   if, while, f(g(x))          lists, dictionaries, objects
+    Abstraction                   def                         classes
+    Patterns                      higher-order procedures     super-classes, sub-classes
+  
+  
+    def selfComposition(somefunction)
+      def returnFunction(*args):
+        return someFunction()
+          someFunction(*args)
+            return returnFunction
+            
+    >class Accumulator(SM):
+      def __init__ (self, initial vlaue):
+        selfstartState = initialValue
+      def getNextValues(self, state, inp):
+        return (state+inp, state+inp)
+        
 ## Where things go wrong?
  
  ## Syntax
