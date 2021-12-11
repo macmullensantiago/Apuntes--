@@ -90,6 +90,14 @@
         Sydney = Golden ("Sidney")
         Sydney.greetings()
         
+     class wallFinder(sm.SM):
+        startState = None
+        def getNextValues(self, state, inp):
+          desireDistance = 0.5
+          currentDistance = inp.sonars[3]
+          return (state, io.Action(fvel=?, rvel = 0) )
+          
+        
         
     
   ### Methods
