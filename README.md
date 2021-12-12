@@ -57,7 +57,18 @@
       #### Subclass - MITPerson           // Inheritance
       
   ### What is a Class?
-    * ![226px-CPT-OOP-objects_and_classes svg](https://user-images.githubusercontent.com/75396649/145723135-b21c30aa-aecb-4387-9a4d-2b7338537e30.png)
+    * Blueprints for creating bundles of data and code that are related
+    * A "Car" class can have attributes that describe its brand, model, color, miles, and anything else descriptive; these are also know as "fields".
+    * A "Car" class can also have "methods" that define its behavior, such as "accelerate", "turn", "honk", and more, wich take the form of functions.
+
+      * Class Car
+          attributes fuel
+                     maxspeed
+
+          methods    refuel()
+                     getFuel()
+                     setSpeed()
+                     drive()
 
     
  
