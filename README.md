@@ -55,6 +55,10 @@
     
       #### Superclass - Person
       #### Subclass - MITPerson           // Inheritance
+      
+  ### What is a Class?
+    * ![226px-CPT-OOP-objects_and_classes svg](https://user-images.githubusercontent.com/75396649/145723135-b21c30aa-aecb-4387-9a4d-2b7338537e30.png)
+
     
  
   ### Instances 
