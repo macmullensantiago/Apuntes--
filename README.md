@@ -132,6 +132,18 @@
 
   ### Data Hiding
     * One can only access instances values through defined methods. (Python doesn't do this)
+    
+  ### Conditional Distributions
+    * Conditional distributions are represented as procedures
+      
+      def TESTgivenAIDS(AIDS):
+        if AIDS == 'true':
+          return dist.DDist({'positive': 0.985946, 'negative': 0.014054)}
+        else:
+          return dist.DDist({'positive': 0.023000, 'negative': 0.977000})  
+     
+### Search Algorithms 
+    
   
 ### Programming Styles for Managing Complexity
     Structure of program has significant effect on its modularity
