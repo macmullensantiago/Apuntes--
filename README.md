@@ -142,7 +142,73 @@
         else:
           return dist.DDist({'positive': 0.023000, 'negative': 0.977000})  
      
-### Search Algorithms 
+### Search Algorithms in Python 
+
+    def search(initialState, goalTest, actions, succesor):
+      if goalTest(initialState):
+        return [{None, initialState}]
+      agenda = [SearchNode(None, initialState, None)]
+      
+    def search(initialState, goalTest, actions, succesor):
+      return [(None, initialState)]
+    agenda = [searchNode(None, initialState, None)]
+    while not empty(agenda):
+      parent = getElement(agenda)
+      for a in actions:
+        newS = successor(parent.state, a)
+        newN = SearchNode(a, newS, parent)
+        if goalTest(newS):
+          return newN.path()
+        else:
+          add(newN, agenda)
+        return None
+        
+        #### Stack class
+          class Stack:
+            def __init__ (self):
+              self.data = []
+            def push(self, item):
+              self.data.append(item)
+            def pop(self):
+              return self.data.pop()
+            def empty(self):
+              return self.data is []
+              
+            class PQ:
+              def __init__(self):
+                self.data = []
+              def push(self, items, cost):
+                self.data.append((cost, item))
+              def pop(self):
+                (index, cost) = util.argmaxIndex(self.data, lamda (c, x): -c)
+                 return self.data.pop(index)[1] = just return the data item
+              def empty(self):
+                 return len(self.data) == 0
+                 
+          #### Search Node
+            class SearchNode:
+              def __init__ (self, action, state, parent, actionCost):
+                self.state = state
+                self.action = action
+                self.parent = parent
+                if self.parent:
+                  self.cost = self.parent.cost + actionCost
+                else:
+                  self.cost = actionCost
+              def path(self):
+                  if self.parent == None:
+                    return [(self.action, self.state)]
+              def inPath(self, s):
+                  if s == self.state:
+                     return True
+                  elif self.parent == None:
+                     return False
+                  else:
+                     return self.parent.inPath(s)
+                  
+                    
+             
+            
     
   
 ### Programming Styles for Managing Complexity
