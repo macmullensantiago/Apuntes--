@@ -162,7 +162,21 @@
           self.head = None
           self.size = 0
           
-          
+       def permutation_sort(A):
+          '''Sort A'''
+          for B in permutations(A):
+            if is_sorted(B):
+              return B
+              
+        def prefix_max(A):
+          '''Return index of maximum in A[:i + 1]'''
+          if i > 0:
+            j = prefix_max(A, i - 1)
+            if A[i] < A[j]:
+              return j
+            return i
+              
+        
         
         
     
