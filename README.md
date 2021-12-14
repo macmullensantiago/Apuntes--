@@ -26,6 +26,41 @@
     * Flow of control process that specifies when each step is executed
     * A means of determining when to stop
     
+  ### What is a problem?
+    Inputs
+    *
+    *
+    *
+    *
+    Outputs
+    *
+    *
+    *
+    *
+  ### What is an algorithm?
+    * An algortihm is a function, it takes inputs to outputs
+    
+    for Birthdayproblem: -maintain record
+                         -interview students in some order
+                            -check if birthday is record
+                                -if so return pair
+                            -add new students to record
+                         -return None
+      * Correctness
+        Inductive hypothesis: if first k students contain match 
+                                  alg returns a match before interview student
+        Base case k = 0
+        Assume IH true for k = k' { if k' contains match -> alredy returned by induction
+                                    else if k'+i contains match 
+                                    alg k' + i against all students
+                                    
+        
+      * Efficiency 
+        It means not only how fast it run but how fast it compares to other possibles ways of approaching this problem.
+        Don't measure time, instead count ops
+        Expect performance to depend in size of out input
+        O notation (upper bands)  OMEGA (lower bands)  THETA (both)
+                            
   ### Basic Primitives                     
     * Move left
     * Move right
@@ -111,6 +146,22 @@
           desireDistance = 0.5
           currentDistance = inp.sonars[3]
           return (state, io.Action(fvel=?, rvel = 0) )
+          
+      class Linked_List_Node:
+        def __init__(self, x):
+          self.item = x
+          self.next = None
+          
+        def later_node(self, i):
+          if i == 0: return self
+          assert self.next
+          return self.next.later_node(i - 1)
+          
+       class Linked_List_Seq:
+          def __init__(self):
+          self.head = None
+          self.size = 0
+          
           
         
         
@@ -298,6 +349,17 @@
      - 3.14 - floating point
     * Strings
      -'abc'
+     
+     ### Interface(API/ADT)            vs             Data Structure
+     -Specification                                   -Representation
+     -What data can store                             -How to store data
+     -What operations are supported & what they mean  -Algorithms to support operations
+     -Problem                                         -Solution
+     
+     
+     
+     
+     
      
   Data                      Operations                            Commands
   Number                        +,*                               assignment
