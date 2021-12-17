@@ -6,6 +6,9 @@
     * Computers only do what you tell them to do, they are not magical.
     * Computers don't know anything.
     
+  # How to solve computational problems?
+    
+    
    ### What is knowledge?
      * Declarative and Imperative
      
