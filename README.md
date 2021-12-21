@@ -94,10 +94,12 @@
       #### Superclass - Person
       #### Subclass - MITPerson           // Inheritance
       
+      
   ### What is a Class?
     * Blueprints for creating bundles of data and code that are related
     * A "Car" class can have attributes that describe its brand, model, color, miles, and anything else descriptive; these are also know as "fields".
     * A "Car" class can also have "methods" that define its behavior, such as "accelerate", "turn", "honk", and more, wich take the form of functions.
+    * La Clase es la "forma" y atributos que tendran los datos (Objetos) 
 
       * Class Car
           attributes fuel
