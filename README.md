@@ -631,6 +631,27 @@
         In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
             
    # Git - GitHub
+   
+   ## What is Git?
+    * Free an open source version control system
+   ## What is Version Control?
+    * The management of changes to documents, computer programs, large web sites, and other collection of information.
+   Terms
+    * Directory -> Folder
+    * Terminal or Command Line -> Interface for text commands
+    * CLI -> Command Line Interface
+    * cd -> Change Directory
+    * Code Editor -> Word processor for Writing Code
+    * Repository -> Project, or the folder/place where your project is 
+    * Github -> A website to host your repositories online 
+  
+  Git commands
+    * Clone -> Bring a repository that is hosted somewhere like Github into a folder on your local machine
+    * add -> Track your files and change in Git 
+    * commit -> Save your files in Git
+    * Push -> Upload Git commits to a remote repo, like Github
+    * Pull -> Download changes from a remote repo to your local machine, the opposite of push
+   
         
    ## Upload a Proyect to GitHub
     
