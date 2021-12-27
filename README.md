@@ -6,7 +6,18 @@
     * Computers only do what you tell them to do, they are not magical.
     * Computers don't know anything.
     
-  # How to solve computational problems?
+  # What is a computer program?
+    * a file
+   
+  # What's a file?
+    * a string of characters
+  
+  # What's a character?
+    * a strign of bits
+    
+  # What's a program?
+    * a finite string of bits
+    
     
     
    ### What is knowledge?
