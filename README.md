@@ -13,7 +13,7 @@
     * a string of characters
   
   # What's a character?
-    * a strign of bits
+    * a string of bits
     
   # What's a program?
     * a finite string of bits
