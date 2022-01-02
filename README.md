@@ -1,7 +1,27 @@
 # Apuntes--
 
 # Think like a Computer Scientist
-
+  # Coding
+    * Translating one language to another
+    
+  # Scripting
+    * Coding in a scripting language
+    * Use to perform a single or limited task
+    
+  # Programming
+    * Coding in a programming language
+    ## Programming languages
+      * Special languages that software developers use to write instructions for computers to execute
+      
+  # What is software?
+    *
+    ## Application Software 
+      * Any software used created to fulfill a specific need, like a text editor, web browser, or graphic editor
+    ## Software System
+      * Softwawre used to keep our core system running, like operating system tools and utilities
+    ## Firmware
+      * Software that's permanently stored on a computer component
+      
   # What does it means to do computation?
     * Computers only do what you tell them to do, they are not magical.
     * Computers don't know anything.
