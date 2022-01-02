@@ -14,7 +14,7 @@
       * Special languages that software developers use to write instructions for computers to execute
       
   # What is software?
-    *
+    * Software is anything that humans interact with on a computer, such as the internet browsers or programs.
     ## Application Software 
       * Any software used created to fulfill a specific need, like a text editor, web browser, or graphic editor
     ## Software System
