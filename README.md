@@ -17,6 +17,8 @@
     
   # What's a program?
     * a finite string of bits
+  # Shell
+    * a program that interprets text commands and sends them to the OS to execute
     
     
     
