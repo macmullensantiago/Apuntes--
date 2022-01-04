@@ -10,7 +10,8 @@
     
   # Programming
     * Coding in a programming language
-    ## Programming languages
+    
+   ## Programming languages
       * Special languages that software developers use to write instructions for computers to execute
       
   # What is software?
