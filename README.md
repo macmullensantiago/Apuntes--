@@ -1,6 +1,7 @@
 # Apuntes--
 
 # Think like a Computer Scientist
+
   # Coding
     * Translating one language to another
     
@@ -11,17 +12,20 @@
   # Programming
     * Coding in a programming language
     
-   ## Programming languages
-      * Special languages that software developers use to write instructions for computers to execute
+     ## Programming languages
+        * Special languages that software developers use to write instructions for computers to execute
       
   # What is software?
     * Software is anything that humans interact with on a computer, such as the internet browsers or programs.
-    ## Application Software 
-      * Any software used created to fulfill a specific need, like a text editor, web browser, or graphic editor
-    ## Software System
-      * Softwawre used to keep our core system running, like operating system tools and utilities
-    ## Firmware
-      * Software that's permanently stored on a computer component
+    
+     ## Application Software 
+        * Any software used created to fulfill a specific need, like a text editor, web browser, or graphic editor
+
+     ## Software System
+        * Softwawre used to keep our core system running, like operating system tools and utilities
+
+     ## Firmware
+        * Software that's permanently stored on a computer component
       
   # What does it means to do computation?
     * Computers only do what you tell them to do, they are not magical.
@@ -38,6 +42,7 @@
     
   # What's a program?
     * a finite string of bits
+    
   # Shell
     * a program that interprets text commands and sends them to the OS to execute
     
