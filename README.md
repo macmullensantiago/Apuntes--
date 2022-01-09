@@ -12,19 +12,19 @@
   # Programming
     * Coding in a programming language
     
-     ## Programming languages
+   ## Programming languages
         * Special languages that software developers use to write instructions for computers to execute
       
   # What is software?
     * Software is anything that humans interact with on a computer, such as the internet browsers or programs.
     
-     ## Application Software 
+   ## Application Software 
         * Any software used created to fulfill a specific need, like a text editor, web browser, or graphic editor
 
-     ## Software System
+   ## Software System
         * Softwawre used to keep our core system running, like operating system tools and utilities
 
-     ## Firmware
+   ## Firmware
         * Software that's permanently stored on a computer component
       
   # What does it means to do computation?
@@ -45,6 +45,10 @@
     
   # Shell
     * a program that interprets text commands and sends them to the OS to execute
+    
+  # JavaScript vs ECMAScript
+    * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
+    * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
     
     
     
