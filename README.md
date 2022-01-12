@@ -374,6 +374,7 @@
   ### What is Syntax?
   
     * Syntax says what are the legal expressions in this language.
+    * The rules for how a sentence is constructed
   
     addEventListener() Syntax
     
@@ -384,6 +385,9 @@
     * target: the HTML element you wish to add your event handler to. This element exists as part of the Document Object Model (DOM)
     * event: a string that specifies the name of the event. We already mentioned load and click events.
     * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
+    
+  ## Semantics 
+     * The actual meaning of statements
      
   ### Static semantics
      * Which expressions makes sense.
