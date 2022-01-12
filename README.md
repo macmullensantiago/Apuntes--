@@ -224,7 +224,8 @@
               return j
             return i
               
-        
+  ## Event Class
+    * Contains the data when the event happened, the name of the machine where it happened, the user involved, and the event type.
         
         
     
