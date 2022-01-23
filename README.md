@@ -682,8 +682,10 @@
    
    ## What is Git?
     * Free an open source version control system
+  
    ## What is Version Control?
     * The management of changes to documents, computer programs, large web sites, and other collection of information.
+  
    Terms
     * Directory -> Folder
     * Terminal or Command Line -> Interface for text commands
@@ -693,12 +695,22 @@
     * Repository -> Project, or the folder/place where your project is 
     * Github -> A website to host your repositories online 
   
-  Git commands
+ 
+  
+  ## Git commands
     * Clone -> Bring a repository that is hosted somewhere like Github into a folder on your local machine
     * add -> Track your files and change in Git 
     * commit -> Save your files in Git
     * Push -> Upload Git commits to a remote repo, like Github
     * Pull -> Download changes from a remote repo to your local machine, the opposite of push
+  
+  ## What is forking?
+    * A way of creating a copy of the given repository so that it belongs to our user
+  
+  ## What is a pull request?
+    * A commit or series of commits that you send to the owner of the repository so that thet incorporate it into their tree
+  
+  
    
         
    ## Upload a Proyect to GitHub
@@ -1662,6 +1674,19 @@ The public members of a class can be accessed from anywhere in the program using
         capable of learning and modifying their output on the basis of their input
         (“experience”), machines themselves rather than people will design the next
         generations of machines.
+        
+   ## Continuos Integration System (CI)
+        * Will build and test our code every time there's a change
+        * Once we our code automatically built and tested, the next automatation step is continous deployment, which is sometimes called continous delivery (CD)
+          
+          - Tools
+            * Jenkins
+            * Travis
+        
+       * Pipelines 
+          - Specify the steps that need to run to get the result you want 
+        * Artifacts
+          - The name used to describe any files that are generated as part of the pipeline
         
       
    ## Specialize
