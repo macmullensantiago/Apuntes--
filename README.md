@@ -121,6 +121,11 @@
     * Booleans
     * Strings
     
+  ### What is an Array?
+    * List, or collection of values(arrays can contain many different values of different data types
+    * Each value has an index (an index is a unique numerical value that represents the value in the array)
+    * Array Length (after an array is created, you can check its length at anytime with arrayName.length)
+    
   ### Class 
     * A template for creating instances of an object
     * A template for an abstract data type
