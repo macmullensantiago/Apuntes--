@@ -147,6 +147,57 @@
               return false;
               }
         - if no return statement is defined, the retrun result is undefined
+        
+  ### What is JSON? 
+    * JSON = JavaScript Object Notation
+    
+    // Object format
+    
+    const book = {
+      title: "1984",
+      author: "George Orwell",
+      isavailable: false,
+      };
+      
+    // Converted to JSON
+    const bookJSON = JSON.stringify(bookObbj);
+    console.log(bookJSON);
+    
+  ## What are Objects?
+  
+  * Representation of real world objects like books
+
+        const book = {
+          title: "1984",
+          author: "George Orwell",
+          isAvailable: false,
+
+        checkIn: function() {
+          this.isAvailable = true;
+          },
+
+        checkOut: function() {
+          this.isAvailable = false;
+          }
+        };
+
+        console.log(typeof book);
+
+        const book = new Object():
+        book.title = "1984";,
+        book.isAvailable = false;
+
+        book.checkIn = function() {
+          this.isAvailable =  true;
+          };
+          book.checkOut: function() {
+          this.isAvailable = false;
+          };
+
+          console.log(typeof book);
+        
+      
+      
       
   ### Class 
     * A template for creating instances of an object
