@@ -62,6 +62,12 @@
      It's a sequence of specific instructions that I do in order. Along the way I have some tests and depending on the value of that test, I may change where I am in that            sequence of instructions. 
      
       * Declarative - 
+      
+  ### What is package?
+     * A package is a reusable bundle of code and/or assets
+     * NPM - world largest software registry
+     * The npm init command allows to create a package.json file
+     
      
   ### Program is a recipe
      * Given a set fixed of primitives a good programmer can program anything.
