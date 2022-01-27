@@ -125,7 +125,29 @@
     * List, or collection of values(arrays can contain many different values of different data types
     * Each value has an index (an index is a unique numerical value that represents the value in the array)
     * Array Length (after an array is created, you can check its length at anytime with arrayName.length)
-    
+  
+  ### What is a Function?
+    * A block code that executes a routine task using a series of instructions
+    * Examples 
+      - function printThanks() {
+          console.log("Thanks for shopping");
+          console.log("Discounts expire Dec 1!");
+          }
+          
+       - function computerPrice(cost, discount) {
+            let reduction = cost*discount;
+            console.log("you have saved $"+reduction);
+            return cost-reduction;
+            }
+           
+       - Function Syntax
+            function isCountingDown(var1, var2) {
+              if (var1 > var2) 
+                return true;
+              return false;
+              }
+        - if no return statement is defined, the retrun result is undefined
+      
   ### Class 
     * A template for creating instances of an object
     * A template for an abstract data type
