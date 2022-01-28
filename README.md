@@ -112,6 +112,21 @@
         Don't measure time, instead count ops
         Expect performance to depend in size of out input
         O notation (upper bands)  OMEGA (lower bands)  THETA (both)
+        
+  ### What is terminal? What we want to use it?
+    * PWD - Full path name to current working directory
+    * ls - list of directories
+    * Mkdir - Create a directory/folder
+    * cd - change directory
+    * cd .. - navigate to parent, one level up
+    * clear - clear console
+    * arrow key up/down - Previous Commands
+    
+  ### NPM Commands
+    * NPM init - creates package JSON
+    * NPM install <package name> --save     - install package locally and add to packge JSON
+    * NPM install <package name> -g         - install package globally
+    * NPM install <package name> --save-dev - use it only in development
                             
   ### Basic Primitives                     
     * Move left
