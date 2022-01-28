@@ -50,6 +50,24 @@
     * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
     * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
     
+  # React
+    * rafce creates an r function like
+    
+    
+    
+      impor React from 'react'
+      
+      const testing = () => {
+       return (
+       <div>
+       
+       </div>
+       )
+      }
+      
+      export default testing
+      
+    
     
     
    ### What is knowledge?
