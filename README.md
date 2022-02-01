@@ -93,7 +93,7 @@
             });
             }
             
-  # Async/await 
+  # Async/Await 
      * Example  
       async function endPoint Handler(request, response) {
         try {
