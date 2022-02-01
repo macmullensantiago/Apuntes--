@@ -50,8 +50,8 @@
     * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
     * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
     
-  # What is a callback function?
-    Example:
+  # Callback
+    * Example:
       function endpointHandler(request, response) {
         User.findById(request.userID, function(err, user) {
         if (err) {
@@ -74,7 +74,7 @@
                  }
               });
              
-  # What is a Promise 
+  # Promise 
     * Example
       function endpointHandler(request, response) {
         User.findById(request.userId) 
@@ -92,6 +92,21 @@
             response.send(err);
             });
             }
+            
+  # Async/await 
+     * Example  
+      async function endPoint Handler(request, response) {
+        try {
+          var user = await User.findById(request.userId);
+          var task = await Task.findById(user.taskId);
+          task.completed = true;
+          await tasks.save();
+          response.send("Task completed");
+        } catch {
+          response.send(err);
+          }
+         }
+    
             
           
     
