@@ -73,7 +73,26 @@
                  });
                  }
               });
-                     
+             
+  # What is a Promise 
+    * Example
+      function endpointHandler(request, response) {
+        User.findById(request.userId) 
+          .then(function(user) {
+            return Tasks.findIdByUser(user.tasksId);
+           })
+           .then(function(tasks) {
+            tasks.completed = true;
+            return tasks.save();
+           })
+           .then(function () {
+            response.send("Task completed");
+            })
+            .catch(function(errors) {
+            response.send(err);
+            });
+            }
+            
           
     
   # React
