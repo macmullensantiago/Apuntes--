@@ -2,6 +2,89 @@
 
 # Think like a Computer Scientist
 
+  # Comments
+    * var number = 5; // in-line comments
+    * /* this is a 
+    ddd
+    dd
+    d
+    d
+    d
+    d
+    
+    d
+    as
+    multi-line comment */
+  # Data Types and Variables
+    * /* Data types: 
+    undefined, null, boolean, string, symbol, number, and object */
+    Data is meaningful for the computer 
+    Var stands for variable
+    
+    var myName = "Beau"
+    
+    var is going to be able to be used to throught your whole program
+    
+    
+    myName = 8
+    
+    let ourName - "freeCodeCamp"
+    
+    let will be only be used within the scope of where you declare that
+    
+    const pi = 3.14
+    
+    const is variable that should never change
+    
+    // Declarations
+      * var StUdLyCapVar;
+      * var properCamelCase;
+      * var TitleCaseOver;
+      
+    // Assignments
+      * studlyCapVar = 40;
+      * properCamelCase = "A String";
+      * titleCaseOver = 9000;
+      
+    / ******
+    CODE OUTPUT
+    \' single quote
+    \" double quote
+    \\ backslash
+    \n newline
+    \r carriage return
+    \t tab
+    \b backspace
+    \f form feed
+    ****** /
+    
+    var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
+    
+    // Example
+    var outStr = "I come first. " + "I come second.";
+    
+    // Only change the code below
+    var myStr = "This is the start." + "This is the end."
+    console.log(myStr);
+    
+    // Example 
+    var ourStr = "I come first.";
+    ourStr += "I come second.";
+    
+    // Only change the code below
+    var myStr = "This is the first sentence";
+    myStr += "This is the second sentence";
+    
+    console.log(myStr);
+    
+    
+    
+      
+     
+      
+    
+    
+
   # Coding
     * Translating one language to another
     
