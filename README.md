@@ -294,6 +294,111 @@
                 return collection;
                 }
                 
+                var myArray = [];
+                
+                var i = 0;
+                while (i < 5) {
+                  myArray.push(i);
+                  i++;
+                  }
+                  
+                  var ourArray = [];
+                  
+                  for (var i = 0; i < 5; i++);
+                    ourArray.push(i);
+                    }
+                    
+                    var myArray = [];
+                    
+                    for (var = i; i < 6; i++) {
+                      myArray.push(i);
+                     }
+                     
+                     for (var = 1; i < 10; i += 2) {
+                      myArray.push(i);
+                      }
+                      
+                     var myArr = [2,3,4,5,6];
+                     
+                     for (var i = 0; i < myArr.length; i++) {
+                      total += myArr[i];
+                      }
+                      
+                      console.log(total);
+                      
+                      var multiplyAll(arr) {
+                      var product = 1;
+                      
+                      return product;
+                      }
+                      
+                      var product = multiplyAll([[1,2],[3,4], [5,6,7]]);
+                      
+                      console.log(product);
+                      
+                      for (var i = 0; i < arr.length; i++) {
+                        for (var j = 0; j < arr[i].length; j++) {
+                          product *= arr[i][j];
+                        }
+                       } 
+                        return product;
+                        }
+
+                      var myArrar = [];
+                      var i = 10;
+                      
+                        do {
+                        myArray.push(i);
+                        i++;
+                        } while (i < 5)
+                        
+                        console.log(i, myArray);
+                        
+                       var contacts = [
+                        { 
+                          "firstName": "Akira",
+                          "lastName": "Laine",
+                          "numer": "054232548",
+                          "likes": ["Pizza", "Coding", "Brownie Points"]
+                          },
+                          {
+                          
+                          "firstName": "Harry",
+                          "lastName": "Potter",
+                          "number": "32354222",
+                          "likes": ["Hogwarts", "Magic", "Hagrid"]
+                          },
+                          {
+                          
+                          "firstName": "Sherlock",
+                          "lastName": "Potter",
+                          "number": "2235323323",
+                          "likes": ["Intriguing Cases", "Violin"]
+                          },
+                          {
+                          
+                          function lookUpProfile(name, prop) {
+                           
+                           }
+                           
+                           if(contacts[i].firstName === name) {
+                            return contacts[i][prop] || "No such property";
+                           }
+                           return "no such contact";
+                           
+                          }
+                         }
+                         
+                         var data = lookUpProfile("Akira", "likes");
+                         console.log(data);
+                          
+
+
+                     
+                     
+                     
+                     
+                  
                   
                  
                  
