@@ -188,7 +188,116 @@
               }
             }
       
-     
+      var myMusic = [
+        {
+          "artist": "Billy Joel",
+          "title": "Piano Man",
+          "release_year": 1973,
+          "formats": [
+            "CD",
+            "8T",
+            "LP",
+          ],
+            
+         "gold": true,
+     }
+      "artist": "Beau Carnes",
+      "title": "Cereal Man",
+      "release_year": 2003,
+      "formats": [
+        "Youtube video"
+       
+      ]
+      
+      var myStorage = {
+        "car": {
+          "inside": {
+            "glove inbox": "maps";
+            "passenger seat": "crumbs"
+            },
+            
+            "outside": {
+              "trunk": "jack"
+              }
+             }
+            };
+            
+          var globeBoxContext = myStorage.car.inside["glove box];
+          
+          console.log(gloveBoxContext);
+          
+          var myPlants = [
+            {
+            type: "flowers",
+            list: [
+              "rose",
+              "tulip",
+              "dandelion"
+                ]
+              },
+              {
+              type: "trees",
+              list: [
+                "fir",
+                "pine",
+                "birch"
+                ]
+               }
+              ];
+              
+            var secondTree = myPlants[1].list[1];
+            
+            var collection = {
+              "2548": {
+                "album": "Slippery when wet",
+                "artist": "Bon Jovi",
+                "tracks": [
+                  "Let it Rock",
+                  "You give Love a Band Game",
+                  ]
+                 },
+                 "2468": {
+                  "album": "1999",
+                  "artist": "Prince",
+                  "tracks": [
+                  "1999",
+                  "Little Red Corvette"
+                  ]
+                 },
+                 
+                 "1245": {
+                  "artist": "Robert Palmer",
+                  "tracks": []
+                  },
+                  
+                "5436": {
+                "album": "ABBA Gold"
+                }
+                ];
+                
+                var collectionCopy = JSON.parse(JSON.stringify(collection));
+                  if (value === "") {
+                    delete collection[id][prop];
+                  } else if (prop === "track") {
+                    collection[id][prop] = collection[id][prop] || [];
+                    collection[id][prop].push(value);
+                  } else {
+                    collection[id][prop] = value;
+                    
+                    }
+                    
+                    return collection;
+                    }
+                  
+                function updateRecords(id, prop, value) {
+                
+                return collection;
+                }
+                
+                  
+                 
+                 
+                
       
     
     
