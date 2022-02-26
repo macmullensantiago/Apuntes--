@@ -392,8 +392,84 @@
                          var data = lookUpProfile("Akira", "likes");
                          console.log(data);
                           
+                         function converToIntenger(str) {
+                          return parseInt(str, 2)
+                          }
+                          
+                          convertToIntenger("10011");
+                         
+                         function checkEqual(a, b) {
+                          if(a === b) {
+                            return true;
+                            }
+                            else {
+                            return false;
+                            }
+                           }
 
+                          checkEqual(1, 2);
+                          
+                          function checkEqual(a, b) {
+                            if a === b ? true : false;
+                            
+                            return a === b;
+                            }
+                            
+                           function checkSign(num) {
+                            return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
+                           
+                           }
+                           
+                           chekcSign(10);
+                           
+                           let catName = "Quincy";
+                           let quote;
+                           
+                           var catName = "Beau";
+                           
+                           function catTalk() {
+                            "use stric";
+                            
+                            catName = "Oliver";
+                            quote = catName + "says Meow!";
+                            }
 
+                            catTalk();
+                            
+                            function checkScope();
+                             "use strict";
+                             let i = "function scope";
+                             if (true) {
+                              let i = "block scope";
+                              console.log("Block scope i is: ", i);
+                              }
+                              console.log("Function scope i is: ", i);
+                              return i;
+                              }
+                              
+                              checkScope();
+                              
+                              function printManyTimes(str) {
+                              "use stric";
+                              
+                              var sentence = str + " is cool!";
+                              
+                              sentence = str + "is amazing!"
+                              
+                              for (var i = 0; i < str.length; i += 2) {
+                              console.log(sentence);
+                              }
+                              
+                              }
+                              
+                              printManyTimes("freeCodeCamp");
+                              
+                              
+                           
+                           
+                           
+                            
+                          
                      
                      
                      
