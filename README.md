@@ -507,9 +507,105 @@
                               const squaredIntegers = squareList(realNumberArray);
                               console.log(squaredIntegers);
                               
-                             
-                             
-                           
+   # Data Structure and Algorithms in JavaScript                          
+     /* Stacks! */ 
+     
+     // functions: push, pop, peek, length, 
+     
+     var letter = []; // this is our stack
+     
+     var word = "racecar";
+     
+     var rword = "";
+     
+     // put letter of word into stack
+     for (var i = 0; i < word.length; i++) {
+      letters.push(word[i]);
+      }
+      
+      // pop off the stack in reverse order
+      for (var i = 0; i < word.length; i++) {
+        letters.push(words[i]);
+        }
+        
+        if (rword === word) {
+          console.log(word + " is a palindrome.");
+          } 
+          else {
+          console.log(word + " is not a palindrome.");
+          
+          var Stack = function() {
+          this.count = 0;
+          this.storage = {};
+          
+          // this.push = function(value) {
+                this.storage[this.count] = value;
+                this.count++;
+                }
+                
+                this.pop = function() {
+                  if(this.count === 0) {
+                    return undefined;
+                    }
+                    
+                    this.count--;
+                    var result = this.storage[this.count];
+                    delete this.storage[this.count];
+                    return result;
+                    }
+                    
+                    this.size = function() {
+                      return this.count;
+                      }
+                      
+                      this.peek = function(value) {
+                        return this.storage[this.count-1];
+                        }
+                       }
+                       
+                       var myStack = new Stack();
+                       
+                       myStack.push(1);
+                       myStack.push(2);
+                       console.log(myStack.peek());
+                       console.log(myStack.pop());
+                       console.log(myStack.peek());
+                       myStack.push("freeCodeCamp");
+                       console.log(myStack.size());
+                       console.log(myStack.peek());
+                       console.log(myStack.pop());
+                       console.log(myStack.peek());      
+                      
+                      
+           function mySet() {
+            var collection = [];
+            this.has = function(element) {
+              return (collection.indexOf(element) !== -1);
+              };
+              
+             this.vlaues = function() {
+              return collection;
+              };
+              
+              this.add = function(element) {
+                if(!this.has(element)) {
+                  collection.push(element);
+                  return true;
+                  }
+                return false;
+                };
+                
+                this.remove = function(element) {
+                  if(this.has(element) {
+                    index = collection.indexOf(element) {
+                    collection.splice(index, 1);
+                    return true;
+                    return false;
+                    }
+                    
+      
+            
+            
                             
                           
                      
