@@ -2499,3 +2499,6 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.educative.io/blog/crack-amazon-coding-interview-questions // Amazon
       * https://lanie.dev/tech/interviewing/
       * https://www.reddit.com/r/berkeley/comments/ly5bce/i_made_a_chrome_extension_that_autofills_job_apps/ // Job filling application
+        
+   ## Para cuando no puedo pushear un proyecto a github
+      * https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
