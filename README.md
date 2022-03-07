@@ -1495,6 +1495,54 @@
     * Repository -> Project, or the folder/place where your project is 
     * Github -> A website to host your repositories online 
   
+  
+  ## Recursion 
+   Public class sumOfNaturalNumber {
+    public static int recursivesummation(int inputNumber) { inputNUmber = 2
+      if (inputNumber <= 1) 
+          return inputNumber;
+        return inputNumber + recursiveSummation(inputNumber - 1); inputNumber = 2;
+          }
+                          
+     public static void main(String[] args) {
+        int result = recursiveSummation(5);
+        int result2 = recursiveSummation(10);
+        System.out.printIn(result);
+        System.out.printIn(result2);
+            }
+          }
+        ### Binary Search
+           public static int binarySearch(int[], A, int left, int rigth, int x) {
+               if(left > right) {
+                return -1;
+             }
+            int mid = (left + right) / 2;
+              
+            if (x === A[mid]) {
+              return mid;
+  
+            if ( x < A[mid] {
+               return binarySearch(A, left, mid -1, x);
+               }
+                           
+            return binarySearch(A, mid + 1, right, x);
+              }
+                           
+           public static int binarySearch(int[] A, int left, int right, int x) {
+                if (left > right) {
+                  return -1;
+              }
+            int mid = (left + right) / 2;
+              
+            if( x == A[mid]) {
+              return binarySearch(A, left, mid - 1, x);
+                 }
+  
+              return binarySearch(A, mid + 1, right, x);
+                }
+                          
+                         
+      
  
   
   ## Git commands
