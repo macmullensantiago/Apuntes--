@@ -1540,9 +1540,63 @@
   
               return binarySearch(A, mid + 1, right, x);
                 }
-                          
-                         
-      
+              
+             public static void void mer(int[] data, int start, int mid, int end) {
+                // build temp array to avoid modifying the original contents
+                int[] temp = new[end - start + 1];
+                  
+                int i = start, j = mid + 1, k = 0;
+                
+                // while both sub-array have values, then try and merge them in sorted order
+                while (i <= mid && j <= end) {
+                  if(data[i] <= data[j]) {
+                     temp[k] = data[i];
+                     i++;
+                     k++;
+                    } else {
+                      temp[k++] = data[j++];
+                      }
+                    }
+                   while (i <= mid) {
+                    temp[k] = data[i];
+                    k++; i++;
+  
+                 }
+                while (j <= end) {
+                  temp[k] = data[j];
+                  k++; j++;
+                               
+              }
+                               
+              for ( i = start; i <= end; i++) {
+                  data[i] = temp[i - start];
+              
+            }
+           }
+        }
+  
+  ## Linked List 
+    public static ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) return head;
+        listNode p = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+        }
+  
+  ## Merge two sorted linked list 
+    public Node SortedMerge(Node A, Node B) {
+        if(A == null) return B;
+        if(B == null) return A;
+        
+        if(A.data < B.data) {
+          A.next = SortedMerge(A.next, B);
+          return A;
+        } else {
+          B.next = SortedMerge(A, B.next);
+          return B;
+        }
+       }
  
   
   ## Git commands
