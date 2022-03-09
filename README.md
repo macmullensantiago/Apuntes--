@@ -2604,3 +2604,5 @@ The public members of a class can be accessed from anywhere in the program using
         
    ## Para cuando no puedo pushear un proyecto a github
       * https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+   ## React - create-react-app 
+      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
