@@ -2654,7 +2654,29 @@ The public members of a class can be accessed from anywhere in the program using
                     if path[0] == s:
                       return path
                     return []
-                            
+                        
+                function solve(): 
+                   rq.enqueue
+                   cq.enqueue
+                   visited[sr][sc] = true
+                   while rq.size() > 0: #or cq.size() > 0
+                      r = rq.dequeue()
+                      c = dequeue() 
+                    if m[r][c] = 'E':
+                      reached_end = true
+                      break
+                    explore_neighbours(r, c)
+                    nodes_left_in_layer--
+                    if nodes_left_in_layer == 0:
+                      nodes_left_in_layer = nodes_in_next_layer
+                      nodes_left_in_next_layer = 0
+                      move_count++
+                    if reached_end:
+                      return move_count
+                     return -1
+                    
+                    
+                   
              
       
    ## Specialize
