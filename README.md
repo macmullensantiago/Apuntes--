@@ -2607,6 +2607,55 @@ The public members of a class can be accessed from anywhere in the program using
       * Start DFS at node zero
         start_node = 0
         dfs(start_node)
+        
+       function findComponent():
+          for (i = 0; i < n; i++):
+             if !visited[i]:
+               count++
+               dfs(i)
+             return (count, components)
+                            
+       function dfs(at):
+          visited[at] = true
+          components[at] = count
+          for (next : g[at]):
+            if !visited[next]:
+             dfs(next)
+                    
+        function solve(s):
+           q = queue data structures data structure with enqueue and dequeue
+           q.enqueue(s)
+           
+           visited = [false, ..., false] # size n
+           visited[s] = true
+           
+           prev = [null, ..., null] # size n
+           while !q.isEmpty():
+            node = q.dequeue()
+            neighbours = g.get(node)
+                            
+            for(next : neightbours):
+               if !visited[next]:
+                  q.enqueue(next)
+                  visited[next] = true
+                  prev[next] = node
+               return prev
+                            
+            function reconstructPath(s, e, prev):
+                
+               # Reconstruct path going backwards from e
+                   path = []
+                   for(at = e; at != null; at = prev[at]);
+                      path.add(at)
+                            
+                       path.reverse()
+                            
+                # If s and e are connected return the path 
+                    if path[0] == s:
+                      return path
+                    return []
+                            
+             
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
