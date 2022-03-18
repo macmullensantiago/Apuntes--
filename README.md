@@ -2590,6 +2590,23 @@ The public members of a class can be accessed from anywhere in the program using
         * Artifacts
           - The name used to describe any files that are generated as part of the pipeline
         
+   ## Algorithms
+      * Global or class scope variables
+        n = number of nodes in the graph
+        g = adjacency list representing graph
+        visited = [false, ..., false] # size n
+        
+        function dfs (at):
+          if visited[at]: return
+          visited[at] = true
+        
+        neighbours = graph[at]
+        for next in neightbours:
+          dfs(next)
+        
+      * Start DFS at node zero
+        start_node = 0
+        dfs(start_node)
       
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
