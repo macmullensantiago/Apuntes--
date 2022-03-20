@@ -2541,7 +2541,8 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.saulsolorzano.com/usando-git-deploy/
       * https://www.hostingplus.com.ar/blog/deploy-en-que-consiste-y-como-hacerlo/
       * https://www.linuxito.com/programacion/880-como-implementar-deploy-automatico-en-git
-      
+      * https://bit.ly/2vY88Kr
+        
    ## DevOps
       * https://lab.github.com/githubtraining/devops-with-github-actions
       * https://www.udemy.com/course/learn-complete-devops-with-python-docker-kubernetes-git/?ranMID=39197&ranEAID=d2gvurItCFk&ranSiteID=d2gvurItCFk-Kt48PBRlNPRSvA_u04C3kQ&LSNPUBID=d2gvurItCFk&utm_source=aff-campaign&utm_medium=udemyads
@@ -2692,5 +2693,8 @@ The public members of a class can be accessed from anywhere in the program using
         
    ## Para cuando no puedo pushear un proyecto a github
       * https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+        
    ## React - create-react-app 
       * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
+        
+   ## 
