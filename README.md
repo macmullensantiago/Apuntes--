@@ -1077,7 +1077,7 @@
           add(newN, agenda)
         return None
         
-        #### Stack class
+   #### Stack class
           class Stack:
             def __init__ (self):
               self.data = []
@@ -1099,7 +1099,7 @@
               def empty(self):
                  return len(self.data) == 0
                  
-          #### Search Node
+   #### Search Node
             class SearchNode:
               def __init__ (self, action, state, parent, actionCost):
                 self.state = state
@@ -1217,7 +1217,7 @@
     * Strings
      -'abc'
      
-     ### Interface(API/ADT)            vs             Data Structure
+   ### Interface(API/ADT)            vs             Data Structure
      -Specification                                   -Representation
      -What data can store                             -How to store data
      -What operations are supported & what they mean  -Algorithms to support operations
@@ -1511,7 +1511,8 @@
         System.out.printIn(result2);
             }
           }
-        ### Binary Search
+                        
+### Binary Search
            public static int binarySearch(int[], A, int left, int rigth, int x) {
                if(left > right) {
                 return -1;
