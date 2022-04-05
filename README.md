@@ -2614,11 +2614,17 @@ The public members of a class can be accessed from anywhere in the program using
           - Tools
             * Jenkins
             * Travis
+            * GitLab
         
        * Pipelines 
           - Specify the steps that need to run to get the result you want 
         * Artifacts
           - The name used to describe any files that are generated as part of the pipeline
+        
+   ## CI/CD
+        * "CI" siempre se refiere a la integración continua, que es un proceso de automatización para los desarrolladores. El éxito de la CI implica que se diseñen, prueben y combinen los cambios nuevos en el código de una aplicación con regularidad en un repositorio compartido. Supone una solución al problema de que se desarrollen demasiadas divisiones de una aplicación al mismo tiempo, que luego podrían entrar en conflicto entre sí.
+
+        * La sigla "CD" se refiere a la distribución o la implementación continuas, y se trata de conceptos relacionados que suelen usarse indistintamente. Ambos se refieren a la automatización de las etapas posteriores del proceso, pero a veces se usan por separado para explicar hasta dónde llega la automatización.
         
    ## Algorithms
       * Global or class scope variables
@@ -2726,4 +2732,4 @@ The public members of a class can be accessed from anywhere in the program using
    ## React - create-react-app 
       * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
         
-   ## 
+  
