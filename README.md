@@ -15,6 +15,7 @@
     d
     as
     multi-line comment */
+    
   # Data Types and Variables
     * /* Data types: 
     undefined, null, boolean, string, symbol, number, and object */
@@ -918,6 +919,33 @@
 
           console.log(typeof book);
         
+  ### HTTP - HyperText Transfer Protocol
+    * Application layer protocol
+    * Built on top of TCP/IP protocol
+    * Rules for transforming resources
+    * Every HTTP Request is executed independently without the knowledge of requests that came before
+    * HTTP is stateless 
+    * TCP/IP is not stateless
+    
+  ### What is REST? Representational State Pattern
+    * Architectural Pattern with design guides
+    * HTTP is usually the underlying protocol
+    * Use HTTP methods explicitly
+    * Every RESTful resource has a unique ID
+    * Client state is not persisted between request
+    * Catching policy for responses
+    * Separation of concerns between clients and servers
+    * Layered system
+    
+  ### What is an API? Aplication Programming Interface
+    * Defines server-side functions
+    * Where requests should be made
+    * Format of the request and response 
+    * No standard way of writing API's
+    * REST provides guidelines
+    * CRUD operations
+    * Create / Read / Update / Delete
+    
       
       
       
