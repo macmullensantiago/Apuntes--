@@ -2529,6 +2529,21 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.youtube.com/watch?v=fX2W3nNjJIo
       * https://www.youtube.com/watch?v=HddFGPTAmtU
       * https://www.youtube.com/watch?v=uTxRF5ag27A&t=1s
+        
+ ## Tkinter
+        
+        from tkinter import *
+          
+          root = Tk()
+          
+          def myClick():
+            myLabel = Label(root, text="Look! I clicked a button")
+            myLabel.pack()
+            
+        myButton = Button(root, text="Click Me!", command=myClick)
+        myButton.pack()
+        
+        root.mainloop()
       
  ## Resume writing
       * https://www.workitdaily.com/basic-resume-writing-tips
