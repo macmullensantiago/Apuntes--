@@ -750,8 +750,31 @@
    # DOM - Document Object Model
     * How to use JavaScript to modify a website
     
-      
-    
+   ## TypeScript
+     * class User implements UserInterface {
+        firstName: string;
+        lastName: string;
+        readongly unchangableName: string;
+        static readongly maxAge = 50;
+        
+        constructor(firstName: string, lastName: string) {
+          this.firstName = firstName;
+          this.lastName = lastName;
+          this.unchangeableName = firstName;
+          }
+          
+          changeUnchageableName(): void {
+            /* this.unchageableName = "foo"; */
+           }
+           
+          getFullName(): string {
+            return this.firstName + " " + this.lastName;
+            }
+           }
+           
+           const user = new User("Monster", "lessons");
+           console.log(user.firstName);
+           console.log(User.maxAge);
     
     
    ### What is knowledge?
