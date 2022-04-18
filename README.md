@@ -2748,11 +2748,13 @@ The public members of a class can be accessed from anywhere in the program using
                     if reached_end:
                       return move_count
                      return -1
-                    
+        
+
+        
+   ## MySQL
+        Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
                     
                    
-             
-      
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
