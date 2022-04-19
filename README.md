@@ -2567,7 +2567,38 @@ The public members of a class can be accessed from anywhere in the program using
         myButton.pack()
         
         root.mainloop()
+        
+ ## MySQL 
+        Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
+        
+      * INT
+        DECIMAL(M, N)
+        VARCHAR(l)
+        BLOB
+        DATE
+        TIMESTAMP
       
+      * CREATE TABLE student(
+          student_id INT PRIMARY KEY,
+          name VARCHAR(1000)
+          major VARCHAR(20)
+          PRIMARY KEY(student_id)
+          
+        );
+        
+        SELECT * FROM student;
+        
+        DESCRIBE student;
+        
+        DROP TABLE student;
+        
+        ALTER TABLE student ADD gpa DECIMAL(3,2);
+        
+        ALTER TABLE student DROP COLUMN gpa;
+        
+        INSERT INTO student VALUES(1, 'Jack', 'Biology'); 
+        
+        
  ## Resume writing
       * https://www.workitdaily.com/basic-resume-writing-tips
       
@@ -2748,11 +2779,7 @@ The public members of a class can be accessed from anywhere in the program using
                     if reached_end:
                       return move_count
                      return -1
-        
-
-        
-   ## MySQL
-        Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
+       
                     
                    
    ## Specialize
