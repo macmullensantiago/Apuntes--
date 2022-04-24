@@ -584,7 +584,7 @@
               return (collection.indexOf(element) !== -1);
               };
               
-             this.vlaues = function() {
+             this.values = function() {
               return collection;
               };
               
