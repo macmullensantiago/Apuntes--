@@ -1221,6 +1221,22 @@
       def getNextValues(self, state, inp):
         return (state+inp, state+inp)
         
+    * Search Minimum
+        searchMinFromList(L,n)
+          minValue = L[1]
+          counter = 2
+          while(counter <= n)
+            v = L[counter}
+            if( v < minValue)
+              minValue = v
+               else
+                  pass
+               endIF
+               endWhile
+               return MinValue
+           endSearchMinFromList
+              
+        
 ## Where things go wrong?
  
  ## Syntax
