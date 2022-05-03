@@ -972,7 +972,8 @@
     * CRUD operations
     * Create / Read / Update / Delete
     
-      
+  ### Algebra
+    * https://lindagreen.web.unc.edu/wp-content/uploads/sites/5262/2020/08/classNotes_m110_2018F.pdf
       
       
   ### Class 
