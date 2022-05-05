@@ -1242,6 +1242,9 @@
                return MinValue
            endSearchMinFromList
               
+    https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
+ 
+    https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
         
 ## Where things go wrong?
  
