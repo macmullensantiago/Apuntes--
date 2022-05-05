@@ -2,6 +2,11 @@
 
 # Think like a Computer Scientist
 
+  # What is a Database?
+    * Store           | 
+    * Manipulate      | Data
+    * Retrieve        |
+
   # Comments
     * var number = 5; // in-line comments
     * /* this is a 
