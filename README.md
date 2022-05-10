@@ -2,6 +2,9 @@
 
 # Think like a Computer Scientist
 
+  # Deep Learning
+    * https://course.fast.ai/
+
   # What is a Database?
     * Store           | 
     * Manipulate      | Data
