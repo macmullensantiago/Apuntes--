@@ -4,6 +4,9 @@
 
   # Deep Learning
     * https://course.fast.ai/
+    
+  # Firebase
+    * https://firebase.google.com/docs/build?hl=en
 
   # What is a Database?
     * Store           | 
