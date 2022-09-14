@@ -2,7 +2,13 @@
 
 # Technical Writing 
   * https://developers.google.com/tech-writing
-  * 
+ 
+# JavaScript
+ * https://javascript30.com/
+ * https://www.educative.io/explore
+ * https://javascript.info/
+ * https://learnjavascript.online/
+ * https://devdocs.io/
 
 # Think like a Computer Scientist
 
