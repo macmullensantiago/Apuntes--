@@ -1,5 +1,9 @@
 # Apuntes--
 
+# Technical Writing 
+  * https://developers.google.com/tech-writing
+  * 
+
 # Think like a Computer Scientist
 
   # Deep Learning
