@@ -1,5 +1,13 @@
 # Apuntes--
 
+# Open Source
+  * https://www.firsttimersonly.com/
+  * https://contributor.ninja/
+  * https://opensourcefriday.com/
+  * https://24pullrequests.com/
+  * https://habitica.com/static/front
+  * https://www.codetriage.com/
+  
 # Technical Writing 
   * https://developers.google.com/tech-writing
  
