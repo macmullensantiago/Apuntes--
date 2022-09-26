@@ -18,6 +18,10 @@
  * https://learnjavascript.online/
  * https://devdocs.io/
 
+# Python
+ * https://wiki.python.org.ar/aprendiendopython/
+ * https://www.python.org.ar/trabajo/
+
 # Think like a Computer Scientist
 
   # Deep Learning
