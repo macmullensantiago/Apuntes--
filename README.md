@@ -1,27 +1,5 @@
 # Apuntes--
 
-# Open Source
-  * https://www.firsttimersonly.com/
-  * https://contributor.ninja/
-  * https://opensourcefriday.com/
-  * https://24pullrequests.com/
-  * https://habitica.com/static/front
-  * https://www.codetriage.com/
-  
-# Technical Writing 
-  * https://developers.google.com/tech-writing
- 
-# JavaScript
- * https://javascript30.com/
- * https://www.educative.io/explore
- * https://javascript.info/
- * https://learnjavascript.online/
- * https://devdocs.io/
-
-# Python
- * https://wiki.python.org.ar/aprendiendopython/
- * https://www.python.org.ar/trabajo/
-
 # Think like a Computer Scientist
 
   # Deep Learning
