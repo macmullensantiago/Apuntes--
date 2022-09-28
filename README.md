@@ -1,23 +1,13 @@
 # Apuntes--
 
 # Think like a Computer Scientist
-
-  # Deep Learning
-    * https://course.fast.ai/
     
-  # Firebase
-    * https://firebase.google.com/docs/build?hl=en
-
   # What is a Database?
     * Store           | 
     * Manipulate      | Data
     * Retrieve        |
     
     * https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md
-    
-  # MongoDB
-    * https://university.mongodb.com/courses/M001/about?utm_campaign=new_students&utm_source=partner&utm_medium=referral
-    * https://university.mongodb.com/courses/M220JS/about?utm_campaign=new_students&utm_source=partner&utm_medium=referral
 
   # Comments
     * var number = 5; // in-line comments
