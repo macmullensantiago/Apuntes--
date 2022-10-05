@@ -1,7 +1,10 @@
 # Apuntes--
 
 # Think like a Computer Scientist
-    
+
+  # Cloud CS50
+    * https://www.youtube.com/watch?v=twMcvPSuDnk
+        
   # What is a Database?
     * Store           | 
     * Manipulate      | Data
@@ -613,25 +616,7 @@
                     return true;
                     return false;
                     }
-                    
-      
-            
-            
-                            
-                          
-                     
-                     
-                     
-                     
-                  
-                  
                  
-                 
-                
-      
-    
-    
-
   # Coding
     * Translating one language to another
     
