@@ -945,6 +945,13 @@
     * HTTP is stateless 
     * TCP/IP is not stateless
     
+    HTTP Verbs            CRUD
+    * GET                 * READ
+    * POST                * CREATE
+    * PUT                 * UPDATE
+    * PATCH               * UPDATE
+    * DELETE              * DELETE
+    
   ### What is REST? Representational State Pattern
     * Architectural Pattern with design guides
     * HTTP is usually the underlying protocol
@@ -1168,10 +1175,7 @@
                      return self.parent.inPath(s)
                   
                     
-             
-            
-    
-  
+          
 ### Programming Styles for Managing Complexity
     Structure of program has significant effect on its modularity
     
@@ -1288,10 +1292,6 @@
      -What data can store                             -How to store data
      -What operations are supported & what they mean  -Algorithms to support operations
      -Problem                                         -Solution
-     
-     
-     
-     
      
      
   Data                      Operations                            Commands
@@ -2794,9 +2794,7 @@ The public members of a class can be accessed from anywhere in the program using
                     if reached_end:
                       return move_count
                      return -1
-       
-                    
-                   
+                  
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
