@@ -952,6 +952,74 @@
     * PATCH               * UPDATE
     * DELETE              * DELETE
     
+  	HTTP Verbs are also known as methods. Just resources are nouns, the HTTP verbs have semantic meaning also. It is easy to understand
+    
+    * GET
+    GET requests are the most common and widely used methods in APIs and websites. Simply put, the GET method is used to retreive data from a server at the specified     resource. For example, say you have an API with a /users endpoint. Making a GET request to that endpoint should return a list of all available users.
+    Since a GET request is only requesting data and not modifying any resources, it's considered a safe and idempotent method.
+    
+    * POST
+    In web services, POST requests are used to send data to the API server to create or update a resource. The data sent to the server is stored in the request body       of the HTTP request.
+
+    The simplest example is a contact form on a website. When you fill out the inputs in a form and hit Send, that data is put in the response body of the request and    sent to the server. This may be JSON, XML, or query parameters (there's plenty of other formats, but these are the most common).
+
+    It's worth noting that a POST request is non-idempotent. It mutates data on the backend server (by creating or updating a resource), as opposed to a GET request      which does not change any data. Here is a great explanation of idempotentcy.
+    
+    * PUT
+    Simlar to POST, PUT requests are used to send data to the API to update or create a resource. The difference is that PUT requests are idempotent. That is, calling     the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly make have side effects of creating the         same resource multiple times.
+
+    Generally, when a PUT request creates a resource the server will respond with a 201 (Created), and if the request modifies existing resource the server will           return a 200 (OK) or 204 (No Content).
+    
+    * PATCH
+    A PATCH request is one of the lesser-known HTTP methods, but I'm including it this high in the list since it is similar to POST and PUT. The difference with PATCH     is that you only apply partial modifications to the resource.
+
+    The difference between PATCH and PUT, is that a PATCH request is non-idempotent (like a POST request).
+
+    To expand on partial modification, say you're API has a /users/{{userid}} endpoint, and a user has a username. With a PATCH request, you may only need to send the     updated username in the request body - as opposed to POST and PUT which require the full user entity.
+    
+    * DELETE
+    The DELETE method is exactly as it sounds: delete the resource at the specified URL. This method is one of the more common in RESTful APIs so it's good to know       how it works.
+
+    If a new user is created with a POST request to /users, and it can be retrieved with a GET request to /users/{{userid}}, then making a DELETE request to               /users/{{userid}} will completely remove that user.
+    
+    * HEAD
+    The HEAD method is almost identical to GET, except without the response body. In other words, if GET /users returns a list of users, then HEAD /users will make       the same request but won't get back the list of users.
+
+    HEAD requests are useful for checking what a GET request will return before actually making a GET request -- like before downloading a large file or response         body. Learn more about HEAD requests on MDN.
+
+    It's worth pointing out that not every endpoint that supports GET will support HEAD - it completely depends on the API you're testing.
+    
+    * OPTIONS
+    Last but not least we have OPTIONS requests. OPTIONS requests are one of my favorites, though not as widely used as the other HTTP methods. In a nutshell, an         OPTIONS request should return data describing what other methods and operations the server supports at the given URL.
+
+    OPTIONS requests are more loosely defined and used than the others, making them a good candidate to test for fatal API errors. If an API isn't expecting an           OPTIONS request, it's good to put a test case in place that verifies failing behavior.
+    
+    * POST vs PUT vs PATCHPermalink
+    POST, PUT and PATCH all modify the state, therefore sometimes can be confusion which one to use.
+    
+    * Developer DocumentationPermalink
+    Having great documentation is first step of having a great developer experience.
+
+    API documentation and developer experience
+    Design good static REST API documentation
+    API documentation guidelines
+    Google’s developer documentation style guide
+    The guide from ReadTheDocs team
+    Alternatives to Swagger for documenting REST APIs
+    Swagger - The most popular documentation tool for RESTful APIs.
+    A tutorial and guide to swagger.
+    Best pratices for documentation REST APIs
+    
+   ## JAM StackPermalink
+    JAM Stack stands for Javascript API and Markup. Usually it involves using static site generators (SSGs) to create the static Markup and Javascript and APIs to         provide the dynamic content. Since most of the Markup is statically generated, if the website is primarily content driven (like a magazine or blog) it can become     extremely scalable. Of course, APIs are key that makes this happen as well.
+
+    JAMStack.org
+    Using static site generators at scale
+    Smashing magazine moving to JAMS
+
+
+
+    
   ### What is REST? Representational State Pattern
     * Architectural Pattern with design guides
     * HTTP is usually the underlying protocol
