@@ -6,6 +6,349 @@
 
   # CSS cheetsheet
     * https://www.lesliefranke.com/files/reference/csscheatsheet.html
+  
+  # JavaScript
+  
+        ## JavaScript vs ECMAScript
+                * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
+                * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
+
+            ## Data Structure and Algorithms in JavaScript                          
+                 /* Stacks! */ 
+
+                 // functions: push, pop, peek, length, 
+
+                 var letter = []; // this is our stack
+
+                 var word = "racecar";
+
+                 var rword = "";
+
+                 // put letter of word into stack
+                 for (var i = 0; i < word.length; i++) {
+                  letters.push(word[i]);
+                  }
+
+                  // pop off the stack in reverse order
+                  for (var i = 0; i < word.length; i++) {
+                    letters.push(words[i]);
+                    }
+
+                    if (rword === word) {
+                      console.log(word + " is a palindrome.");
+                      } 
+                      else {
+                      console.log(word + " is not a palindrome.");
+
+                      var Stack = function() {
+                      this.count = 0;
+                      this.storage = {};
+
+                      // this.push = function(value) {
+                            this.storage[this.count] = value;
+                            this.count++;
+                            }
+
+                            this.pop = function() {
+                              if(this.count === 0) {
+                                return undefined;
+                                }
+
+                                this.count--;
+                                var result = this.storage[this.count];
+                                delete this.storage[this.count];
+                                return result;
+                                }
+
+                                this.size = function() {
+                                  return this.count;
+                                  }
+
+                                  this.peek = function(value) {
+                                    return this.storage[this.count-1];
+                                    }
+                                   }
+
+                                   var myStack = new Stack();
+
+                                   myStack.push(1);
+                                   myStack.push(2);
+                                   console.log(myStack.peek());
+                                   console.log(myStack.pop());
+                                   console.log(myStack.peek());
+                                   myStack.push("freeCodeCamp");
+                                   console.log(myStack.size());
+                                   console.log(myStack.peek());
+                                   console.log(myStack.pop());
+                                   console.log(myStack.peek());      
+
+
+                       function mySet() {
+                        var collection = [];
+                        this.has = function(element) {
+                          return (collection.indexOf(element) !== -1);
+                          };
+
+                         this.values = function() {
+                          return collection;
+                          };
+
+                          this.add = function(element) {
+                            if(!this.has(element)) {
+                              collection.push(element);
+                              return true;
+                              }
+                            return false;
+                            };
+
+                            this.remove = function(element) {
+                              if(this.has(element) {
+                                index = collection.indexOf(element) {
+                                collection.splice(index, 1);
+                                return true;
+                                return false;
+                                }
+
+             ### querySelectors
+
+                  * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
+
+                  * Retorna el primer elemento que cumpla con el criterio dado. Puede ser invocada sobre el document o sobre algún elemento. En caso de usarse sobre un elemento, las                 búsqueda se limita a los hijos de ese elemento. Si la búsqueda no encuentra nada, retorna null.
+
+                  * querySelectorAll
+                    Retorna todos los elementos que cumplan con el criterio dado. Al igual que querySelector puede ser invocada sobre el document o sobre algún elemento.
+
+                  * El método querySelector () de JavaScript le permite recuperar un elemento del DOM, o la página web, usando un selector de CSS. Este método viene con una función hermana         llamada querySelectorAll () que selecciona todos los elementos que coinciden con un selector particular del DOM.
+
+                    Estos dos métodos son increíblemente versátiles. Esto se debe a que la sintaxis del selector de CSS le permite seleccionar cualquier elemento de una página web.
+
+              ### getElementById
+
+                  * getElementById
+
+                   Retorna el primer elemento con el id especificado, es en muchos sentidos equivalente a hacer, querySelector('#elId'). Osea que retorna null si no hay elementos con dicho        Id.
+
+                 * The getElementById() method retrieves an element based on its ID attribute, hence the name.
+
+                    This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
+                    You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
+
+               ## Bucles
+
+                      * Un bucle o ciclo, en programación, es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de             cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.
+
+                  * For
+
+                      * El bucle for es una estructura de control en programación en la que se puede indicar de antemano el número máximo de iteraciones.
+
+                  * Elementos del bucle
+
+                      * Variable de control: prácticamente un mandato impuesto por el uso habitual es utilizar la letra i Iterador como variable de control, o bien sus sucesoras en caso de bucles anidados. El uso de esta letra críptica quizás a primera vista es sin embargo una excelente forma de aportar agilidad de lectura al código por su uso tan extensivo. Como raras veces los bucles anidados superan las tres dimensiones (por una sencilla cuestión de explosión exponencial), las letras i, j y k suelen ser las únicas relacionadas con este uso. En C se define en el primer parámetro de la instrucción junto con la inicialización (opcional).
+                      * Inicialización de la variable de control: en pseudolenguaje se pide explicitarlo (es la sección := ValorInicial), sin embargo, otros lenguajes más permisivos como C no lo requieren de forma obligatoria. De todos modos, la práctica de utilizar variables de control que no se inicializan en el bucle no es recomendada para la           legibilidad del código. En C se define en el primer parámetro del bucle junto con la variable de control.
+                      * Condición de control: en pseudolenguaje se ve representado por el valor final que puede tomar la variable de control (la sección A ValorFinal). En C es el segundo parámetro y puede ser cualquier condición (ni siquiera es obligación que esté la variable de control, aunque una vez más, esto no se considera una buena práctica).
+                      * Incremento: en pseudolenguaje se toma por defecto el valor 1, aunque puede explicitarse por medio de la sentencia PASO = ValorPaso cualquier número entero (léase) bien entero, o sea que técnicamente podemos decrementar). En C es el último parámetro.
+                      * Cuerpo: es lo que se hará en cada iteración, pueden ser una o más instrucciones. En pseudolenguaje pesa la restricción de no poder alterar el valor de la variable de control; esto no es requerido en C, pero no se considera una buena práctica.
+
+                    * While
+
+                      * El bucle while o bucle mientras es un ciclo repetitivo basado en los resultados de una expresión lógica; se encuentra en la mayoría de los lenguajes de programación              estructurados. El propósito es repetir un bloque de código mientras una condición se mantenga verdadera.
+
+                      * La condición ha de ser una sentencia que devuelva un valor booleano, y esta puede ser el valor booleano sí, verdadero (true) si la condición se cumple, o falso si                esta no se cumple (false). También puede contener el nombre de una variable booleana, y el valor de la expresión dependerá de su contenido. Se debe tener en cuenta              que además de las variables también puede haber llamadas a funciones que devuelvan un valor.
+
+                    * Do-While
+
+                        * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
+
+              ## ForEach
+
+                * The forEach() method calls a function once for each element in an array, in order.
+
+                 forEach() is not executed for array elements without values.
+
+                * The forEach() method executes a provided function once for each array element.
+
+                * Foreach (de la palabra inglesa for each = para cada uno) es un bloque constructivo de los lenguajes de programación para recorrer los elementos de una colección. Foreach        se utiliza por lo general en lugar de una norma para la declaración. A diferencia de otras construcciones de bucle, los bucles foreach por lo general no mantienen contra-        indicación explícita, que esencialmente dice "haga esto a todo en este juego" en lugar de "hacer esto x veces." Esto evita posibles errores off-by-one y hace el código más      fácil de leer. En lenguajes orientados a objetos un iterador, aunque implícito, a menudo se utiliza como medio de recorrido. Este bucle, implementado a partir de las            versiones de PHP4, nos ayuda a recorrer los valores de un array, lo cual puede resultar muy útil por ejemplo para efectuar una lectura rápida del mismo. Recordemos que un        array es una variable que guarda un conjunto de elementos (valores) catalogados por claves
+
+            ## addEventListener 
+
+                * The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.
+
+              ### Events and Events Handler 
+
+                 *  Understanding Events and Event Handlers
+
+                    Events are actions that happen when the user or browser manipulates a page. They play an important role as they can cause elements of a web page to change dynamically.
+
+                    For example, when the browser finishes loading a document, then a load event occurred. If a user clicks a button on a page, then a click event has happened.
+
+                    Many events can happen once, multiple times, or never. You also may not know when an event will happen, especially if it is user generated.
+
+                    In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
+
+            # Callback
+                * Example:
+                  function endpointHandler(request, response) {
+                    User.findById(request.userID, function(err, user) {
+                    if (err) {
+                       response.send(err);
+                      } else {
+                        Task.findById(user.tasksId, function(err, tasks) {
+                          if(err) {
+                            return response.send(err);
+                        } else {
+                             task.completed = true;
+                             task.save(function, err) {
+                                if(err) {
+                                  return.response.send(err);
+                                 } else {
+                                    response.send("Task completed");
+                                     }
+                                  });
+                                 }
+                             });
+                             }
+                          });
+
+            # Promise 
+                * Example
+                  function endpointHandler(request, response) {
+                    User.findById(request.userId) 
+                      .then(function(user) {
+                        return Tasks.findIdByUser(user.tasksId);
+                       })
+                       .then(function(tasks) {
+                        tasks.completed = true;
+                        return tasks.save();
+                       })
+                       .then(function () {
+                        response.send("Task completed");
+                        })
+                        .catch(function(errors) {
+                        response.send(err);
+                        });
+                        }
+
+            # Async/Await 
+                 * Example  
+                  async function endPoint Handler(request, response) {
+                    try {
+                      var user = await User.findById(request.userId);
+                      var task = await Task.findById(user.taskId);
+                      task.completed = true;
+                      await tasks.save();
+                      response.send("Task completed");
+                    } catch {
+                      response.send(err);
+                      }
+                     }
+
+ # React
+    * rafce creates an r function like
+    
+    
+    
+      impor React from 'react'
+      
+      const testing = () => {
+       return (
+       <div>
+       
+       </div>
+       )
+      }
+      
+      export default testing
+      
+    ## React - create-react-app 
+      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
+  
+ # Python 
+ 
+    * def combines operations into a procedure and binds a name to it
+    * lists provide flexible and hierarchical structure for data
+    * variables associates names with data
+    * classes associates data (attributes) and procedures (methods)
+    
+                                  Procedures                  Data
+    Primitives                    +, *, ==, !=                numbers, booleans, strings
+    Combination                   if, while, f(g(x))          lists, dictionaries, objects
+    Abstraction                   def                         classes
+    Patterns                      higher-order procedures     super-classes, sub-classes
+  
+  
+    def selfComposition(somefunction)
+      def returnFunction(*args):
+        return someFunction()
+          someFunction(*args)
+            return returnFunction
+            
+    >class Accumulator(SM):
+      def __init__ (self, initial vlaue):
+        selfstartState = initialValue
+      def getNextValues(self, state, inp):
+        return (state+inp, state+inp)
+        
+    * Search Minimum
+        searchMinFromList(L,n)
+          minValue = L[1]
+          counter = 2
+          while(counter <= n)
+            v = L[counter}
+            if( v < minValue)
+              minValue = v
+               else
+                  pass
+               endIF
+               endWhile
+               return MinValue
+           endSearchMinFromList
+              
+    https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
+ 
+    https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
+    
+  ### Search Algorithms in Python 
+
+    def search(initialState, goalTest, actions, succesor):
+      if goalTest(initialState):
+        return [{None, initialState}]
+      agenda = [SearchNode(None, initialState, None)]
+      
+    def search(initialState, goalTest, actions, succesor):
+      return [(None, initialState)]
+    agenda = [searchNode(None, initialState, None)]
+    while not empty(agenda):
+      parent = getElement(agenda)
+      for a in actions:
+        newS = successor(parent.state, a)
+        newN = SearchNode(a, newS, parent)
+        if goalTest(newS):
+          return newN.path()
+        else:
+          add(newN, agenda)
+        return None
+    
+# DJANGO
+    * https://www.dj4e.com/
+      
+# DOM - Document Object Model
+    * How to use JavaScript to modify a website
+  
+# What is JSON? 
+    * JSON = JavaScript Object Notation
+    
+    // Object format
+    
+    const book = {
+      title: "1984",
+      author: "George Orwell",
+      isavailable: false,
+      };
+      
+    // Converted to JSON
+    const bookJSON = JSON.stringify(bookObbj);
+    console.log(bookJSON);
+    
    
   # Data Structures & Algorithms
       * A data structure is a way to store and organize data in a computer so that it can be used efficiently
@@ -515,6 +858,7 @@
                        - 3.14 - floating point
                       * Strings
                        -'abc'
+                       
           ## Data Structures
               * Arrays                                                        * Sorting, searching, and binary search
               * Linked list                                                   * Divide and conquer
@@ -525,8 +869,96 @@
               * Binary Trees
               * Heaps
               * Graph
-    
-   
+              
+      ## Binary Search
+                          
+           public static int binarySearch(int[], A, int left, int rigth, int x) {
+               if(left > right) {
+                return -1;
+             }
+            int mid = (left + right) / 2;
+              
+            if (x === A[mid]) {
+              return mid;
+  
+            if ( x < A[mid] {
+               return binarySearch(A, left, mid -1, x);
+               }
+                           
+            return binarySearch(A, mid + 1, right, x);
+              }
+                           
+           public static int binarySearch(int[] A, int left, int right, int x) {
+                if (left > right) {
+                  return -1;
+              }
+            int mid = (left + right) / 2;
+              
+            if( x == A[mid]) {
+              return binarySearch(A, left, mid - 1, x);
+                 }
+  
+              return binarySearch(A, mid + 1, right, x);
+                }
+              
+             public static void void mer(int[] data, int start, int mid, int end) {
+                // build temp array to avoid modifying the original contents
+                int[] temp = new[end - start + 1];
+                  
+                int i = start, j = mid + 1, k = 0;
+                
+                // while both sub-array have values, then try and merge them in sorted order
+                while (i <= mid && j <= end) {
+                  if(data[i] <= data[j]) {
+                     temp[k] = data[i];
+                     i++;
+                     k++;
+                    } else {
+                      temp[k++] = data[j++];
+                      }
+                    }
+                   while (i <= mid) {
+                    temp[k] = data[i];
+                    k++; i++;
+  
+                 }
+                while (j <= end) {
+                  temp[k] = data[j];
+                  k++; j++;
+                               
+              }
+                               
+              for ( i = start; i <= end; i++) {
+                  data[i] = temp[i - start];
+              
+            }
+           }
+        }
+  
+      ## Linked List 
+
+        public static ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) return head;
+            listNode p = reverseList(head.next);
+            head.next.next = head;
+            head.next = null;
+            return p;
+            }
+
+      ## Merge two sorted linked list 
+
+        public Node SortedMerge(Node A, Node B) {
+            if(A == null) return B;
+            if(B == null) return A;
+
+            if(A.data < B.data) {
+              A.next = SortedMerge(A.next, B);
+              return A;
+            } else {
+              B.next = SortedMerge(A, B.next);
+              return B;
+            }
+           }
                           
        ### What is an algorithm?
         * An algortihm is a function, it takes inputs to outputs
@@ -810,6 +1242,7 @@
           console.log(typeof book);
         
   ### HTTP - HyperText Transfer Protocol
+  
     * Application layer protocol
     * Built on top of TCP/IP protocol
     * Rules for transforming resources
@@ -913,6 +1346,7 @@
     * https://lindagreen.web.unc.edu/wp-content/uploads/sites/5262/2020/08/classNotes_m110_2018F.pdf
            
   ### What is a Class?
+  
     * Blueprints for creating bundles of data and code that are related
     * A "Car" class can have attributes that describe its brand, model, color, miles, and anything else descriptive; these are also know as "fields".
     * A "Car" class can also have "methods" that define its behavior, such as "accelerate", "turn", "honk", and more, wich take the form of functions.
@@ -928,6 +1362,7 @@
                      drive()
                      
    ### Class 
+   
     * A template for creating instances of an object
     * A template for an abstract data type
     * Is used to make instances, meaning particular versions of that structure
@@ -1180,7 +1615,6 @@
   
     
  ### Languages
-  
         We have
           * Assignment
           * Conditionals
@@ -1343,7 +1777,7 @@
 
             
  # The Cloud
-            
+      
         * Basically is using someone else's server to put your data.
          
         * It makes much easier for people and smaller companies to scale automatically.
@@ -1361,378 +1795,9 @@
   
   ## Cloud CS50
         * https://www.youtube.com/watch?v=twMcvPSuDnk
-  
- # JavaScript
-  
-  ## JavaScript vs ECMAScript
-    * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
-    * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
-  
-  ## Data Structure and Algorithms in JavaScript                          
-     /* Stacks! */ 
-     
-     // functions: push, pop, peek, length, 
-     
-     var letter = []; // this is our stack
-     
-     var word = "racecar";
-     
-     var rword = "";
-     
-     // put letter of word into stack
-     for (var i = 0; i < word.length; i++) {
-      letters.push(word[i]);
-      }
-      
-      // pop off the stack in reverse order
-      for (var i = 0; i < word.length; i++) {
-        letters.push(words[i]);
-        }
-        
-        if (rword === word) {
-          console.log(word + " is a palindrome.");
-          } 
-          else {
-          console.log(word + " is not a palindrome.");
-          
-          var Stack = function() {
-          this.count = 0;
-          this.storage = {};
-          
-          // this.push = function(value) {
-                this.storage[this.count] = value;
-                this.count++;
-                }
-                
-                this.pop = function() {
-                  if(this.count === 0) {
-                    return undefined;
-                    }
-                    
-                    this.count--;
-                    var result = this.storage[this.count];
-                    delete this.storage[this.count];
-                    return result;
-                    }
-                    
-                    this.size = function() {
-                      return this.count;
-                      }
-                      
-                      this.peek = function(value) {
-                        return this.storage[this.count-1];
-                        }
-                       }
-                       
-                       var myStack = new Stack();
-                       
-                       myStack.push(1);
-                       myStack.push(2);
-                       console.log(myStack.peek());
-                       console.log(myStack.pop());
-                       console.log(myStack.peek());
-                       myStack.push("freeCodeCamp");
-                       console.log(myStack.size());
-                       console.log(myStack.peek());
-                       console.log(myStack.pop());
-                       console.log(myStack.peek());      
-                      
-                      
-           function mySet() {
-            var collection = [];
-            this.has = function(element) {
-              return (collection.indexOf(element) !== -1);
-              };
-              
-             this.values = function() {
-              return collection;
-              };
-              
-              this.add = function(element) {
-                if(!this.has(element)) {
-                  collection.push(element);
-                  return true;
-                  }
-                return false;
-                };
-                
-                this.remove = function(element) {
-                  if(this.has(element) {
-                    index = collection.indexOf(element) {
-                    collection.splice(index, 1);
-                    return true;
-                    return false;
-                    }
-     
- ### querySelectors
- 
-      * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
-   
-      * Retorna el primer elemento que cumpla con el criterio dado. Puede ser invocada sobre el document o sobre algún elemento. En caso de usarse sobre un elemento, las                 búsqueda se limita a los hijos de ese elemento. Si la búsqueda no encuentra nada, retorna null.
-      
-      * querySelectorAll
-        Retorna todos los elementos que cumplan con el criterio dado. Al igual que querySelector puede ser invocada sobre el document o sobre algún elemento.
-       
-      * El método querySelector () de JavaScript le permite recuperar un elemento del DOM, o la página web, usando un selector de CSS. Este método viene con una función hermana         llamada querySelectorAll () que selecciona todos los elementos que coinciden con un selector particular del DOM.
-
-        Estos dos métodos son increíblemente versátiles. Esto se debe a que la sintaxis del selector de CSS le permite seleccionar cualquier elemento de una página web.
-        
-  ### getElementById
-  
-      * getElementById
-      
-       Retorna el primer elemento con el id especificado, es en muchos sentidos equivalente a hacer, querySelector('#elId'). Osea que retorna null si no hay elementos con dicho        Id.
-      
-     * The getElementById() method retrieves an element based on its ID attribute, hence the name.
-     
-        This method is more restrictive than querySelector because you can only retrieve elements based on their particular ID.
-        You would use this method if you only want to retrieve one element from the web page. This is because HTML IDs must be unique to a particular element. You cannot use an         ID to refer to two elements on the web page.
-        
-   ## Bucles
-      
-          * Un bucle o ciclo, en programación, es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de             cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.
-      
-      * For
-      
-          * El bucle for es una estructura de control en programación en la que se puede indicar de antemano el número máximo de iteraciones.
-        
-      * Elementos del bucle
-      
-          * Variable de control: prácticamente un mandato impuesto por el uso habitual es utilizar la letra i Iterador como variable de control, o bien sus sucesoras en caso de bucles anidados. El uso de esta letra críptica quizás a primera vista es sin embargo una excelente forma de aportar agilidad de lectura al código por su uso tan extensivo. Como raras veces los bucles anidados superan las tres dimensiones (por una sencilla cuestión de explosión exponencial), las letras i, j y k suelen ser las únicas relacionadas con este uso. En C se define en el primer parámetro de la instrucción junto con la inicialización (opcional).
-          * Inicialización de la variable de control: en pseudolenguaje se pide explicitarlo (es la sección := ValorInicial), sin embargo, otros lenguajes más permisivos como C no lo requieren de forma obligatoria. De todos modos, la práctica de utilizar variables de control que no se inicializan en el bucle no es recomendada para la           legibilidad del código. En C se define en el primer parámetro del bucle junto con la variable de control.
-          * Condición de control: en pseudolenguaje se ve representado por el valor final que puede tomar la variable de control (la sección A ValorFinal). En C es el segundo parámetro y puede ser cualquier condición (ni siquiera es obligación que esté la variable de control, aunque una vez más, esto no se considera una buena práctica).
-          * Incremento: en pseudolenguaje se toma por defecto el valor 1, aunque puede explicitarse por medio de la sentencia PASO = ValorPaso cualquier número entero (léase) bien entero, o sea que técnicamente podemos decrementar). En C es el último parámetro.
-          * Cuerpo: es lo que se hará en cada iteración, pueden ser una o más instrucciones. En pseudolenguaje pesa la restricción de no poder alterar el valor de la variable de control; esto no es requerido en C, pero no se considera una buena práctica.
-   
-        * While
-     
-          * El bucle while o bucle mientras es un ciclo repetitivo basado en los resultados de una expresión lógica; se encuentra en la mayoría de los lenguajes de programación              estructurados. El propósito es repetir un bloque de código mientras una condición se mantenga verdadera.
-   
-          * La condición ha de ser una sentencia que devuelva un valor booleano, y esta puede ser el valor booleano sí, verdadero (true) si la condición se cumple, o falso si                esta no se cumple (false). También puede contener el nombre de una variable booleana, y el valor de la expresión dependerá de su contenido. Se debe tener en cuenta              que además de las variables también puede haber llamadas a funciones que devuelvan un valor.
-   
-        * Do-While
-   
-            * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
             
-  ## ForEach
-
-    * The forEach() method calls a function once for each element in an array, in order.
-
-     forEach() is not executed for array elements without values.
-
-    * The forEach() method executes a provided function once for each array element.
-
-    * Foreach (de la palabra inglesa for each = para cada uno) es un bloque constructivo de los lenguajes de programación para recorrer los elementos de una colección. Foreach        se utiliza por lo general en lugar de una norma para la declaración. A diferencia de otras construcciones de bucle, los bucles foreach por lo general no mantienen contra-        indicación explícita, que esencialmente dice "haga esto a todo en este juego" en lugar de "hacer esto x veces." Esto evita posibles errores off-by-one y hace el código más      fácil de leer. En lenguajes orientados a objetos un iterador, aunque implícito, a menudo se utiliza como medio de recorrido. Este bucle, implementado a partir de las            versiones de PHP4, nos ayuda a recorrer los valores de un array, lo cual puede resultar muy útil por ejemplo para efectuar una lectura rápida del mismo. Recordemos que un        array es una variable que guarda un conjunto de elementos (valores) catalogados por claves
-
-## addEventListener 
-
-    * The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.
+  # Git - GitHub
   
-  ### Events and Events Handler 
-    
-     *  Understanding Events and Event Handlers
-     
-        Events are actions that happen when the user or browser manipulates a page. They play an important role as they can cause elements of a web page to change dynamically.
-
-        For example, when the browser finishes loading a document, then a load event occurred. If a user clicks a button on a page, then a click event has happened.
-
-        Many events can happen once, multiple times, or never. You also may not know when an event will happen, especially if it is user generated.
-
-        In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
-  
-  # Callback
-    * Example:
-      function endpointHandler(request, response) {
-        User.findById(request.userID, function(err, user) {
-        if (err) {
-           response.send(err);
-          } else {
-            Task.findById(user.tasksId, function(err, tasks) {
-              if(err) {
-                return response.send(err);
-            } else {
-                 task.completed = true;
-                 task.save(function, err) {
-                    if(err) {
-                      return.response.send(err);
-                     } else {
-                        response.send("Task completed");
-                         }
-                      });
-                     }
-                 });
-                 }
-              });
-             
-  # Promise 
-    * Example
-      function endpointHandler(request, response) {
-        User.findById(request.userId) 
-          .then(function(user) {
-            return Tasks.findIdByUser(user.tasksId);
-           })
-           .then(function(tasks) {
-            tasks.completed = true;
-            return tasks.save();
-           })
-           .then(function () {
-            response.send("Task completed");
-            })
-            .catch(function(errors) {
-            response.send(err);
-            });
-            }
-            
-  # Async/Await 
-     * Example  
-      async function endPoint Handler(request, response) {
-        try {
-          var user = await User.findById(request.userId);
-          var task = await Task.findById(user.taskId);
-          task.completed = true;
-          await tasks.save();
-          response.send("Task completed");
-        } catch {
-          response.send(err);
-          }
-         }
-    
- # React
-    * rafce creates an r function like
-    
-    
-    
-      impor React from 'react'
-      
-      const testing = () => {
-       return (
-       <div>
-       
-       </div>
-       )
-      }
-      
-      export default testing
-      
-    ## React - create-react-app 
-      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
-  
- # Python 
-    * def combines operations into a procedure and binds a name to it
-    * lists provide flexible and hierarchical structure for data
-    * variables associates names with data
-    * classes associates data (attributes) and procedures (methods)
-    
-                                  Procedures                  Data
-    Primitives                    +, *, ==, !=                numbers, booleans, strings
-    Combination                   if, while, f(g(x))          lists, dictionaries, objects
-    Abstraction                   def                         classes
-    Patterns                      higher-order procedures     super-classes, sub-classes
-  
-  
-    def selfComposition(somefunction)
-      def returnFunction(*args):
-        return someFunction()
-          someFunction(*args)
-            return returnFunction
-            
-    >class Accumulator(SM):
-      def __init__ (self, initial vlaue):
-        selfstartState = initialValue
-      def getNextValues(self, state, inp):
-        return (state+inp, state+inp)
-        
-    * Search Minimum
-        searchMinFromList(L,n)
-          minValue = L[1]
-          counter = 2
-          while(counter <= n)
-            v = L[counter}
-            if( v < minValue)
-              minValue = v
-               else
-                  pass
-               endIF
-               endWhile
-               return MinValue
-           endSearchMinFromList
-              
-    https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
- 
-    https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
-    
-  ### Search Algorithms in Python 
-
-    def search(initialState, goalTest, actions, succesor):
-      if goalTest(initialState):
-        return [{None, initialState}]
-      agenda = [SearchNode(None, initialState, None)]
-      
-    def search(initialState, goalTest, actions, succesor):
-      return [(None, initialState)]
-    agenda = [searchNode(None, initialState, None)]
-    while not empty(agenda):
-      parent = getElement(agenda)
-      for a in actions:
-        newS = successor(parent.state, a)
-        newN = SearchNode(a, newS, parent)
-        if goalTest(newS):
-          return newN.path()
-        else:
-          add(newN, agenda)
-        return None
-    
-# DJANGO
-    * https://www.dj4e.com/
-      
-# DOM - Document Object Model
-    * How to use JavaScript to modify a website
-  
-# What is JSON? 
-    * JSON = JavaScript Object Notation
-    
-    // Object format
-    
-    const book = {
-      title: "1984",
-      author: "George Orwell",
-      isavailable: false,
-      };
-      
-    // Converted to JSON
-    const bookJSON = JSON.stringify(bookObbj);
-    console.log(bookJSON);
-    
-    
-     ### TypeScript
-       * class User implements UserInterface {
-          firstName: string;
-          lastName: string;
-          readongly unchangableName: string;
-          static readongly maxAge = 50;
-
-          constructor(firstName: string, lastName: string) {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.unchangeableName = firstName;
-            }
-
-            changeUnchageableName(): void {
-              /* this.unchageableName = "foo"; */
-             }
-
-            getFullName(): string {
-              return this.firstName + " " + this.lastName;
-              }
-             }
-
-             const user = new User("Monster", "lessons");
-             console.log(user.firstName);
-             console.log(User.maxAge);
-    
-            
-   # Git - GitHub
-   
      ## What is Git?
       * Free an open source version control system
 
@@ -1766,97 +1831,7 @@
         System.out.printIn(result2);
             }
           }
-                        
- ## Binary Search
-                          
-           public static int binarySearch(int[], A, int left, int rigth, int x) {
-               if(left > right) {
-                return -1;
-             }
-            int mid = (left + right) / 2;
-              
-            if (x === A[mid]) {
-              return mid;
-  
-            if ( x < A[mid] {
-               return binarySearch(A, left, mid -1, x);
-               }
-                           
-            return binarySearch(A, mid + 1, right, x);
-              }
-                           
-           public static int binarySearch(int[] A, int left, int right, int x) {
-                if (left > right) {
-                  return -1;
-              }
-            int mid = (left + right) / 2;
-              
-            if( x == A[mid]) {
-              return binarySearch(A, left, mid - 1, x);
-                 }
-  
-              return binarySearch(A, mid + 1, right, x);
-                }
-              
-             public static void void mer(int[] data, int start, int mid, int end) {
-                // build temp array to avoid modifying the original contents
-                int[] temp = new[end - start + 1];
-                  
-                int i = start, j = mid + 1, k = 0;
-                
-                // while both sub-array have values, then try and merge them in sorted order
-                while (i <= mid && j <= end) {
-                  if(data[i] <= data[j]) {
-                     temp[k] = data[i];
-                     i++;
-                     k++;
-                    } else {
-                      temp[k++] = data[j++];
-                      }
-                    }
-                   while (i <= mid) {
-                    temp[k] = data[i];
-                    k++; i++;
-  
-                 }
-                while (j <= end) {
-                  temp[k] = data[j];
-                  k++; j++;
-                               
-              }
-                               
-              for ( i = start; i <= end; i++) {
-                  data[i] = temp[i - start];
-              
-            }
-           }
-        }
-  
-  ## Linked List 
-  
-    public static ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) return head;
-        listNode p = reverseList(head.next);
-        head.next.next = head;
-        head.next = null;
-        return p;
-        }
-  
-  ## Merge two sorted linked list 
-  
-    public Node SortedMerge(Node A, Node B) {
-        if(A == null) return B;
-        if(B == null) return A;
-        
-        if(A.data < B.data) {
-          A.next = SortedMerge(A.next, B);
-          return A;
-        } else {
-          B.next = SortedMerge(A, B.next);
-          return B;
-        }
-       }
- 
+                      
   
   ## Git commands
                            
