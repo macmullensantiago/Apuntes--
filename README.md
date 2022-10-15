@@ -2,639 +2,642 @@
 
 # Think like a Computer Scientist
 
+  # HTML
+
   # CSS cheetsheet
     * https://www.lesliefranke.com/files/reference/csscheatsheet.html
    
-  # Data Structure 
+  # Data Structures & Algorithms
       * A data structure is a way to store and organize data in a computer so that it can be used efficiently
     
-  # Data Types and Variables
-    * /* Data types: 
-    undefined, null, boolean, string, symbol, number, and object */
-    Data is meaningful for the computer 
-    Var stands for variable
-    
-    var myName = "Beau"
-    
-    var is going to be able to be used to throught your whole program
-    
-    
-    myName = 8
-    
-    let ourName - "freeCodeCamp"
-    
-    let will be only be used within the scope of where you declare that
-    
-    const pi = 3.14
-    
-    const is variable that should never change
-    
-    // Declarations
-      * var StUdLyCapVar;
-      * var properCamelCase;
-      * var TitleCaseOver;
-      
-    // Assignments
-      * studlyCapVar = 40;
-      * properCamelCase = "A String";
-      * titleCaseOver = 9000;
-      
-    / ******
-    CODE OUTPUT
-    \' single quote
-    \" double quote
-    \\ backslash
-    \n newline
-    \r carriage return
-    \t tab
-    \b backspace
-    \f form feed
-    ****** /
-    
-    var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
-    
-    // Example
-    var outStr = "I come first. " + "I come second.";
-    
-    // Only change the code below
-    var myStr = "This is the start." + "This is the end."
-    console.log(myStr);
-    
-    // Example 
-    var ourStr = "I come first.";
-    ourStr += "I come second.";
-    
-    // Only change the code below
-    var myStr = "This is the first sentence";
-    myStr += "This is the second sentence";
-    
-    console.log(myStr);
-    
-    // Declare your variable here
-    var myGlobal = 10;
-    
-    function fun1() {
-      // Assign 5 to oopsGlobal Here
-      
-      
-      }
+             ## Data Types and Variables
+                * /* Data types: 
+                undefined, null, boolean, string, symbol, number, and object */
+                Data is meaningful for the computer 
+                Var stands for variable
+
+                var myName = "Beau"
+
+                var is going to be able to be used to throught your whole program
 
 
-      // Only change code above this line
-      function fun2() {
-        var output = "";
-        if (typeof myGlobal != "undefined") {
-          output += "myGlobal: " + myGlobal;
-          }
-          
-        if (typeof oopsGlobal != "undefined") {
-          output += " oopsGloba: " + oopsGlobal;
-          }
-          console.log(output);
-          }
-          
-          fun1();
-          fun2();
-          
-    // Assign 5 to oopsGlobal
-    oopsGLobal = 5;
-    }
-    
-    // Objects
-    var ourDog = {
-      "name": "Camper",
-      "legs": "4,
-      "tails": 1,
-      "friends": ["everything!"]
-      };
-      
-      var myDog = {
-        "name": "Quincy"
-        "legs": 3,
-        "tails": 2,
-        "friends": []
-        };
-        
-      var testObj = {
-        "hat": "ballcap",
-        "shirt": "jersey",
-        "shoes": "cleats",
-        };
-        
-        var hatValue = testObj.hat;
-        var shirtValue = testObj.shirt;
-        
-        var testObj = {
-          "an entree": "hamburger",
-          "my side": "veggies",
-          "the drink": "water",
-          };
-          
-          var entreeValue = testObj{"an entree"];
-          var drinkValue = testObj['The drink'];
-        
-        function phoneticLookUp(val) {
-          var result = "";
-          
-          
-          var lookup {
-            "alpha": "Adams",
-            "bravo": "Boston",
-            "charlie": "Chicago",
-            "delta": "Denver",
-            "echo": "Easy",
-            "foxtrot": "frank",
-            };
-            result = lookup[val];
-          switch(val) {
-            case "alpha":   
-              result = "Adams";
-              break;
-            case "bravo":
-              result = "Boston";
-              break;
-            case "charlie":
-              result = "Chicago";
-              break;
-            case "delta": 
-              result = "Denver";
-              break;
-            case "echo":
-              result = "Easy";
-              break;
-            case "foxtrot":
-              result = "Frank"
-              break;
-              
-          var myObj = {
-            gift: "pony";
-            pet: "kitten";
-            bed: "sleigh";
-            };
-            
-            function checkObj(checkProp) {
-              if (myObj.hasOwnProperty(checkProp)) {
-                return myObj[checkProp];
-              } else {
-                return "Not Found";
-              return "Change Me!";
-              }
-            }
-      
-      var myMusic = [
-        {
-          "artist": "Billy Joel",
-          "title": "Piano Man",
-          "release_year": 1973,
-          "formats": [
-            "CD",
-            "8T",
-            "LP",
-          ],
-            
-         "gold": true,
-     }
-      "artist": "Beau Carnes",
-      "title": "Cereal Man",
-      "release_year": 2003,
-      "formats": [
-        "Youtube video"
-       
-      ]
-      
-      var myStorage = {
-        "car": {
-          "inside": {
-            "glove inbox": "maps";
-            "passenger seat": "crumbs"
-            },
-            
-            "outside": {
-              "trunk": "jack"
-              }
-             }
-            };
-            
-          var globeBoxContext = myStorage.car.inside["glove box];
-          
-          console.log(gloveBoxContext);
-          
-          var myPlants = [
-            {
-            type: "flowers",
-            list: [
-              "rose",
-              "tulip",
-              "dandelion"
-                ]
-              },
-              {
-              type: "trees",
-              list: [
-                "fir",
-                "pine",
-                "birch"
-                ]
-               }
-              ];
-              
-            var secondTree = myPlants[1].list[1];
-            
-            var collection = {
-              "2548": {
-                "album": "Slippery when wet",
-                "artist": "Bon Jovi",
-                "tracks": [
-                  "Let it Rock",
-                  "You give Love a Band Game",
-                  ]
-                 },
-                 "2468": {
-                  "album": "1999",
-                  "artist": "Prince",
-                  "tracks": [
-                  "1999",
-                  "Little Red Corvette"
-                  ]
-                 },
-                 
-                 "1245": {
-                  "artist": "Robert Palmer",
-                  "tracks": []
-                  },
-                  
-                "5436": {
-                "album": "ABBA Gold"
-                }
-                ];
-                
-                var collectionCopy = JSON.parse(JSON.stringify(collection));
-                  if (value === "") {
-                    delete collection[id][prop];
-                  } else if (prop === "track") {
-                    collection[id][prop] = collection[id][prop] || [];
-                    collection[id][prop].push(value);
-                  } else {
-                    collection[id][prop] = value;
-                    
-                    }
-                    
-                    return collection;
-                    }
-                  
-                function updateRecords(id, prop, value) {
-                
-                return collection;
-                }
-                
-                var myArray = [];
-                
-                var i = 0;
-                while (i < 5) {
-                  myArray.push(i);
-                  i++;
+                myName = 8
+
+                let ourName - "freeCodeCamp"
+
+                let will be only be used within the scope of where you declare that
+
+                const pi = 3.14
+
+                const is variable that should never change
+
+                // Declarations
+                  * var StUdLyCapVar;
+                  * var properCamelCase;
+                  * var TitleCaseOver;
+
+                // Assignments
+                  * studlyCapVar = 40;
+                  * properCamelCase = "A String";
+                  * titleCaseOver = 9000;
+
+                / ******
+                CODE OUTPUT
+                \' single quote
+                \" double quote
+                \\ backslash
+                \n newline
+                \r carriage return
+                \t tab
+                \b backspace
+                \f form feed
+                ****** /
+
+                var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"
+
+                // Example
+                var outStr = "I come first. " + "I come second.";
+
+                // Only change the code below
+                var myStr = "This is the start." + "This is the end."
+                console.log(myStr);
+
+                // Example 
+                var ourStr = "I come first.";
+                ourStr += "I come second.";
+
+                // Only change the code below
+                var myStr = "This is the first sentence";
+                myStr += "This is the second sentence";
+
+                console.log(myStr);
+
+                // Declare your variable here
+                var myGlobal = 10;
+
+                function fun1() {
+                  // Assign 5 to oopsGlobal Here
+
+
                   }
-                  
-                  var ourArray = [];
-                  
-                  for (var i = 0; i < 5; i++);
-                    ourArray.push(i);
-                    }
-                    
-                    var myArray = [];
-                    
-                    for (var = i; i < 6; i++) {
-                      myArray.push(i);
-                     }
-                     
-                     for (var = 1; i < 10; i += 2) {
-                      myArray.push(i);
+
+
+                  // Only change code above this line
+                  function fun2() {
+                    var output = "";
+                    if (typeof myGlobal != "undefined") {
+                      output += "myGlobal: " + myGlobal;
                       }
-                      
-                     var myArr = [2,3,4,5,6];
-                     
-                     for (var i = 0; i < myArr.length; i++) {
-                      total += myArr[i];
+
+                    if (typeof oopsGlobal != "undefined") {
+                      output += " oopsGloba: " + oopsGlobal;
                       }
-                      
-                      console.log(total);
-                      
-                      var multiplyAll(arr) {
-                      var product = 1;
-                      
-                      return product;
+                      console.log(output);
                       }
-                      
-                      var product = multiplyAll([[1,2],[3,4], [5,6,7]]);
-                      
-                      console.log(product);
-                      
-                      for (var i = 0; i < arr.length; i++) {
-                        for (var j = 0; j < arr[i].length; j++) {
-                          product *= arr[i][j];
-                        }
-                       } 
-                        return product;
+
+                      fun1();
+                      fun2();
+
+                // Assign 5 to oopsGlobal
+                oopsGLobal = 5;
+                }
+
+                // Objects
+                var ourDog = {
+                  "name": "Camper",
+                  "legs": "4,
+                  "tails": 1,
+                  "friends": ["everything!"]
+                  };
+
+                  var myDog = {
+                    "name": "Quincy"
+                    "legs": 3,
+                    "tails": 2,
+                    "friends": []
+                    };
+
+                  var testObj = {
+                    "hat": "ballcap",
+                    "shirt": "jersey",
+                    "shoes": "cleats",
+                    };
+
+                    var hatValue = testObj.hat;
+                    var shirtValue = testObj.shirt;
+
+                    var testObj = {
+                      "an entree": "hamburger",
+                      "my side": "veggies",
+                      "the drink": "water",
+                      };
+
+                      var entreeValue = testObj{"an entree"];
+                      var drinkValue = testObj['The drink'];
+
+                    function phoneticLookUp(val) {
+                      var result = "";
+
+
+                      var lookup {
+                        "alpha": "Adams",
+                        "bravo": "Boston",
+                        "charlie": "Chicago",
+                        "delta": "Denver",
+                        "echo": "Easy",
+                        "foxtrot": "frank",
+                        };
+                        result = lookup[val];
+                      switch(val) {
+                        case "alpha":   
+                          result = "Adams";
+                          break;
+                        case "bravo":
+                          result = "Boston";
+                          break;
+                        case "charlie":
+                          result = "Chicago";
+                          break;
+                        case "delta": 
+                          result = "Denver";
+                          break;
+                        case "echo":
+                          result = "Easy";
+                          break;
+                        case "foxtrot":
+                          result = "Frank"
+                          break;
+
+                      var myObj = {
+                        gift: "pony";
+                        pet: "kitten";
+                        bed: "sleigh";
+                        };
+
+                        function checkObj(checkProp) {
+                          if (myObj.hasOwnProperty(checkProp)) {
+                            return myObj[checkProp];
+                          } else {
+                            return "Not Found";
+                          return "Change Me!";
+                          }
                         }
 
-                      var myArrar = [];
-                      var i = 10;
-                      
-                        do {
-                        myArray.push(i);
-                        i++;
-                        } while (i < 5)
-                        
-                        console.log(i, myArray);
-                        
-                       var contacts = [
-                        { 
-                          "firstName": "Akira",
-                          "lastName": "Laine",
-                          "numer": "054232548",
-                          "likes": ["Pizza", "Coding", "Brownie Points"]
-                          },
-                          {
-                          
-                          "firstName": "Harry",
-                          "lastName": "Potter",
-                          "number": "32354222",
-                          "likes": ["Hogwarts", "Magic", "Hagrid"]
-                          },
-                          {
-                          
-                          "firstName": "Sherlock",
-                          "lastName": "Potter",
-                          "number": "2235323323",
-                          "likes": ["Intriguing Cases", "Violin"]
-                          },
-                          {
-                          
-                          function lookUpProfile(name, prop) {
-                           
-                           }
-                           
-                           if(contacts[i].firstName === name) {
-                            return contacts[i][prop] || "No such property";
-                           }
-                           return "no such contact";
-                           
+                  var myMusic = [
+                    {
+                      "artist": "Billy Joel",
+                      "title": "Piano Man",
+                      "release_year": 1973,
+                      "formats": [
+                        "CD",
+                        "8T",
+                        "LP",
+                      ],
+
+                     "gold": true,
+                 }
+                  "artist": "Beau Carnes",
+                  "title": "Cereal Man",
+                  "release_year": 2003,
+                  "formats": [
+                    "Youtube video"
+
+                  ]
+
+                  var myStorage = {
+                    "car": {
+                      "inside": {
+                        "glove inbox": "maps";
+                        "passenger seat": "crumbs"
+                        },
+
+                        "outside": {
+                          "trunk": "jack"
                           }
                          }
-                         
-                         var data = lookUpProfile("Akira", "likes");
-                         console.log(data);
-                          
-                         function converToIntenger(str) {
-                          return parseInt(str, 2)
-                          }
-                          
-                          convertToIntenger("10011");
-                         
-                         function checkEqual(a, b) {
-                          if(a === b) {
-                            return true;
-                            }
-                            else {
-                            return false;
-                            }
-                           }
+                        };
 
-                          checkEqual(1, 2);
-                          
-                          function checkEqual(a, b) {
-                            if a === b ? true : false;
-                            
-                            return a === b;
-                            }
-                            
-                           function checkSign(num) {
-                            return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
-                           
-                           }
-                           
-                           chekcSign(10);
-                           
-                           let catName = "Quincy";
-                           let quote;
-                           
-                           var catName = "Beau";
-                           
-                           function catTalk() {
-                            "use stric";
-                            
-                            catName = "Oliver";
-                            quote = catName + "says Meow!";
-                            }
+                      var globeBoxContext = myStorage.car.inside["glove box];
 
-                            catTalk();
-                            
-                            function checkScope();
-                             "use strict";
-                             let i = "function scope";
-                             if (true) {
-                              let i = "block scope";
-                              console.log("Block scope i is: ", i);
-                              }
-                              console.log("Function scope i is: ", i);
-                              return i;
-                              }
-                              
-                              checkScope();
-                              
-                              function printManyTimes(str) {
-                              "use stric";
-                              
-                              var sentence = str + " is cool!";
-                              
-                              sentence = str + "is amazing!"
-                              
-                              for (var i = 0; i < str.length; i += 2) {
-                              console.log(sentence);
-                              }
-                              
-                              }
-                              
-                              printManyTimes("freeCodeCamp");
-                              
-                              const s = [5, 7, 2];
-                              function editInPlace() {
-                                "use strict";
-                                
-                                s[0] = 2;
-                                s[1] = 5;
-                                s[2] = 7;
-                                
-                                
+                      console.log(gloveBoxContext);
+
+                      var myPlants = [
+                        {
+                        type: "flowers",
+                        list: [
+                          "rose",
+                          "tulip",
+                          "dandelion"
+                            ]
+                          },
+                          {
+                          type: "trees",
+                          list: [
+                            "fir",
+                            "pine",
+                            "birch"
+                            ]
+                           }
+                          ];
+
+                        var secondTree = myPlants[1].list[1];
+
+                        var collection = {
+                          "2548": {
+                            "album": "Slippery when wet",
+                            "artist": "Bon Jovi",
+                            "tracks": [
+                              "Let it Rock",
+                              "You give Love a Band Game",
+                              ]
+                             },
+                             "2468": {
+                              "album": "1999",
+                              "artist": "Prince",
+                              "tracks": [
+                              "1999",
+                              "Little Red Corvette"
+                              ]
+                             },
+
+                             "1245": {
+                              "artist": "Robert Palmer",
+                              "tracks": []
+                              },
+
+                            "5436": {
+                            "album": "ABBA Gold"
+                            }
+                            ];
+
+                            var collectionCopy = JSON.parse(JSON.stringify(collection));
+                              if (value === "") {
+                                delete collection[id][prop];
+                              } else if (prop === "track") {
+                                collection[id][prop] = collection[id][prop] || [];
+                                collection[id][prop].push(value);
+                              } else {
+                                collection[id][prop] = value;
+
                                 }
-                                
-                                editInPlace();
-                           
-                           function freezeObj() {
-                            "use strict";
-                            const MATH_CONSTANTS = {
-                            PI: 3.14
-                            };
-                            
-                            Object.freeze(MATH_CONSTANTS);
-                            
-                            try {
-                              MATH_CONSTANTS.PI = 99;
-                             } catch( ex ) {
-                             console.log(ex);
-                             }
-                             return MATH_CONSTANTS.PI;
-                             }
-                             
-                             const PI= freezeObj();
-                             
-                             console.log(PI);
-                             
-                             const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
-                             
-                             const squareList = (arr) => {
-                              const squareIntegers  = arr.filter(num => Number.isInteger(num) && num;
-                              const squaredIntegers;
-                              };
-                              
-                              const squaredIntegers = squareList(realNumberArray);
-                              console.log(squaredIntegers);
-                       
-   ## Data Structures and Algorithms
-    * Arrays                                                        * Sorting, searching, and binary search
-    * Linked list                                                   * Divide and conquer
-    * Stacks                                                        * Dynamic programming and memorization
-    * Queues                                                        * Greedy Algorithms
-    * Sets                                                          * Recursion
-    * Maps                                                          * Graph traversal, breath and depth-first
-    * Binary Trees
-    * Heaps
-    * Graph
+
+                                return collection;
+                                }
+
+                            function updateRecords(id, prop, value) {
+
+                            return collection;
+                            }
+
+                            var myArray = [];
+
+                            var i = 0;
+                            while (i < 5) {
+                              myArray.push(i);
+                              i++;
+                              }
+
+                              var ourArray = [];
+
+                              for (var i = 0; i < 5; i++);
+                                ourArray.push(i);
+                                }
+
+                                var myArray = [];
+
+                                for (var = i; i < 6; i++) {
+                                  myArray.push(i);
+                                 }
+
+                                 for (var = 1; i < 10; i += 2) {
+                                  myArray.push(i);
+                                  }
+
+                                 var myArr = [2,3,4,5,6];
+
+                                 for (var i = 0; i < myArr.length; i++) {
+                                  total += myArr[i];
+                                  }
+
+                                  console.log(total);
+
+                                  var multiplyAll(arr) {
+                                  var product = 1;
+
+                                  return product;
+                                  }
+
+                                  var product = multiplyAll([[1,2],[3,4], [5,6,7]]);
+
+                                  console.log(product);
+
+                                  for (var i = 0; i < arr.length; i++) {
+                                    for (var j = 0; j < arr[i].length; j++) {
+                                      product *= arr[i][j];
+                                    }
+                                   } 
+                                    return product;
+                                    }
+
+                                  var myArrar = [];
+                                  var i = 10;
+
+                                    do {
+                                    myArray.push(i);
+                                    i++;
+                                    } while (i < 5)
+
+                                    console.log(i, myArray);
+
+                                   var contacts = [
+                                    { 
+                                      "firstName": "Akira",
+                                      "lastName": "Laine",
+                                      "numer": "054232548",
+                                      "likes": ["Pizza", "Coding", "Brownie Points"]
+                                      },
+                                      {
+
+                                      "firstName": "Harry",
+                                      "lastName": "Potter",
+                                      "number": "32354222",
+                                      "likes": ["Hogwarts", "Magic", "Hagrid"]
+                                      },
+                                      {
+
+                                      "firstName": "Sherlock",
+                                      "lastName": "Potter",
+                                      "number": "2235323323",
+                                      "likes": ["Intriguing Cases", "Violin"]
+                                      },
+                                      {
+
+                                      function lookUpProfile(name, prop) {
+
+                                       }
+
+                                       if(contacts[i].firstName === name) {
+                                        return contacts[i][prop] || "No such property";
+                                       }
+                                       return "no such contact";
+
+                                      }
+                                     }
+
+                                     var data = lookUpProfile("Akira", "likes");
+                                     console.log(data);
+
+                                     function converToIntenger(str) {
+                                      return parseInt(str, 2)
+                                      }
+
+                                      convertToIntenger("10011");
+
+                                     function checkEqual(a, b) {
+                                      if(a === b) {
+                                        return true;
+                                        }
+                                        else {
+                                        return false;
+                                        }
+                                       }
+
+                                      checkEqual(1, 2);
+
+                                      function checkEqual(a, b) {
+                                        if a === b ? true : false;
+
+                                        return a === b;
+                                        }
+
+                                       function checkSign(num) {
+                                        return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
+
+                                       }
+
+                                       chekcSign(10);
+
+                                       let catName = "Quincy";
+                                       let quote;
+
+                                       var catName = "Beau";
+
+                                       function catTalk() {
+                                        "use stric";
+
+                                        catName = "Oliver";
+                                        quote = catName + "says Meow!";
+                                        }
+
+                                        catTalk();
+
+                                        function checkScope();
+                                         "use strict";
+                                         let i = "function scope";
+                                         if (true) {
+                                          let i = "block scope";
+                                          console.log("Block scope i is: ", i);
+                                          }
+                                          console.log("Function scope i is: ", i);
+                                          return i;
+                                          }
+
+                                          checkScope();
+
+                                          function printManyTimes(str) {
+                                          "use stric";
+
+                                          var sentence = str + " is cool!";
+
+                                          sentence = str + "is amazing!"
+
+                                          for (var i = 0; i < str.length; i += 2) {
+                                          console.log(sentence);
+                                          }
+
+                                          }
+
+                                          printManyTimes("freeCodeCamp");
+
+                                          const s = [5, 7, 2];
+                                          function editInPlace() {
+                                            "use strict";
+
+                                            s[0] = 2;
+                                            s[1] = 5;
+                                            s[2] = 7;
+
+
+                                            }
+
+                                            editInPlace();
+
+                                       function freezeObj() {
+                                        "use strict";
+                                        const MATH_CONSTANTS = {
+                                        PI: 3.14
+                                        };
+
+                                        Object.freeze(MATH_CONSTANTS);
+
+                                        try {
+                                          MATH_CONSTANTS.PI = 99;
+                                         } catch( ex ) {
+                                         console.log(ex);
+                                         }
+                                         return MATH_CONSTANTS.PI;
+                                         }
+
+                                         const PI= freezeObj();
+
+                                         console.log(PI);
+
+                                         const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+
+                                         const squareList = (arr) => {
+                                          const squareIntegers  = arr.filter(num => Number.isInteger(num) && num;
+                                          const squaredIntegers;
+                                          };
+
+                                          const squaredIntegers = squareList(realNumberArray);
+                                          console.log(squaredIntegers);
+
+            ## Data Structures - Types and Values
+                        A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.
+                      * Numbers
+                        - Intergers
+                        - Floats - floating points
+                      * Strings -  Strings are strings
+                      * Booleans
+
+                      * Numbers
+                       - 3 - interger
+                       - 3.14 - floating point
+                      * Strings
+                       -'abc'
+          ## Data Structures
+              * Arrays                                                        * Sorting, searching, and binary search
+              * Linked list                                                   * Divide and conquer
+              * Stacks                                                        * Dynamic programming and memorization
+              * Queues                                                        * Greedy Algorithms
+              * Sets                                                          * Recursion
+              * Maps                                                          * Graph traversal, breath and depth-first
+              * Binary Trees
+              * Heaps
+              * Graph
     
-   ### Data Structures - Types and Values
-      A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.
-    * Numbers
-      - Intergers
-      - Floats - floating points
-    * Strings -  Strings are strings
-    * Booleans
-    
-    * Numbers
-     - 3 - interger
-     - 3.14 - floating point
-    * Strings
-     -'abc'
+   
                           
-   ### What is an algorithm?
-    * An algortihm is a function, it takes inputs to outputs
-    
-    for Birthdayproblem: -maintain record
-                         -interview students in some order
-                            -check if birthday is record
-                                -if so return pair
-                            -add new students to record
-                         -return None
-      * Correctness
-        Inductive hypothesis: if first k students contain match 
-                                  alg returns a match before interview student
-        Base case k = 0
-        Assume IH true for k = k' { if k' contains match -> alredy returned by induction
-                                    else if k'+i contains match 
-                                    alg k' + i against all students
-                                    
-        
-      * Efficiency 
-        It means not only how fast it run but how fast it compares to other possibles ways of approaching this problem.
-        Don't measure time, instead count ops
-        Expect performance to depend in size of out input
-        O notation (upper bands)  OMEGA (lower bands)  THETA (both)
-        
-   ## Algorithms
-      * Global or class scope variables
-        n = number of nodes in the graph
-        g = adjacency list representing graph
-        visited = [false, ..., false] # size n
-        
-        function dfs (at):
-          if visited[at]: return
-          visited[at] = true
-        
-        neighbours = graph[at]
-        for next in neightbours:
-          dfs(next)
-        
-      * Start DFS at node zero
-        start_node = 0
-        dfs(start_node)
-        
-       function findComponent():
-          for (i = 0; i < n; i++):
-             if !visited[i]:
-               count++
-               dfs(i)
-             return (count, components)
-                            
-       function dfs(at):
-          visited[at] = true
-          components[at] = count
-          for (next : g[at]):
-            if !visited[next]:
-             dfs(next)
-                    
-        function solve(s):
-           q = queue data structures data structure with enqueue and dequeue
-           q.enqueue(s)
-           
-           visited = [false, ..., false] # size n
-           visited[s] = true
-           
-           prev = [null, ..., null] # size n
-           while !q.isEmpty():
-            node = q.dequeue()
-            neighbours = g.get(node)
-                            
-            for(next : neightbours):
-               if !visited[next]:
-                  q.enqueue(next)
-                  visited[next] = true
-                  prev[next] = node
-               return prev
-                            
-            function reconstructPath(s, e, prev):
-                
-               # Reconstruct path going backwards from e
-                   path = []
-                   for(at = e; at != null; at = prev[at]);
-                      path.add(at)
-                            
-                       path.reverse()
-                            
-                # If s and e are connected return the path 
-                    if path[0] == s:
-                      return path
-                    return []
-                        
-                function solve(): 
-                   rq.enqueue
-                   cq.enqueue
-                   visited[sr][sc] = true
-                   while rq.size() > 0: #or cq.size() > 0
-                      r = rq.dequeue()
-                      c = dequeue() 
-                    if m[r][c] = 'E':
-                      reached_end = true
-                      break
-                    explore_neighbours(r, c)
-                    nodes_left_in_layer--
-                    if nodes_left_in_layer == 0:
-                      nodes_left_in_layer = nodes_in_next_layer
-                      nodes_left_in_next_layer = 0
-                      move_count++
-                    if reached_end:
-                      return move_count
-                     return -1
-                  
-        
+       ### What is an algorithm?
+        * An algortihm is a function, it takes inputs to outputs
+
+        for Birthdayproblem: -maintain record
+                             -interview students in some order
+                                -check if birthday is record
+                                    -if so return pair
+                                -add new students to record
+                             -return None
+          * Correctness
+            Inductive hypothesis: if first k students contain match 
+                                      alg returns a match before interview student
+            Base case k = 0
+            Assume IH true for k = k' { if k' contains match -> alredy returned by induction
+                                        else if k'+i contains match 
+                                        alg k' + i against all students
+
+
+          * Efficiency 
+            It means not only how fast it run but how fast it compares to other possibles ways of approaching this problem.
+            Don't measure time, instead count ops
+            Expect performance to depend in size of out input
+            O notation (upper bands)  OMEGA (lower bands)  THETA (both)
+
+       ## Algorithms
+          * Global or class scope variables
+            n = number of nodes in the graph
+            g = adjacency list representing graph
+            visited = [false, ..., false] # size n
+
+            function dfs (at):
+              if visited[at]: return
+              visited[at] = true
+
+            neighbours = graph[at]
+            for next in neightbours:
+              dfs(next)
+
+          * Start DFS at node zero
+            start_node = 0
+            dfs(start_node)
+
+           function findComponent():
+              for (i = 0; i < n; i++):
+                 if !visited[i]:
+                   count++
+                   dfs(i)
+                 return (count, components)
+
+           function dfs(at):
+              visited[at] = true
+              components[at] = count
+              for (next : g[at]):
+                if !visited[next]:
+                 dfs(next)
+
+            function solve(s):
+               q = queue data structures data structure with enqueue and dequeue
+               q.enqueue(s)
+
+               visited = [false, ..., false] # size n
+               visited[s] = true
+
+               prev = [null, ..., null] # size n
+               while !q.isEmpty():
+                node = q.dequeue()
+                neighbours = g.get(node)
+
+                for(next : neightbours):
+                   if !visited[next]:
+                      q.enqueue(next)
+                      visited[next] = true
+                      prev[next] = node
+                   return prev
+
+                function reconstructPath(s, e, prev):
+
+                   # Reconstruct path going backwards from e
+                       path = []
+                       for(at = e; at != null; at = prev[at]);
+                          path.add(at)
+
+                           path.reverse()
+
+                    # If s and e are connected return the path 
+                        if path[0] == s:
+                          return path
+                        return []
+
+                    function solve(): 
+                       rq.enqueue
+                       cq.enqueue
+                       visited[sr][sc] = true
+                       while rq.size() > 0: #or cq.size() > 0
+                          r = rq.dequeue()
+                          c = dequeue() 
+                        if m[r][c] = 'E':
+                          reached_end = true
+                          break
+                        explore_neighbours(r, c)
+                        nodes_left_in_layer--
+                        if nodes_left_in_layer == 0:
+                          nodes_left_in_layer = nodes_in_next_layer
+                          nodes_left_in_next_layer = 0
+                          move_count++
+                        if reached_end:
+                          return move_count
+                         return -1
+
+
   # Coding
     * Translating one language to another
     
@@ -1211,7 +1214,7 @@
                    if you're not born in the United States, you may still be, under definition, a natural born US Citizen if you're born outside the United States, both of 
                    your parents are citizens of the United States and at least one parent has lived in the United States.
   
-  ###  Fibonacci 
+  ### Fibonacci 
          Pairs(0) = 1
          Pairs(1) = 1
          Pairs(n) = (n - 1) + (n - 2) 
@@ -1282,13 +1285,13 @@
      * Angular, Ember, Meteor, React, Vue
      * Bootstrap, Foundation, Semantic UI
       
-  ### Framework - 
+## Framework - 
       * A way of doing things. 
       
 ## Back End - Server Side
       * Go, Java, JavaScript, .NET, PHP, Python, Ruby, Scala, Django, Flask, Laravel, Node.js...
       
-  ### Database
+## Database
       * SQL, NoSQL, MariaDB, MySQL, Oracle, PostgreSQL, SQL Server, Bigtable, Cassandra, HBase, MongoDB...
       
       What does a data base?
@@ -1460,22 +1463,8 @@
                     return true;
                     return false;
                     }
- 
-  # Comments
-    * var number = 5; // in-line comments
-    * /* this is a 
-    ddd
-    dd
-    d
-    d
-    d
-    d
-    
-    d
-    as
-    multi-line comment */
      
- ## querySelectors
+ ### querySelectors
  
       * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
    
@@ -1503,11 +1492,11 @@
       
           * Un bucle o ciclo, en programación, es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de             cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.
       
-      * ### For
+      * For
       
           * El bucle for es una estructura de control en programación en la que se puede indicar de antemano el número máximo de iteraciones.
         
-      * #### Elementos del bucle
+      * Elementos del bucle
       
           * Variable de control: prácticamente un mandato impuesto por el uso habitual es utilizar la letra i Iterador como variable de control, o bien sus sucesoras en caso de bucles anidados. El uso de esta letra críptica quizás a primera vista es sin embargo una excelente forma de aportar agilidad de lectura al código por su uso tan extensivo. Como raras veces los bucles anidados superan las tres dimensiones (por una sencilla cuestión de explosión exponencial), las letras i, j y k suelen ser las únicas relacionadas con este uso. En C se define en el primer parámetro de la instrucción junto con la inicialización (opcional).
           * Inicialización de la variable de control: en pseudolenguaje se pide explicitarlo (es la sección := ValorInicial), sin embargo, otros lenguajes más permisivos como C no lo requieren de forma obligatoria. De todos modos, la práctica de utilizar variables de control que no se inicializan en el bucle no es recomendada para la           legibilidad del código. En C se define en el primer parámetro del bucle junto con la variable de control.
@@ -1515,17 +1504,17 @@
           * Incremento: en pseudolenguaje se toma por defecto el valor 1, aunque puede explicitarse por medio de la sentencia PASO = ValorPaso cualquier número entero (léase) bien entero, o sea que técnicamente podemos decrementar). En C es el último parámetro.
           * Cuerpo: es lo que se hará en cada iteración, pueden ser una o más instrucciones. En pseudolenguaje pesa la restricción de no poder alterar el valor de la variable de control; esto no es requerido en C, pero no se considera una buena práctica.
    
-        * ### While
+        * While
      
           * El bucle while o bucle mientras es un ciclo repetitivo basado en los resultados de una expresión lógica; se encuentra en la mayoría de los lenguajes de programación              estructurados. El propósito es repetir un bloque de código mientras una condición se mantenga verdadera.
    
           * La condición ha de ser una sentencia que devuelva un valor booleano, y esta puede ser el valor booleano sí, verdadero (true) si la condición se cumple, o falso si                esta no se cumple (false). También puede contener el nombre de una variable booleana, y el valor de la expresión dependerá de su contenido. Se debe tener en cuenta              que además de las variables también puede haber llamadas a funciones que devuelvan un valor.
    
-        * ### Do-While
+        * Do-While
    
             * El bucle repetir comprueba la condición de finalización al final del cuerpo del bucle, y si ésta es cierta continua con el resto del programa, a veces esto resulta               más adecuado. La instrucción se ejecutará al menos una vez.
             
-   ## ForEach
+  ## ForEach
 
     * The forEach() method calls a function once for each element in an array, in order.
 
@@ -1778,7 +1767,7 @@
             }
           }
                         
-### Binary Search
+ ## Binary Search
                           
            public static int binarySearch(int[], A, int left, int rigth, int x) {
                if(left > right) {
@@ -2299,78 +2288,78 @@
    
       For developers new to the command line, the GitHub Training team has put together a series of tutorials on Git commands to guide the way. Sometimes, a series of commands can paint a picture of how to use Git:
 
-   ### Example: Contribute to an existing repository
+     ### Example: Contribute to an existing repository
 
-      # download a repository on GitHub.com to our machine
-      git clone https://github.com/me/repo.git
+        # download a repository on GitHub.com to our machine
+        git clone https://github.com/me/repo.git
 
-      # change into the `repo` directory
-      cd repo
+        # change into the `repo` directory
+        cd repo
 
-      # create a new branch to store any new changes
-      git branch my-branch
+        # create a new branch to store any new changes
+        git branch my-branch
 
-      # switch to that branch (line of development)
-      git checkout my-branch
+        # switch to that branch (line of development)
+        git checkout my-branch
 
-      # make changes, for example, edit `file1.md` and `file2.md` using the text editor
+        # make changes, for example, edit `file1.md` and `file2.md` using the text editor
 
-      # stage the changed files
-      git add file1.md file2.md
+        # stage the changed files
+        git add file1.md file2.md
 
-      # take a snapshot of the staging area (anything that's been added)
-      git commit -m "my snapshot"
+        # take a snapshot of the staging area (anything that's been added)
+        git commit -m "my snapshot"
 
-      # push changes to github
-      git push --set-upstream origin my-branch
-      
-   ### Example: Start a new repository and publish it to GitHub
-      
-      First, you will need to create a new repository on GitHub. You can learn how to create a new repository in our Hello World guide. Do not initialize the repository with a README, .gitignore or License. This empty repository will await your code.
+        # push changes to github
+        git push --set-upstream origin my-branch
 
-      # create a new directory, and initialize it with git-specific functions
-      git init my-repo
+     ### Example: Start a new repository and publish it to GitHub
 
-      # change into the `my-repo` directory
-      cd my-repo
+        First, you will need to create a new repository on GitHub. You can learn how to create a new repository in our Hello World guide. Do not initialize the repository with a README, .gitignore or License. This empty repository will await your code.
 
-      # create the first file in the project
-      touch README.md
+        # create a new directory, and initialize it with git-specific functions
+        git init my-repo
 
-      # git isn't aware of the file, stage it
-      git add README.md
+        # change into the `my-repo` directory
+        cd my-repo
 
-      # take a snapshot of the staging area
-      git commit -m "add README to initial commit"
+        # create the first file in the project
+        touch README.md
 
-      # provide the path for the repository you created on github
-      git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+        # git isn't aware of the file, stage it
+        git add README.md
 
-      # push changes to github
-      git push --set-upstream origin main
-      Example: contribute to an existing branch on GitHub
-      # assumption: a project called `repo` already exists on the machine, and a new branch has been pushed to GitHub.com since the last time changes were made locally
+        # take a snapshot of the staging area
+        git commit -m "add README to initial commit"
 
-      # change into the `repo` directory
-      cd repo
+        # provide the path for the repository you created on github
+        git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 
-      # update all remote tracking branches, and the currently checked out branch
-      git pull
+        # push changes to github
+        git push --set-upstream origin main
+        Example: contribute to an existing branch on GitHub
+        # assumption: a project called `repo` already exists on the machine, and a new branch has been pushed to GitHub.com since the last time changes were made locally
 
-      # change into the existing branch called `feature-a`
-      git checkout feature-a
+        # change into the `repo` directory
+        cd repo
 
-      # make changes, for example, edit `file1.md` using the text editor
+        # update all remote tracking branches, and the currently checked out branch
+        git pull
 
-      # stage the changed file
-      git add file1.md
+        # change into the existing branch called `feature-a`
+        git checkout feature-a
 
-      # take a snapshot of the staging area
-      git commit -m "edit file1"
+        # make changes, for example, edit `file1.md` using the text editor
 
-      # push changes to github
-      git push
-   
+        # stage the changed file
+        git add file1.md
+
+        # take a snapshot of the staging area
+        git commit -m "edit file1"
+
+        # push changes to github
+        git push
+
    ## Make the move - Moving your local project to GitHub
    
       Having a project already stored locally enables you to move it to GitHub rather quickly. The following activity provides instructions to move your local project to GitHub using various tools. Select the tool you are most comfortable with and get importing 😄.
@@ -2760,7 +2749,7 @@ The public members of a class can be accessed from anywhere in the program using
    ## Static
       Las variables declaradas como estáticas (static) son, esencialmente, variables globales. Cuando se declara un objeto, no se realiza una copia de una variable estática. En       cambio, todas las instancias de la clase comparten la misma variable estática. Aquí hay un ejemplo que muestra las diferencias entre una variable estática y una variable        de instancia:  
 
-   ## Void
+  ## Void
       El tipo void se utiliza para indicar que algo no tiene tipo. Por ejemplo, para indicar que un método no devuelve un resultado se le indica que devuelve void.
       
   ## C++ documentation
