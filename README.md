@@ -1339,7 +1339,7 @@
         INSERT INTO student VALUES(1, 'Jack', 'Biology'); 
 
             
- ## The Cloud
+ # The Cloud
             
         * Basically is using someone else's server to put your data.
          
@@ -1356,16 +1356,16 @@
         
         * https://bush-socks-586.notion.site/Curso-de-Introducci-n-a-la-Nube-con-Azure-902361fc98974378874c7ce1943cd5e4
   
- ## Cloud CS50
+  ## Cloud CS50
         * https://www.youtube.com/watch?v=twMcvPSuDnk
   
- ## JavaScript
+ # JavaScript
   
-   # JavaScript vs ECMAScript
+  ## JavaScript vs ECMAScript
     * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
     * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
   
-  # Data Structure and Algorithms in JavaScript                          
+  ## Data Structure and Algorithms in JavaScript                          
      /* Stacks! */ 
      
      // functions: push, pop, peek, length, 
@@ -1628,7 +1628,7 @@
     ## React - create-react-app 
       * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
   
-   ### Python 
+ # Python 
     * def combines operations into a procedure and binds a name to it
     * lists provide flexible and hierarchical structure for data
     * variables associates names with data
