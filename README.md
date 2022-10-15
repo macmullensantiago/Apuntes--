@@ -4,18 +4,11 @@
 
   # CSS cheetsheet
     * https://www.lesliefranke.com/files/reference/csscheatsheet.html
-
-  # Cloud CS50
-    * https://www.youtube.com/watch?v=twMcvPSuDnk
-        
-  # What is a Database?
-    * Store           | 
-    * Manipulate      | Data
-    * Retrieve        |
-    
-    * https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md
-
-  # Comments
+   
+   # Data Structure 
+      * A data structure is a way to store and organize data in a computer so that it can be used efficiently
+      
+   # Comments
     * var number = 5; // in-line comments
     * /* this is a 
     ddd
@@ -520,9 +513,31 @@
                               
                               const squaredIntegers = squareList(realNumberArray);
                               console.log(squaredIntegers);
-                            
-   # Data Structure 
-      * A data structure is a way to store and organize data in a computer so that it can be used efficiently
+                       
+   ## Data Structures and Algorithms
+    * Arrays                                                        * Sorting, searching, and binary search
+    * Linked list                                                   * Divide and conquer
+    * Stacks                                                        * Dynamic programming and memorization
+    * Queues                                                        * Greedy Algorithms
+    * Sets                                                          * Recursion
+    * Maps                                                          * Graph traversal, breath and depth-first
+    * Binary Trees
+    * Heaps
+    * Graph
+    
+   ### Data Structures - Types and Values
+      A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.
+    * Numbers
+      - Intergers
+      - Floats - floating points
+    * Strings -  Strings are strings
+    * Booleans
+    
+    * Numbers
+     - 3 - interger
+     - 3.14 - floating point
+    * Strings
+     -'abc'
                               
    # Data Structure and Algorithms in JavaScript                          
      /* Stacks! */ 
@@ -620,6 +635,30 @@
                     return false;
                     }
                  
+   ### What is an algorithm?
+    * An algortihm is a function, it takes inputs to outputs
+    
+    for Birthdayproblem: -maintain record
+                         -interview students in some order
+                            -check if birthday is record
+                                -if so return pair
+                            -add new students to record
+                         -return None
+      * Correctness
+        Inductive hypothesis: if first k students contain match 
+                                  alg returns a match before interview student
+        Base case k = 0
+        Assume IH true for k = k' { if k' contains match -> alredy returned by induction
+                                    else if k'+i contains match 
+                                    alg k' + i against all students
+                                    
+        
+      * Efficiency 
+        It means not only how fast it run but how fast it compares to other possibles ways of approaching this problem.
+        Don't measure time, instead count ops
+        Expect performance to depend in size of out input
+        O notation (upper bands)  OMEGA (lower bands)  THETA (both)
+        
   # Coding
     * Translating one language to another
     
@@ -725,10 +764,7 @@
           }
          }
     
-            
-          
-    
-  # React
+  ## React
     * rafce creates an r function like
     
     
@@ -744,6 +780,9 @@
       }
       
       export default testing
+      
+   ## React - create-react-app 
+      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
       
    # DOM - Document Object Model
     * How to use JavaScript to modify a website
@@ -812,30 +851,7 @@
     *
     *
     *
-  ### What is an algorithm?
-    * An algortihm is a function, it takes inputs to outputs
-    
-    for Birthdayproblem: -maintain record
-                         -interview students in some order
-                            -check if birthday is record
-                                -if so return pair
-                            -add new students to record
-                         -return None
-      * Correctness
-        Inductive hypothesis: if first k students contain match 
-                                  alg returns a match before interview student
-        Base case k = 0
-        Assume IH true for k = k' { if k' contains match -> alredy returned by induction
-                                    else if k'+i contains match 
-                                    alg k' + i against all students
-                                    
-        
-      * Efficiency 
-        It means not only how fast it run but how fast it compares to other possibles ways of approaching this problem.
-        Don't measure time, instead count ops
-        Expect performance to depend in size of out input
-        O notation (upper bands)  OMEGA (lower bands)  THETA (both)
-        
+ 
   ### What is terminal? What we want to use it?
     * PWD - Full path name to current working directory
     * ls - list of directories
@@ -1021,8 +1037,6 @@
     Smashing magazine moving to JAMS
 
 
-
-    
   ### What is REST? Representational State Pattern
     * Architectural Pattern with design guides
     * HTTP is usually the underlying protocol
@@ -1044,25 +1058,7 @@
     
   ### Algebra
     * https://lindagreen.web.unc.edu/wp-content/uploads/sites/5262/2020/08/classNotes_m110_2018F.pdf
-      
-      
-  ### Class 
-    * A template for creating instances of an object
-    * A template for an abstract data type
-    * Is used to make instances, meaning particular versions of that structure
-    * Provide a convinient way to aggregate procedures and data in a single estructure
-      
-      class Student:
-        school = 'MIT'
-        def calculateFinalGrade(self):
-              return theFinalGrade
-              
-    * classes can include attributes (data) and methods (procedures).
-    
-      #### Superclass - Person
-      #### Subclass - MITPerson           // Inheritance
-      
-      
+           
   ### What is a Class?
     * Blueprints for creating bundles of data and code that are related
     * A "Car" class can have attributes that describe its brand, model, color, miles, and anything else descriptive; these are also know as "fields".
@@ -1077,6 +1073,22 @@
                      getFuel()
                      setSpeed()
                      drive()
+                     
+   ### Class 
+    * A template for creating instances of an object
+    * A template for an abstract data type
+    * Is used to make instances, meaning particular versions of that structure
+    * Provide a convinient way to aggregate procedures and data in a single estructure
+      
+      class Student:
+        school = 'MIT'
+        def calculateFinalGrade(self):
+              return theFinalGrade
+              
+    * classes can include attributes (data) and methods (procedures).
+    
+      #### Superclass - Person
+      #### Subclass - MITPerson           // Inheritance
 
     
  
@@ -1152,8 +1164,6 @@
   ## Event Class
     * Contains the data when the event happened, the name of the machine where it happened, the user involved, and the event type.
         
-        
-    
   ### Methods
     * Can access the value of the specific instance
    
@@ -1180,27 +1190,6 @@
           return dist.DDist({'positive': 0.985946, 'negative': 0.014054)}
         else:
           return dist.DDist({'positive': 0.023000, 'negative': 0.977000})  
-     
-### Search Algorithms in Python 
-
-    def search(initialState, goalTest, actions, succesor):
-      if goalTest(initialState):
-        return [{None, initialState}]
-      agenda = [SearchNode(None, initialState, None)]
-      
-    def search(initialState, goalTest, actions, succesor):
-      return [(None, initialState)]
-    agenda = [searchNode(None, initialState, None)]
-    while not empty(agenda):
-      parent = getElement(agenda)
-      for a in actions:
-        newS = successor(parent.state, a)
-        newN = SearchNode(a, newS, parent)
-        if goalTest(newS):
-          return newN.path()
-        else:
-          add(newN, agenda)
-        return None
         
    #### Stack class
           class Stack:
@@ -1307,6 +1296,30 @@
     https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
  
     https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
+    
+  ### Search Algorithms in Python 
+
+    def search(initialState, goalTest, actions, succesor):
+      if goalTest(initialState):
+        return [{None, initialState}]
+      agenda = [SearchNode(None, initialState, None)]
+      
+    def search(initialState, goalTest, actions, succesor):
+      return [(None, initialState)]
+    agenda = [searchNode(None, initialState, None)]
+    while not empty(agenda):
+      parent = getElement(agenda)
+      for a in actions:
+        newS = successor(parent.state, a)
+        newN = SearchNode(a, newS, parent)
+        if goalTest(newS):
+          return newN.path()
+        else:
+          add(newN, agenda)
+        return None
+    
+## DJANGO
+    * https://www.dj4e.com/
         
 ## Where things go wrong?
  
@@ -1328,35 +1341,25 @@
     * function: specifies the function to run when the event is detected. This is the magic that can allow your web pages to change dynamically.
     
   ## Semantics 
+  
      * The actual meaning of statements
      
   ### Static semantics
+  
      * Which expressions makes sense.
      Semantics - What the meaning of this piece of code is?
      
   ### Statements
+  
     * Legal commands that Python can interpret
       - Print, assignment
    
   ### Expressions 
+  
     * Operands  
       - In computing, an operand is the part of a computer instruction which specifies what data is to be manipulated or operated on, while at the same time representing the data itself.
     * Operators 
      - In computer programming, operators are constructs defined within programming languages which behave generally like functions, but which differ syntactically or semantically.
-    
-  ### Data Structures - Types and Values
-      A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean.
-    * Numbers
-      - Intergers
-      - Floats - floating points
-    * Strings -  Strings are strings
-    * Booleans
-    
-    * Numbers
-     - 3 - interger
-     - 3.14 - floating point
-    * Strings
-     -'abc'
      
    ### Interface(API/ADT)            vs             Data Structure
      -Specification                                   -Representation
@@ -1371,6 +1374,7 @@
   Booleans                    and, or                             conditionals, loop mechanisms(while)
   
   ### Iterative programs
+  
     - Choose variable that counts
     - Initiliaze outside the loop
     - Set up end test (variable)
@@ -1392,7 +1396,8 @@
   Slicing foo[1;3]
   
     
-  ### Languages
+ ### Languages
+  
         We have
           * Assignment
           * Conditionals
@@ -1403,6 +1408,7 @@
           * Abstraction
   
   ### Functions 
+  
     The idea of function is I wanna capture a common pattern of computation
        * Break up into modules
        * Supress detailed
@@ -1417,6 +1423,7 @@
         This binds x to 16
   
    ### Recursion
+  
        The idea of recursion is that i'm gonna take a problem and beak it down to a simpler version of the same problem plus some steps I can execute.
           - Base case - simplest possible solution
           - Inductive step - break the problem into a simpler version of the same problem and some other steps.
@@ -1442,18 +1449,23 @@
   
   Boolean combination or iteration or loops
   
+
   ### What is programming?
+  
      * It's about making software.
       
   ### What is software?
+  
      * It's what runs in our hardware, runs in our computer.
      * Software is the files that you can open up in your computer and you can interact with.
      * It's what is written using programming code.
       
   ### What is code?
+  
      * Code is just a technical implementation of algorithms, wich are step-by-step instructions for solving problems.
       
  ### What share in common computer programs?
+  
      * Functions: A function is a block of code that performs a task.
      * Loops: A loop is used to execute a group of instructions or a block of code multiple times, without writing it repeatedly.
      * Conditions: Conditional statements check whether a programmer-specified Boolean condition is true or false. 
@@ -1496,7 +1508,7 @@
 ## Back End - Server Side
       * Go, Java, JavaScript, .NET, PHP, Python, Ruby, Scala, Django, Flask, Laravel, Node.js...
       
-   ### Database
+  ### Database
       * SQL, NoSQL, MariaDB, MySQL, Oracle, PostgreSQL, SQL Server, Bigtable, Cassandra, HBase, MongoDB...
       
       What does a data base?
@@ -1508,6 +1520,44 @@
             
             SQL - Stores data in rows and columns
             NoSQL - Stores data all together in a hierarchical structure
+        
+  ## What is a Database?
+    * Store           | 
+    * Manipulate      | Data
+    * Retrieve        |
+    
+    * https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md
+  
+   ## MySQL 
+        Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
+        
+      * INT
+        DECIMAL(M, N)
+        VARCHAR(l)
+        BLOB
+        DATE
+        TIMESTAMP
+      
+      * CREATE TABLE student(
+          student_id INT PRIMARY KEY,
+          name VARCHAR(1000)
+          major VARCHAR(20)
+          PRIMARY KEY(student_id)
+          
+        );
+        
+        SELECT * FROM student;
+        
+        DESCRIBE student;
+        
+        DROP TABLE student;
+        
+        ALTER TABLE student ADD gpa DECIMAL(3,2);
+        
+        ALTER TABLE student DROP COLUMN gpa;
+        
+        INSERT INTO student VALUES(1, 'Jack', 'Biology'); 
+
             
  ## The Cloud
             
@@ -1525,21 +1575,11 @@
         * SaaS - Software as Service. Example: Gmail.com. Web-based email service.
         
         * https://bush-socks-586.notion.site/Curso-de-Introducci-n-a-la-Nube-con-Azure-902361fc98974378874c7ce1943cd5e4
-        
-## Data Structures and Algorithms
-    * Arrays                                                        * Sorting, searching, and binary search
-    * Linked list                                                   * Divide and conquer
-    * Stacks                                                        * Dynamic programming and memorization
-    * Queues                                                        * Greedy Algorithms
-    * Sets                                                          * Recursion
-    * Maps                                                          * Graph traversal, breath and depth-first
-    * Binary Trees
-    * Heaps
-    * Graphs
-
- 
-    
- ## querySelector
+  
+ ## Cloud CS50
+        * https://www.youtube.com/watch?v=twMcvPSuDnk
+     
+ ## querySelectors
  
       * The querySelector() method returns the first child element that matches a specified CSS selector(s) of an element.
    
@@ -1624,6 +1664,7 @@
     * The management of changes to documents, computer programs, large web sites, and other collection of information.
   
    Terms
+  
     * Directory -> Folder
     * Terminal or Command Line -> Interface for text commands
     * CLI -> Command Line Interface
@@ -1634,6 +1675,7 @@
   
   
   ## Recursion 
+  
    Public class sumOfNaturalNumber {
     public static int recursivesummation(int inputNumber) { inputNUmber = 2
       if (inputNumber <= 1) 
@@ -1650,6 +1692,7 @@
           }
                         
 ### Binary Search
+                          
            public static int binarySearch(int[], A, int left, int rigth, int x) {
                if(left > right) {
                 return -1;
@@ -1714,6 +1757,7 @@
         }
   
   ## Linked List 
+  
     public static ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) return head;
         listNode p = reverseList(head.next);
@@ -1723,6 +1767,7 @@
         }
   
   ## Merge two sorted linked list 
+  
     public Node SortedMerge(Node A, Node B) {
         if(A == null) return B;
         if(B == null) return A;
@@ -1738,6 +1783,7 @@
  
   
   ## Git commands
+                           
     * Clone -> Bring a repository that is hosted somewhere like Github into a folder on your local machine
     * add -> Track your files and change in Git 
     * commit -> Save your files in Git
@@ -1745,13 +1791,13 @@
     * Pull -> Download changes from a remote repo to your local machine, the opposite of push
   
   ## What is forking?
+  
     * A way of creating a copy of the given repository so that it belongs to our user
   
   ## What is a pull request?
+  
     * A commit or series of commits that you send to the owner of the repository so that thet incorporate it into their tree
   
-  
-   
         
    ## Upload a Proyect to GitHub
     
@@ -2638,53 +2684,8 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.youtube.com/watch?v=fX2W3nNjJIo
       * https://www.youtube.com/watch?v=HddFGPTAmtU
       * https://www.youtube.com/watch?v=uTxRF5ag27A&t=1s
-        
- ## Tkinter
-        
-        from tkinter import *
-          
-          root = Tk()
-          
-          def myClick():
-            myLabel = Label(root, text="Look! I clicked a button")
-            myLabel.pack()
-            
-        myButton = Button(root, text="Click Me!", command=myClick)
-        myButton.pack()
-        
-        root.mainloop()
-        
- ## MySQL 
-        Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
-        
-      * INT
-        DECIMAL(M, N)
-        VARCHAR(l)
-        BLOB
-        DATE
-        TIMESTAMP
-      
-      * CREATE TABLE student(
-          student_id INT PRIMARY KEY,
-          name VARCHAR(1000)
-          major VARCHAR(20)
-          PRIMARY KEY(student_id)
-          
-        );
-        
-        SELECT * FROM student;
-        
-        DESCRIBE student;
-        
-        DROP TABLE student;
-        
-        ALTER TABLE student ADD gpa DECIMAL(3,2);
-        
-        ALTER TABLE student DROP COLUMN gpa;
-        
-        INSERT INTO student VALUES(1, 'Jack', 'Biology'); 
-        
-        
+       
+       
  ## Resume writing
       * https://www.workitdaily.com/basic-resume-writing-tips
       
@@ -2880,7 +2881,5 @@ The public members of a class can be accessed from anywhere in the program using
    ## Para cuando no puedo pushear un proyecto a github
       * https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
         
-   ## React - create-react-app 
-      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
-        
+
   
