@@ -5,22 +5,8 @@
   # CSS cheetsheet
     * https://www.lesliefranke.com/files/reference/csscheatsheet.html
    
-   # Data Structure 
+  # Data Structure 
       * A data structure is a way to store and organize data in a computer so that it can be used efficiently
-      
-   # Comments
-    * var number = 5; // in-line comments
-    * /* this is a 
-    ddd
-    dd
-    d
-    d
-    d
-    d
-    
-    d
-    as
-    multi-line comment */
     
   # Data Types and Variables
     * /* Data types: 
@@ -538,103 +524,7 @@
      - 3.14 - floating point
     * Strings
      -'abc'
-                              
-   # Data Structure and Algorithms in JavaScript                          
-     /* Stacks! */ 
-     
-     // functions: push, pop, peek, length, 
-     
-     var letter = []; // this is our stack
-     
-     var word = "racecar";
-     
-     var rword = "";
-     
-     // put letter of word into stack
-     for (var i = 0; i < word.length; i++) {
-      letters.push(word[i]);
-      }
-      
-      // pop off the stack in reverse order
-      for (var i = 0; i < word.length; i++) {
-        letters.push(words[i]);
-        }
-        
-        if (rword === word) {
-          console.log(word + " is a palindrome.");
-          } 
-          else {
-          console.log(word + " is not a palindrome.");
-          
-          var Stack = function() {
-          this.count = 0;
-          this.storage = {};
-          
-          // this.push = function(value) {
-                this.storage[this.count] = value;
-                this.count++;
-                }
-                
-                this.pop = function() {
-                  if(this.count === 0) {
-                    return undefined;
-                    }
-                    
-                    this.count--;
-                    var result = this.storage[this.count];
-                    delete this.storage[this.count];
-                    return result;
-                    }
-                    
-                    this.size = function() {
-                      return this.count;
-                      }
-                      
-                      this.peek = function(value) {
-                        return this.storage[this.count-1];
-                        }
-                       }
-                       
-                       var myStack = new Stack();
-                       
-                       myStack.push(1);
-                       myStack.push(2);
-                       console.log(myStack.peek());
-                       console.log(myStack.pop());
-                       console.log(myStack.peek());
-                       myStack.push("freeCodeCamp");
-                       console.log(myStack.size());
-                       console.log(myStack.peek());
-                       console.log(myStack.pop());
-                       console.log(myStack.peek());      
-                      
-                      
-           function mySet() {
-            var collection = [];
-            this.has = function(element) {
-              return (collection.indexOf(element) !== -1);
-              };
-              
-             this.values = function() {
-              return collection;
-              };
-              
-              this.add = function(element) {
-                if(!this.has(element)) {
-                  collection.push(element);
-                  return true;
-                  }
-                return false;
-                };
-                
-                this.remove = function(element) {
-                  if(this.has(element) {
-                    index = collection.indexOf(element) {
-                    collection.splice(index, 1);
-                    return true;
-                    return false;
-                    }
-                 
+                          
    ### What is an algorithm?
     * An algortihm is a function, it takes inputs to outputs
     
@@ -658,6 +548,92 @@
         Don't measure time, instead count ops
         Expect performance to depend in size of out input
         O notation (upper bands)  OMEGA (lower bands)  THETA (both)
+        
+   ## Algorithms
+      * Global or class scope variables
+        n = number of nodes in the graph
+        g = adjacency list representing graph
+        visited = [false, ..., false] # size n
+        
+        function dfs (at):
+          if visited[at]: return
+          visited[at] = true
+        
+        neighbours = graph[at]
+        for next in neightbours:
+          dfs(next)
+        
+      * Start DFS at node zero
+        start_node = 0
+        dfs(start_node)
+        
+       function findComponent():
+          for (i = 0; i < n; i++):
+             if !visited[i]:
+               count++
+               dfs(i)
+             return (count, components)
+                            
+       function dfs(at):
+          visited[at] = true
+          components[at] = count
+          for (next : g[at]):
+            if !visited[next]:
+             dfs(next)
+                    
+        function solve(s):
+           q = queue data structures data structure with enqueue and dequeue
+           q.enqueue(s)
+           
+           visited = [false, ..., false] # size n
+           visited[s] = true
+           
+           prev = [null, ..., null] # size n
+           while !q.isEmpty():
+            node = q.dequeue()
+            neighbours = g.get(node)
+                            
+            for(next : neightbours):
+               if !visited[next]:
+                  q.enqueue(next)
+                  visited[next] = true
+                  prev[next] = node
+               return prev
+                            
+            function reconstructPath(s, e, prev):
+                
+               # Reconstruct path going backwards from e
+                   path = []
+                   for(at = e; at != null; at = prev[at]);
+                      path.add(at)
+                            
+                       path.reverse()
+                            
+                # If s and e are connected return the path 
+                    if path[0] == s:
+                      return path
+                    return []
+                        
+                function solve(): 
+                   rq.enqueue
+                   cq.enqueue
+                   visited[sr][sc] = true
+                   while rq.size() > 0: #or cq.size() > 0
+                      r = rq.dequeue()
+                      c = dequeue() 
+                    if m[r][c] = 'E':
+                      reached_end = true
+                      break
+                    explore_neighbours(r, c)
+                    nodes_left_in_layer--
+                    if nodes_left_in_layer == 0:
+                      nodes_left_in_layer = nodes_in_next_layer
+                      nodes_left_in_next_layer = 0
+                      move_count++
+                    if reached_end:
+                      return move_count
+                     return -1
+                  
         
   # Coding
     * Translating one language to another
@@ -702,117 +678,6 @@
     
   # Shell
     * a program that interprets text commands and sends them to the OS to execute
-    
-  # JavaScript vs ECMAScript
-    * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
-    * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
-    
-  # Callback
-    * Example:
-      function endpointHandler(request, response) {
-        User.findById(request.userID, function(err, user) {
-        if (err) {
-           response.send(err);
-          } else {
-            Task.findById(user.tasksId, function(err, tasks) {
-              if(err) {
-                return response.send(err);
-            } else {
-                 task.completed = true;
-                 task.save(function, err) {
-                    if(err) {
-                      return.response.send(err);
-                     } else {
-                        response.send("Task completed");
-                         }
-                      });
-                     }
-                 });
-                 }
-              });
-             
-  # Promise 
-    * Example
-      function endpointHandler(request, response) {
-        User.findById(request.userId) 
-          .then(function(user) {
-            return Tasks.findIdByUser(user.tasksId);
-           })
-           .then(function(tasks) {
-            tasks.completed = true;
-            return tasks.save();
-           })
-           .then(function () {
-            response.send("Task completed");
-            })
-            .catch(function(errors) {
-            response.send(err);
-            });
-            }
-            
-  # Async/Await 
-     * Example  
-      async function endPoint Handler(request, response) {
-        try {
-          var user = await User.findById(request.userId);
-          var task = await Task.findById(user.taskId);
-          task.completed = true;
-          await tasks.save();
-          response.send("Task completed");
-        } catch {
-          response.send(err);
-          }
-         }
-    
-  ## React
-    * rafce creates an r function like
-    
-    
-    
-      impor React from 'react'
-      
-      const testing = () => {
-       return (
-       <div>
-       
-       </div>
-       )
-      }
-      
-      export default testing
-      
-   ## React - create-react-app 
-      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
-      
-   # DOM - Document Object Model
-    * How to use JavaScript to modify a website
-    
-   ## TypeScript
-     * class User implements UserInterface {
-        firstName: string;
-        lastName: string;
-        readongly unchangableName: string;
-        static readongly maxAge = 50;
-        
-        constructor(firstName: string, lastName: string) {
-          this.firstName = firstName;
-          this.lastName = lastName;
-          this.unchangeableName = firstName;
-          }
-          
-          changeUnchageableName(): void {
-            /* this.unchageableName = "foo"; */
-           }
-           
-          getFullName(): string {
-            return this.firstName + " " + this.lastName;
-            }
-           }
-           
-           const user = new User("Monster", "lessons");
-           console.log(user.firstName);
-           console.log(User.maxAge);
-    
     
    ### What is knowledge?
      * Declarative and Imperative
@@ -908,21 +773,6 @@
               }
         - if no return statement is defined, the retrun result is undefined
         
-  ### What is JSON? 
-    * JSON = JavaScript Object Notation
-    
-    // Object format
-    
-    const book = {
-      title: "1984",
-      author: "George Orwell",
-      isavailable: false,
-      };
-      
-    // Converted to JSON
-    const bookJSON = JSON.stringify(bookObbj);
-    console.log(bookJSON);
-    
   ## What are Objects?
   
   * Representation of real world objects like books
@@ -1250,76 +1100,6 @@
     Object-oriented Programming
       * Focus on collections of related procedures and data
       * Organize programs as hierarchies of related classes and instances
-      
-      
- 
-### Python 
-    * def combines operations into a procedure and binds a name to it
-    * lists provide flexible and hierarchical structure for data
-    * variables associates names with data
-    * classes associates data (attributes) and procedures (methods)
-    
-                                  Procedures                  Data
-    Primitives                    +, *, ==, !=                numbers, booleans, strings
-    Combination                   if, while, f(g(x))          lists, dictionaries, objects
-    Abstraction                   def                         classes
-    Patterns                      higher-order procedures     super-classes, sub-classes
-  
-  
-    def selfComposition(somefunction)
-      def returnFunction(*args):
-        return someFunction()
-          someFunction(*args)
-            return returnFunction
-            
-    >class Accumulator(SM):
-      def __init__ (self, initial vlaue):
-        selfstartState = initialValue
-      def getNextValues(self, state, inp):
-        return (state+inp, state+inp)
-        
-    * Search Minimum
-        searchMinFromList(L,n)
-          minValue = L[1]
-          counter = 2
-          while(counter <= n)
-            v = L[counter}
-            if( v < minValue)
-              minValue = v
-               else
-                  pass
-               endIF
-               endWhile
-               return MinValue
-           endSearchMinFromList
-              
-    https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
- 
-    https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
-    
-  ### Search Algorithms in Python 
-
-    def search(initialState, goalTest, actions, succesor):
-      if goalTest(initialState):
-        return [{None, initialState}]
-      agenda = [SearchNode(None, initialState, None)]
-      
-    def search(initialState, goalTest, actions, succesor):
-      return [(None, initialState)]
-    agenda = [searchNode(None, initialState, None)]
-    while not empty(agenda):
-      parent = getElement(agenda)
-      for a in actions:
-        newS = successor(parent.state, a)
-        newN = SearchNode(a, newS, parent)
-        if goalTest(newS):
-          return newN.path()
-        else:
-          add(newN, agenda)
-        return None
-    
-## DJANGO
-    * https://www.dj4e.com/
         
 ## Where things go wrong?
  
@@ -1578,6 +1358,122 @@
   
  ## Cloud CS50
         * https://www.youtube.com/watch?v=twMcvPSuDnk
+  
+ ## JavaScript
+  
+   # JavaScript vs ECMAScript
+    * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
+    * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
+  
+  # Data Structure and Algorithms in JavaScript                          
+     /* Stacks! */ 
+     
+     // functions: push, pop, peek, length, 
+     
+     var letter = []; // this is our stack
+     
+     var word = "racecar";
+     
+     var rword = "";
+     
+     // put letter of word into stack
+     for (var i = 0; i < word.length; i++) {
+      letters.push(word[i]);
+      }
+      
+      // pop off the stack in reverse order
+      for (var i = 0; i < word.length; i++) {
+        letters.push(words[i]);
+        }
+        
+        if (rword === word) {
+          console.log(word + " is a palindrome.");
+          } 
+          else {
+          console.log(word + " is not a palindrome.");
+          
+          var Stack = function() {
+          this.count = 0;
+          this.storage = {};
+          
+          // this.push = function(value) {
+                this.storage[this.count] = value;
+                this.count++;
+                }
+                
+                this.pop = function() {
+                  if(this.count === 0) {
+                    return undefined;
+                    }
+                    
+                    this.count--;
+                    var result = this.storage[this.count];
+                    delete this.storage[this.count];
+                    return result;
+                    }
+                    
+                    this.size = function() {
+                      return this.count;
+                      }
+                      
+                      this.peek = function(value) {
+                        return this.storage[this.count-1];
+                        }
+                       }
+                       
+                       var myStack = new Stack();
+                       
+                       myStack.push(1);
+                       myStack.push(2);
+                       console.log(myStack.peek());
+                       console.log(myStack.pop());
+                       console.log(myStack.peek());
+                       myStack.push("freeCodeCamp");
+                       console.log(myStack.size());
+                       console.log(myStack.peek());
+                       console.log(myStack.pop());
+                       console.log(myStack.peek());      
+                      
+                      
+           function mySet() {
+            var collection = [];
+            this.has = function(element) {
+              return (collection.indexOf(element) !== -1);
+              };
+              
+             this.values = function() {
+              return collection;
+              };
+              
+              this.add = function(element) {
+                if(!this.has(element)) {
+                  collection.push(element);
+                  return true;
+                  }
+                return false;
+                };
+                
+                this.remove = function(element) {
+                  if(this.has(element) {
+                    index = collection.indexOf(element) {
+                    collection.splice(index, 1);
+                    return true;
+                    return false;
+                    }
+ 
+  # Comments
+    * var number = 5; // in-line comments
+    * /* this is a 
+    ddd
+    dd
+    d
+    d
+    d
+    d
+    
+    d
+    as
+    multi-line comment */
      
  ## querySelectors
  
@@ -1654,14 +1550,205 @@
         Many events can happen once, multiple times, or never. You also may not know when an event will happen, especially if it is user generated.
 
         In these scenarios, you need an event handler to detect when an event happens. This way, you can set up code to react to events as they happen on the fly.
+  
+  # Callback
+    * Example:
+      function endpointHandler(request, response) {
+        User.findById(request.userID, function(err, user) {
+        if (err) {
+           response.send(err);
+          } else {
+            Task.findById(user.tasksId, function(err, tasks) {
+              if(err) {
+                return response.send(err);
+            } else {
+                 task.completed = true;
+                 task.save(function, err) {
+                    if(err) {
+                      return.response.send(err);
+                     } else {
+                        response.send("Task completed");
+                         }
+                      });
+                     }
+                 });
+                 }
+              });
+             
+  # Promise 
+    * Example
+      function endpointHandler(request, response) {
+        User.findById(request.userId) 
+          .then(function(user) {
+            return Tasks.findIdByUser(user.tasksId);
+           })
+           .then(function(tasks) {
+            tasks.completed = true;
+            return tasks.save();
+           })
+           .then(function () {
+            response.send("Task completed");
+            })
+            .catch(function(errors) {
+            response.send(err);
+            });
+            }
+            
+  # Async/Await 
+     * Example  
+      async function endPoint Handler(request, response) {
+        try {
+          var user = await User.findById(request.userId);
+          var task = await Task.findById(user.taskId);
+          task.completed = true;
+          await tasks.save();
+          response.send("Task completed");
+        } catch {
+          response.send(err);
+          }
+         }
+    
+ # React
+    * rafce creates an r function like
+    
+    
+    
+      impor React from 'react'
+      
+      const testing = () => {
+       return (
+       <div>
+       
+       </div>
+       )
+      }
+      
+      export default testing
+      
+    ## React - create-react-app 
+      * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
+  
+   ### Python 
+    * def combines operations into a procedure and binds a name to it
+    * lists provide flexible and hierarchical structure for data
+    * variables associates names with data
+    * classes associates data (attributes) and procedures (methods)
+    
+                                  Procedures                  Data
+    Primitives                    +, *, ==, !=                numbers, booleans, strings
+    Combination                   if, while, f(g(x))          lists, dictionaries, objects
+    Abstraction                   def                         classes
+    Patterns                      higher-order procedures     super-classes, sub-classes
+  
+  
+    def selfComposition(somefunction)
+      def returnFunction(*args):
+        return someFunction()
+          someFunction(*args)
+            return returnFunction
+            
+    >class Accumulator(SM):
+      def __init__ (self, initial vlaue):
+        selfstartState = initialValue
+      def getNextValues(self, state, inp):
+        return (state+inp, state+inp)
+        
+    * Search Minimum
+        searchMinFromList(L,n)
+          minValue = L[1]
+          counter = 2
+          while(counter <= n)
+            v = L[counter}
+            if( v < minValue)
+              minValue = v
+               else
+                  pass
+               endIF
+               endWhile
+               return MinValue
+           endSearchMinFromList
+              
+    https://training.talkpython.fm/courses/explore_python_jumpstart/python-language-jumpstart-building-10-apps
+ 
+    https://training.talkpython.fm/courses/explore_mongodb_for_python_developers_course/mongodb-for-python-for-developers-featuring-orm-odm-mongoengine
+    
+  ### Search Algorithms in Python 
+
+    def search(initialState, goalTest, actions, succesor):
+      if goalTest(initialState):
+        return [{None, initialState}]
+      agenda = [SearchNode(None, initialState, None)]
+      
+    def search(initialState, goalTest, actions, succesor):
+      return [(None, initialState)]
+    agenda = [searchNode(None, initialState, None)]
+    while not empty(agenda):
+      parent = getElement(agenda)
+      for a in actions:
+        newS = successor(parent.state, a)
+        newN = SearchNode(a, newS, parent)
+        if goalTest(newS):
+          return newN.path()
+        else:
+          add(newN, agenda)
+        return None
+    
+# DJANGO
+    * https://www.dj4e.com/
+      
+# DOM - Document Object Model
+    * How to use JavaScript to modify a website
+  
+# What is JSON? 
+    * JSON = JavaScript Object Notation
+    
+    // Object format
+    
+    const book = {
+      title: "1984",
+      author: "George Orwell",
+      isavailable: false,
+      };
+      
+    // Converted to JSON
+    const bookJSON = JSON.stringify(bookObbj);
+    console.log(bookJSON);
+    
+    
+     ### TypeScript
+       * class User implements UserInterface {
+          firstName: string;
+          lastName: string;
+          readongly unchangableName: string;
+          static readongly maxAge = 50;
+
+          constructor(firstName: string, lastName: string) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.unchangeableName = firstName;
+            }
+
+            changeUnchageableName(): void {
+              /* this.unchageableName = "foo"; */
+             }
+
+            getFullName(): string {
+              return this.firstName + " " + this.lastName;
+              }
+             }
+
+             const user = new User("Monster", "lessons");
+             console.log(user.firstName);
+             console.log(User.maxAge);
+    
             
    # Git - GitHub
    
-   ## What is Git?
-    * Free an open source version control system
-  
-   ## What is Version Control?
-    * The management of changes to documents, computer programs, large web sites, and other collection of information.
+     ## What is Git?
+      * Free an open source version control system
+
+     ## What is Version Control?
+      * The management of changes to documents, computer programs, large web sites, and other collection of information.
   
    Terms
   
@@ -2763,7 +2850,7 @@ The public members of a class can be accessed from anywhere in the program using
         (“experience”), machines themselves rather than people will design the next
         generations of machines.
         
-   ## Continuos Integration System (CI)
+   # Continuos Integration System (CI)
         * Will build and test our code every time there's a change
         * Once we our code automatically built and tested, the next automatation step is continous deployment, which is sometimes called continous delivery (CD)
           
@@ -2777,96 +2864,11 @@ The public members of a class can be accessed from anywhere in the program using
         * Artifacts
           - The name used to describe any files that are generated as part of the pipeline
         
-   ## CI/CD
-        * "CI" siempre se refiere a la integración continua, que es un proceso de automatización para los desarrolladores. El éxito de la CI implica que se diseñen, prueben y combinen los cambios nuevos en el código de una aplicación con regularidad en un repositorio compartido. Supone una solución al problema de que se desarrollen demasiadas divisiones de una aplicación al mismo tiempo, que luego podrían entrar en conflicto entre sí.
+     ## CI/CD
+          * "CI" siempre se refiere a la integración continua, que es un proceso de automatización para los desarrolladores. El éxito de la CI implica que se diseñen, prueben y combinen los cambios nuevos en el código de una aplicación con regularidad en un repositorio compartido. Supone una solución al problema de que se desarrollen demasiadas divisiones de una aplicación al mismo tiempo, que luego podrían entrar en conflicto entre sí.
 
-        * La sigla "CD" se refiere a la distribución o la implementación continuas, y se trata de conceptos relacionados que suelen usarse indistintamente. Ambos se refieren a la automatización de las etapas posteriores del proceso, pero a veces se usan por separado para explicar hasta dónde llega la automatización.
-        
-   ## Algorithms
-      * Global or class scope variables
-        n = number of nodes in the graph
-        g = adjacency list representing graph
-        visited = [false, ..., false] # size n
-        
-        function dfs (at):
-          if visited[at]: return
-          visited[at] = true
-        
-        neighbours = graph[at]
-        for next in neightbours:
-          dfs(next)
-        
-      * Start DFS at node zero
-        start_node = 0
-        dfs(start_node)
-        
-       function findComponent():
-          for (i = 0; i < n; i++):
-             if !visited[i]:
-               count++
-               dfs(i)
-             return (count, components)
-                            
-       function dfs(at):
-          visited[at] = true
-          components[at] = count
-          for (next : g[at]):
-            if !visited[next]:
-             dfs(next)
-                    
-        function solve(s):
-           q = queue data structures data structure with enqueue and dequeue
-           q.enqueue(s)
-           
-           visited = [false, ..., false] # size n
-           visited[s] = true
-           
-           prev = [null, ..., null] # size n
-           while !q.isEmpty():
-            node = q.dequeue()
-            neighbours = g.get(node)
-                            
-            for(next : neightbours):
-               if !visited[next]:
-                  q.enqueue(next)
-                  visited[next] = true
-                  prev[next] = node
-               return prev
-                            
-            function reconstructPath(s, e, prev):
-                
-               # Reconstruct path going backwards from e
-                   path = []
-                   for(at = e; at != null; at = prev[at]);
-                      path.add(at)
-                            
-                       path.reverse()
-                            
-                # If s and e are connected return the path 
-                    if path[0] == s:
-                      return path
-                    return []
-                        
-                function solve(): 
-                   rq.enqueue
-                   cq.enqueue
-                   visited[sr][sc] = true
-                   while rq.size() > 0: #or cq.size() > 0
-                      r = rq.dequeue()
-                      c = dequeue() 
-                    if m[r][c] = 'E':
-                      reached_end = true
-                      break
-                    explore_neighbours(r, c)
-                    nodes_left_in_layer--
-                    if nodes_left_in_layer == 0:
-                      nodes_left_in_layer = nodes_in_next_layer
-                      nodes_left_in_next_layer = 0
-                      move_count++
-                    if reached_end:
-                      return move_count
-                     return -1
-                  
+          * La sigla "CD" se refiere a la distribución o la implementación continuas, y se trata de conceptos relacionados que suelen usarse indistintamente. Ambos se refieren a la automatización de las etapas posteriores del proceso, pero a veces se usan por separado para explicar hasta dónde llega la automatización.
+
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
       
