@@ -2,6 +2,9 @@
 
 # Think like a Computer Scientist
 
+  # CSS cheetsheet
+    * https://www.lesliefranke.com/files/reference/csscheatsheet.html
+
   # Cloud CS50
     * https://www.youtube.com/watch?v=twMcvPSuDnk
         
