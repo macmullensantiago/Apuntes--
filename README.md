@@ -1069,6 +1069,30 @@
                           return move_count
                          return -1
 
+ ### What is the difference between computer science, computer engineering, software engineering, programming, and coding?
+  CS/CE/SE vs Programming/Coding
+
+          * Computer science (CS), computer engineering (CE), software engineering (SE), programming, and coding are all terms that are interrelated yet subtly different from each other, often making it difficult for beginners to tell them apart.
+
+          The first distinction you should make is to distinguish between CS/CE/SE and programming/coding. CS, CE, and SE are all fields of study. Saying "I'm studying computer science" would be similar to saying "I'm studying chemistry" or "I'm studying literature". In contrast, programming and coding are activities -- they're things you do. To use a metaphor, studying CS/CE/SE would be like studying musical theory, while learning programming/coding would be like learning how to play a particular instrument.
+
+          Theoretically, you could learn one and not learn the other, but your experience will be much more enriched if you learn both.
+
+          Another difference is that while CS/CE/SE are things that you can study, learning to program is something that only comes through practice. And in fact, what most universities and schools will do is formally teach one language to teach the basics of coding, then will focus on teaching CS, CE, and SE and leave you to learn how to program through practicing and completing homework.
+
+          * CS vs CE vs SE
+
+          The next distinction you should make is between CS, CE, and SE. In a nutshell, though there's a lot of overlap, "computer science" has little to do with either computers or science and is more of a field of applied math that studies the concept of computability. Computer engineering is similar to CS, but tends to focus more on lower-level hardware -- it's like a cross between computer science and electrical engineering. And finally, software engineering is more about how to build large and complex programs while preventing them from collapsing under their own weight -- it's like CS and CE, but with less theory.
+
+          You can find a more detailed overview here: http://www.reddit.com/r/learnprogramming/comments/2k569h/eli5_computer_science_vs_software_engineering_vs/
+
+          * Programming vs Coding
+
+          And finally, you have programming vs coding. The difference between these two terms are very small -- many people use them interchangeably. In general, the term "programming" seems to have slightly more positive connotations then "coding". If you say "I'm a programmer", it implies a certain level of professionalism -- it indicates that you can not only write code, but also have a firm grasp on the fundamentals and theory, know how to communicate with clients and work with others, etc.
+
+          In contrast, if you say "I'm a coder", it usually implies that your focus is exclusively on writing code, and less so on the other things.
+
+          However, again, the different connotations are very small here -- you can use the two terms interchangeably in the vast majority of cases.
 
   # Coding
     * Translating one language to another
