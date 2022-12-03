@@ -259,6 +259,31 @@
       
       export default testing
       
+    ## This keyword
+      * this is an interesting thing (reserved keyword) in the JS world. It is simple and does what says - when you call a function it tries to know who is this trying to call me?  
+     
+     * example: 
+      const Dog = {
+        food: 'Pedigree',
+        eat: function() {
+          return `I am eating my ${this.food}`;
+      }
+    }
+
+console.log(Dog.food) // Pedigree
+console.log(Dog.eat) // [λ: eat]​​​​​
+console.log(Dog.eat()) // I am eating my Pedigree​​​​​
+
+    ## Constructor
+      * A constructor is a method that is called automatically when we created an object from that class. It can manage initial initialization tasks such as defaulting certain object properties or sanity testing the arguments passed in. Simply placed, the constructor is a method that helps in the creation of objects.
+
+    ## Arrow Function =>
+      * One of the approaches to solving such issues is the usage of Arrow Function introduced in ES6. These functions have a default binding to this.
+      
+    ## Render() method
+      * https://reactjs.org/docs/rendering-elements.html
+      * the render() method is the only required and most important method of all in-built life-cycle hooks/methods.
+      
     ## React - create-react-app 
       * https://es.stackoverflow.com/questions/337379/error-al-instalar-create-react-app-globalmente
   
