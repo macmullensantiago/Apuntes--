@@ -1866,20 +1866,21 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
   
   ## Recursion 
   
-   Public class sumOfNaturalNumber {
-    public static int recursivesummation(int inputNumber) { inputNUmber = 2
-      if (inputNumber <= 1) 
-          return inputNumber;
-        return inputNumber + recursiveSummation(inputNumber - 1); inputNumber = 2;
-          }
-                          
-     public static void main(String[] args) {
-        int result = recursiveSummation(5);
-        int result2 = recursiveSummation(10);
-        System.out.printIn(result);
-        System.out.printIn(result2);
-            }
-          }
+        Public class sumOfNaturalNumber {
+          public static int recursivesummation(int inputNumber) { inputNUmber = 2
+            if (inputNumber <= 1) 
+                return inputNumber;
+              return inputNumber + recursiveSummation(inputNumber - 1); inputNumber = 2;
+                 }
+               }                 
+
+         public static void main(String[] args) {
+            int result = recursiveSummation(5);
+            int result2 = recursiveSummation(10);
+            System.out.printIn(result);
+            System.out.printIn(result2);
+                }
+              }
                       
   
   ## Git commands
@@ -2777,7 +2778,6 @@ The public members of a class can be accessed from anywhere in the program using
       El tipo void se utiliza para indicar que algo no tiene tipo. Por ejemplo, para indicar que un método no devuelve un resultado se le indica que devuelve void.
       
   ## C++ documentation
-   
       * https://www.isocpp.org/
       * https://stroustrup.com/
       * https://www.youtube.com/watch?v=Q7HcwDE3lsU
@@ -2793,7 +2793,6 @@ The public members of a class can be accessed from anywhere in the program using
       * http://better-dpt-roll.github.io/
       
  ## Zen of Python
-   
       Beautiful is better than ugly.
       Explicit is better than implicit.
       Simple is better than complex.
@@ -2815,11 +2814,9 @@ The public members of a class can be accessed from anywhere in the program using
       Namespaces are one honking great idea – let's do more of those!
       
    ## Important publications in Computer Science
-   
       * https://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science
       
    ## Deploy
-   
       * https://dev.to/gedgonz/haciendo-deploy-de-una-app-en-react-a-github-pages-95p
       * https://platzi.com/tutoriales/1111-vuejs-2017/3441-como-hacer-deploy-de-una-aplicacion-de-vuejs-hacia-github-pages-usando-vue-cli-3/
       * https://www.freecodecamp.org/espanol/news/dos-maneras-de-desplegar-un-sitio-publico-de-github-pages-desde-un-repositorio-privado-de-hugo/
@@ -2834,7 +2831,6 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.udemy.com/course/docker-devops/?ranMID=39197&ranEAID=d2gvurItCFk&ranSiteID=d2gvurItCFk-Fj7_9HEpJG_Ut7eph9_cQg&LSNPUBID=d2gvurItCFk&utm_source=aff-campaign&utm_medium=udemyads
    
    ## Kurbernets, Docker
-    
     * https://iximiuz.com/en/posts/container-learning-path/
     * https://iximiuz.com/en/posts/containers-vs-pods/
     * https://www.freecodecamp.org/news/how-to-become-a-certified-kubernetes-application-developer/
