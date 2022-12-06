@@ -2785,6 +2785,7 @@ The public members of a class can be accessed from anywhere in the program using
       * https://www.youtube.com/watch?v=HddFGPTAmtU
       * https://www.youtube.com/watch?v=uTxRF5ag27A&t=1s
       * https://en.wikiversity.org/wiki/C%2B%2B/Introduction
+      * https://www.thoughtco.com/c-and-c-plus-programming-4133470
        
        
  ## Resume writing
