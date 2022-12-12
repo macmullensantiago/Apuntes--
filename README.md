@@ -3,12 +3,172 @@
 # Think like a Computer Scientist
 
   # HTML
+    * HTML stands for Hyper Text Markup Language
+      HTML is the standard markup language for creating Web pages
+      HTML describes the structure of a Web page
+      HTML consists of a series of elements
+      HTML elements tell the browser how to display the content
+      HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+      
+      The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+      The <html> element is the root element of an HTML page
+      The <head> element contains meta information about the HTML page
+      The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+      The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+      The <h1> element defines a large heading
+      The <p> element defines a paragraph
 
-  # CSS cheetsheet
+  # CSS
+    * Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+    With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+    
+    * CSS can be added to HTML documents in 3 ways:
+
+      Inline - by using the style attribute inside HTML elements
+      Internal - by using a <style> element in the <head> section
+      External - by using a <link> element to link to an external CSS file
+      
+   * CSS Selectors
+   
+      CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+      We can divide CSS selectors into five categories:
+
+      Simple selectors (select elements based on name, id, class)
+      Combinator selectors (select elements based on a specific relationship between them)
+      Pseudo-class selectors (select elements based on a certain state)
+      Pseudo-elements selectors (select and style a part of an element)
+      Attribute selectors (select elements based on an attribute or attribute value)
+      
     * https://www.lesliefranke.com/files/reference/csscheatsheet.html
-  
+    
+      ### The src Attribute
+          The required src attribute specifies the path (URL) to the image.
+          
+      ### The alt Attribute
+          The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+            ## Horizontal List with CSS
+
+          HTML lists can be styled in many different ways with CSS.
+
+          One popular way is to style a list horizontally, to create a navigation menu:
+
+          Example
+          <!DOCTYPE html>
+          <html>
+          <head>
+          <style>
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+          }
+
+          li {
+            float: left;
+          }
+
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+          }
+
+          li a:hover {
+            background-color: #111111;
+          }
+          </style>
+          </head>
+          <body>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+
+          </body>
+          </html>
+
+      ### The id attribute 
+          * The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+          * The id attribute is used to specify a unique id for an HTML element
+            The value of the id attribute must be unique within the HTML document
+            The id attribute is used by CSS and JavaScript to style/select a specific element
+            The value of the id attribute is case sensitive
+            The id attribute is also used to create HTML bookmarks
+            JavaScript can access an element with a specific id with the getElementById() method
+
   # JavaScript
   
+        ## The <script> Tag
+            In HTML, JavaScript code is inserted between <script> and </script> tags.
+
+            Example
+            <script>
+            document.getElementById("demo").innerHTML = "My First JavaScript";
+            </script>
+            
+        ## A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+
+          For example, a function can be called when an event occurs, like when the user clicks a button.
+          
+        ##  var	        Declares a variable
+            let	        Declares a block variable
+            const	      Declares a block constant
+            if	        Marks a block of statements to be executed on a condition
+            switch	    Marks a block of statements to be executed in different cases
+            for	        Marks a block of statements to be executed in a loop
+            function	  Declares a function
+            return	    Exits a function
+            try	        Implements error handling to a block of statements
+            
+            * In a programming language, variables are used to store data values.
+            
+            * JavaScript strings are for storing and manipulating text.
+            
+         ##  What is this?
+             In JavaScript, the this keyword refers to an object.
+
+             Which object depends on how this is being invoked (used or called).
+             
+         ## Why Use Arrays?
+            If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+
+            let car1 = "Saab";
+            let car2 = "Volvo";
+            let car3 = "BMW";
+            
+         ## JavaScript Regular Expressions
+            A regular expression is a sequence of characters that forms a search pattern.
+
+            The search pattern can be used for text search and text replace operations.
+            
+        ## DOM - Document Object Model
+    * How to use JavaScript to modify a website
+  
+        ## What is JSON? 
+            * JSON = JavaScript Object Notation
+
+            // Object format
+
+            const book = {
+              title: "1984",
+              author: "George Orwell",
+              isavailable: false,
+              };
+
+            // Converted to JSON
+            const bookJSON = JSON.stringify(bookObbj);
+            console.log(bookJSON);
+
         ## JavaScript vs ECMAScript
                 * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
                 * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
@@ -289,6 +449,74 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
   
  # Python 
  
+    * What is Python?
+        Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+        It is used for:
+
+        web development (server-side),
+        software development,
+        mathematics,
+        system scripting.
+        What can Python do?
+        Python can be used on a server to create web applications.
+        Python can be used alongside software to create workflows.
+        Python can connect to database systems. It can also read and modify files.
+        Python can be used to handle big data and perform complex mathematics.
+        Python can be used for rapid prototyping, or for production-ready software development.
+        
+    * Variable
+        variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+        A variable name must start with a letter or the underscore character
+        A variable name cannot start with a number
+        A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+        Variable names are case-sensitive (age, Age and AGE are three different variables)
+    * In programming, data type is an important concept.
+
+      Variables can store data of different types, and different types can do different things.
+
+    * What is an Array?
+        An array is a special variable, which can hold more than one value at a time.
+
+        If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+
+        car1 = "Ford"
+        car2 = "Volvo"
+        car3 = "BMW"
+ 
+    * Python Classes/Objects
+        Python is an object oriented programming language.
+
+        Almost everything in Python is an object, with its properties and methods.
+
+        A Class is like an object constructor, or a "blueprint" for creating objects.
+        
+    * Object Methods
+        Objects can also contain methods. Methods in objects are functions that belong to the object.
+
+        Let us create a method in the Person class:
+
+        Example
+        Insert a function that prints a greeting, and execute it on the p1 object:
+
+        class Person:
+          def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+          def myfunc(self):
+            print("Hello my name is " + self.name)
+
+        p1 = Person("John", 36)
+        p1.myfunc()
+        
+    * Python Inheritance
+        Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+        Parent class is the class being inherited from, also called base class.
+
+        Child class is the class that inherits from another class, also called derived class.
+
     * def combines operations into a procedure and binds a name to it
     * lists provide flexible and hierarchical structure for data
     * variables associates names with data
@@ -356,23 +584,7 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
 # DJANGO
     * https://www.dj4e.com/
       
-# DOM - Document Object Model
-    * How to use JavaScript to modify a website
-  
-# What is JSON? 
-    * JSON = JavaScript Object Notation
-    
-    // Object format
-    
-    const book = {
-      title: "1984",
-      author: "George Orwell",
-      isavailable: false,
-      };
-      
-    // Converted to JSON
-    const bookJSON = JSON.stringify(bookObbj);
-    console.log(bookJSON);
+
     
    
   # Data Structures & Algorithms
@@ -1794,6 +2006,116 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
     
     * https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md
   
+  
+   ## SQL
+      * SQL is a standard language for storing, manipulating and retrieving data in databases.
+      * What is SQL?
+          SQL stands for Structured Query Language
+          SQL lets you access and manipulate databases
+      * What Can SQL do?
+          SQL can execute queries against a database
+          SQL can retrieve data from a database
+          SQL can insert records in a database
+          SQL can update records in a database
+          SQL can delete records from a database
+          SQL can create new databases
+          SQL can create new tables in a database
+          SQL can create stored procedures in a database
+          SQL can create views in a database
+          SQL can set permissions on tables, procedures, and views
+       * Some of The Most Important SQL Commands
+          SELECT - extracts data from a database
+          UPDATE - updates data in a database
+          DELETE - deletes data from a database
+          INSERT INTO - inserts new data into a database
+          CREATE DATABASE - creates a new database
+          ALTER DATABASE - modifies a database
+          CREATE TABLE - creates a new table
+          ALTER TABLE - modifies a table
+          DROP TABLE - deletes a table
+          CREATE INDEX - creates an index (search key)
+          DROP INDEX - deletes an index
+        * SQL Keywords
+            Keyword	Description
+            ADD	Adds a column in an existing table
+            ADD CONSTRAINT	Adds a constraint after a table is already created
+            ALL	Returns true if all of the subquery values meet the condition
+            ALTER	Adds, deletes, or modifies columns in a table, or changes the data type of a column in a table
+            ALTER COLUMN	Changes the data type of a column in a table
+            ALTER TABLE	Adds, deletes, or modifies columns in a table
+            AND	Only includes rows where both conditions is true
+            ANY	Returns true if any of the subquery values meet the condition
+            AS	Renames a column or table with an alias
+            ASC	Sorts the result set in ascending order
+            BACKUP DATABASE	Creates a back up of an existing database
+            BETWEEN	Selects values within a given range
+            CASE	Creates different outputs based on conditions
+            CHECK	A constraint that limits the value that can be placed in a column
+            COLUMN	Changes the data type of a column or deletes a column in a table
+            CONSTRAINT	Adds or deletes a constraint
+            CREATE	Creates a database, index, view, table, or procedure
+            CREATE DATABASE	Creates a new SQL database
+            CREATE INDEX	Creates an index on a table (allows duplicate values)
+            CREATE OR REPLACE VIEW	Updates a view
+            CREATE TABLE	Creates a new table in the database
+            CREATE PROCEDURE	Creates a stored procedure
+            CREATE UNIQUE INDEX	Creates a unique index on a table (no duplicate values)
+            CREATE VIEW	Creates a view based on the result set of a SELECT statement
+            DATABASE	Creates or deletes an SQL database
+            DEFAULT	A constraint that provides a default value for a column
+            DELETE	Deletes rows from a table
+            DESC	Sorts the result set in descending order
+            DISTINCT	Selects only distinct (different) values
+            DROP	Deletes a column, constraint, database, index, table, or view
+            DROP COLUMN	Deletes a column in a table
+            DROP CONSTRAINT	Deletes a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint
+            DROP DATABASE	Deletes an existing SQL database
+            DROP DEFAULT	Deletes a DEFAULT constraint
+            DROP INDEX	Deletes an index in a table
+            DROP TABLE	Deletes an existing table in the database
+            DROP VIEW	Deletes a view
+            EXEC	Executes a stored procedure
+            EXISTS	Tests for the existence of any record in a subquery
+            FOREIGN KEY	A constraint that is a key used to link two tables together
+            FROM	Specifies which table to select or delete data from
+            FULL OUTER JOIN	Returns all rows when there is a match in either left table or right table
+            GROUP BY	Groups the result set (used with aggregate functions: COUNT, MAX, MIN, SUM, AVG)
+            HAVING	Used instead of WHERE with aggregate functions
+            IN	Allows you to specify multiple values in a WHERE clause
+            INDEX	Creates or deletes an index in a table
+            INNER JOIN	Returns rows that have matching values in both tables
+            INSERT INTO	Inserts new rows in a table
+            INSERT INTO SELECT	Copies data from one table into another table
+            IS NULL	Tests for empty values
+            IS NOT NULL	Tests for non-empty values
+            JOIN	Joins tables
+            LEFT JOIN	Returns all rows from the left table, and the matching rows from the right table
+            LIKE	Searches for a specified pattern in a column
+            LIMIT	Specifies the number of records to return in the result set
+            NOT	Only includes rows where a condition is not true
+            NOT NULL	A constraint that enforces a column to not accept NULL values
+            OR	Includes rows where either condition is true
+            ORDER BY	Sorts the result set in ascending or descending order
+            OUTER JOIN	Returns all rows when there is a match in either left table or right table
+            PRIMARY KEY	A constraint that uniquely identifies each record in a database table
+            PROCEDURE	A stored procedure
+            RIGHT JOIN	Returns all rows from the right table, and the matching rows from the left table
+            ROWNUM	Specifies the number of records to return in the result set
+            SELECT	Selects data from a database
+            SELECT DISTINCT	Selects only distinct (different) values
+            SELECT INTO	Copies data from one table into a new table
+            SELECT TOP	Specifies the number of records to return in the result set
+            SET	Specifies which columns and values that should be updated in a table
+            TABLE	Creates a table, or adds, deletes, or modifies columns in a table, or deletes a table or data inside a table
+            TOP	Specifies the number of records to return in the result set
+            TRUNCATE TABLE	Deletes the data inside a table, but not the table itself
+            UNION	Combines the result set of two or more SELECT statements (only distinct values)
+            UNION ALL	Combines the result set of two or more SELECT statements (allows duplicate values)
+            UNIQUE	A constraint that ensures that all values in a column are unique
+            UPDATE	Updates existing rows in a table
+            VALUES	Specifies the values of an INSERT INTO statement
+            VIEW	Creates, updates, or deletes a view
+            WHERE	Filters a result set to include only records that fulfill a specified condition
    ## MySQL 
         Docs: https://docs.google.com/document/d/1tDPgLoE1SakXJlwBF283nG12iUaBVy-OngmFaC4KHbI/edit
         
@@ -1823,10 +2145,12 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
         ALTER TABLE student DROP COLUMN gpa;
         
         INSERT INTO student VALUES(1, 'Jack', 'Biology'); 
+        
+ ## MongoDB
+     * MongoDB stores data in JSON-like documents, which makes the database very flexible and scalable.
 
             
- # The Cloud
-      
+## The Cloud
         * Basically is using someone else's server to put your data.
          
         * It makes much easier for people and smaller companies to scale automatically.
@@ -2859,7 +3183,14 @@ The public members of a class can be accessed from anywhere in the program using
         (“experience”), machines themselves rather than people will design the next
         generations of machines.
         
-   # Continuos Integration System (CI)
+   ## Machine Learning
+        Machine Learning is making the computer learn from studying data and statistics.
+
+        Machine Learning is a step into the direction of artificial intelligence (AI).
+
+        Machine Learning is a program that analyses data and learns to predict the outcome.
+
+   ## Continuos Integration System (CI)
         * Will build and test our code every time there's a change
         * Once we our code automatically built and tested, the next automatation step is continous deployment, which is sometimes called continous delivery (CD)
           
