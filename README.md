@@ -3,6 +3,7 @@
 # Think like a Computer Scientist
 
   # HTML
+    * At its heart, HTML is a language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.
     * HTML stands for Hyper Text Markup Language
       HTML is the standard markup language for creating Web pages
       HTML describes the structure of a Web page
@@ -19,6 +20,7 @@
       The <p> element defines a paragraph
 
   # CSS
+    * Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements.  
     * Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 
     With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
@@ -105,9 +107,39 @@
             The value of the id attribute is case sensitive
             The id attribute is also used to create HTML bookmarks
             JavaScript can access an element with a specific id with the getElementById() method
+            
+    ### Different types of selectors
+            There are many different types of selectors. The examples above use element selectors, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types of selectors:
+
+            Selector name	What does it select	Example
+            Element selector (sometimes called a tag or type selector)	All HTML elements of the specified type.	p
+            selects <p>
+            ID selector	The element on the page with the specified ID. On a given HTML page, each id value should be unique.	#my-id
+            selects <p id="my-id"> or <a id="my-id">
+            Class selector	The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.	.my-class
+            selects <p class="my-class"> and <a class="my-class">
+            Attribute selector	The element(s) on the page with the specified attribute.	img[src]
+            selects <img src="myimage.png"> but not <img>
+            Pseudo-class selector	The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)	a:hover
+            selects <a>, but only when the mouse pointer is hovering over the link.
 
   # JavaScript
   
+        ## JavaScript is a programming language that allows you to implement complex things on web pages. Every time a web page does more than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved.
+        
+        ## Variable	Explanation	Example
+          String	This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.	let myVariable = 'Bob';
+          Number	This is a number. Numbers don't have quotes around them.	let myVariable = 10;
+          Boolean	This is a True/False value. The words true and false are special keywords that don't need quote marks.	let myVariable = true;
+          Array	This is a structure that allows you to store multiple values in a single reference.	let myVariable = [1,'Bob','Steve',10];
+          Refer to each member of the array like this:
+          myVariable[0], myVariable[1], etc.
+          Object	This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.	let myVariable = document.querySelector('h1');
+          All of the above examples too.
+          
+        ## Functions
+            Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This is a good alternative to repeatedly writing the same code. You have already seen some uses of functions. 
+
         ## The <script> Tag
             In HTML, JavaScript code is inserted between <script> and </script> tags.
 
@@ -152,7 +184,9 @@
             The search pattern can be used for text search and text replace operations.
             
         ## DOM - Document Object Model
-    * How to use JavaScript to modify a website
+            * The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).
+            * The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. 
+            * How to use JavaScript to modify a website
   
         ## What is JSON? 
             * JSON = JavaScript Object Notation
@@ -168,10 +202,37 @@
             // Converted to JSON
             const bookJSON = JSON.stringify(bookObbj);
             console.log(bookJSON);
+            
+            ## API
+              * An API (Application Programming Interface) is a set of features and rules that exist inside a software program (the application) enabling interaction with it through software - as opposed to a human user interface. The API can be seen as a simple contract (the interface) between the application offering it and other items, such as third party software or hardware.
 
-        ## JavaScript vs ECMAScript
-                * JavaScript es un lenguage de scripting, sigue la especificacion de ECMAScript
-                * JavaScript es el lenguage, mientras que ECMAScript es la especificacion que el lenguage debe seguir
+                In Web development, an API is generally a set of code features (e.g. methods, properties, events, and URLs) that a developer can use in their apps for interacting with components of a user's web browser, or other software/hardware on the user's computer, or third party websites and services.
+                
+              * An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software.[1] A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation.
+              
+              * A synchronous API call is a design pattern where the call site is blocked while waiting for the called code to finish.[41] With a asynchronous API call, however, the call site is not blocked while waiting for the called code to finish, and instead the calling thread is notified when the reply arrives.
+              
+            ## Object-oriented programming (OOP) 
+            * Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code. The data is in the form of fields (often known as attributes or properties), and the code is in the form of procedures (often known as methods).
+            
+            * Objects and classes
+                Languages that support object-oriented programming (OOP) typically use inheritance for code reuse and extensibility in the form of either classes or prototypes. Those that use classes support two main concepts:
+
+                Classes – the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves, i.e. classes contain the data members and member functions
+                Objects – instances of classes
+                Objects sometimes correspond to things found in the real world. For example, a graphics program may have objects such as "circle", "square", "menu". An online shopping system might have objects such as "shopping cart", "customer", and "product".[20] Sometimes objects represent more abstract entities, like an object that represents an open file, or an object that provides the service of translating measurements from U.S. customary to metric.
+
+                Each object is said to be an instance of a particular class (for example, an object with its name field set to "Mary" might be an instance of class Employee). Procedures in object-oriented programming are known as methods; variables are also known as fields, members, attributes, or properties. This leads to the following terms:
+
+                Class variables – belong to the class as a whole; there is only one copy of each one
+                Instance variables or attributes – data that belongs to individual objects; every object has its own copy of each one
+                Member variables – refers to both the class and instance variables that are defined by a particular class
+                Class methods – belong to the class as a whole and have access to only class variables and inputs from the procedure call
+                Instance methods – belong to individual objects, and have access to instance variables for the specific object they are called on, inputs, and class variables
+                Objects are accessed somewhat like variables with complex internal structure, and in many languages are effectively pointers, serving as actual references to a single instance of said object in memory within a heap or stack. They provide a layer of abstraction which can be used to separate internal from external code. External code can use an object by calling a specific instance method with a certain set of input parameters, read an instance variable, or write to an instance variable. Objects are created by calling a special type of method in the class known as a constructor. A program may create many instances of the same class as it runs, which operate independently. This is an easy way for the same procedures to be used on different sets of data.
+
+                Object-oriented programming that uses classes is sometimes called class-based programming, while prototype-based programming does not typically use classes. As a result, significantly different yet analogous terminology is used to define the concepts of object and instance.
+
 
             ## Data Structure and Algorithms in JavaScript                          
                  /* Stacks! */ 
@@ -1501,6 +1562,31 @@ console.log(Dog.eat()) // I am eating my Pedigree​​​​​
           };
 
           console.log(typeof book);
+          
+  ### How the internet works?
+  
+  The Internet started as ARPANET in the 1960s with the goal of a decentralized computer network.
+  
+Physically, the Internet is a collection of computers moving bits to each other over wires, cables, and radio signals.
+Like many complex engineering projects, the Internet is broken up into various layers, each concerned with solving only a smaller problem. These layers connect to each other in well-defined interfaces.
+There are many protocols that define how the Internet and its applications should work at the different layers: HTTP, IMAP, SSH, TCP, UDP, IP, etc. In this sense, the Internet is as much a collection of rules for how computers and programs should behave as it is a physical network of computers.
+With the growth of the Internet, advent of WIFI, and e-commerce needs, SSL/TLS was developed to address security concerns.
+          
+  ### TCP/IP: 
+      Transmission Control Protocol and Internet Protocol are communication protocols that define how data should travel across the internet. This is like the transport mechanisms that let you place an order, go to the shop, and buy your goods. In our example, this is like a car or a bike (or however else you might get around).
+      What do these protocols do? At their most basic level, these protocols establish the rules for how information passes through the Internet.
+      
+  ### DNS: 
+      Domain Name System is like an address book for websites. When you type a web address in your browser, the browser looks at the DNS to find the website's IP address before it can retrieve the website. The browser needs to find out which server the website lives on, so it can send HTTP messages to the right place (see below). This is like looking up the address of the shop so you can access it.
+      
+  ### What is SSL/TLS?
+      SSL stands for Secured Sockets Layer. TLS stands for Transport Layer Security. SSL was first developed by Netscape in 1994 but a later more secure version was devised and renamed TLS. We will refer to them together as SSL/TLS.
+
+      SSL/TLS is an optional layer that sits between the Transport Layer and the Application Layer. It allows secure Internet communication of sensitive information through encryption and authentication.
+      
+      Authentication means the client can trust that the server is who it claims to be.
+      
+      When the browser requests a web site using the https protocol instead of http, it’s telling the web server it wants an SSL encrypted connection. 
         
   ### HTTP - HyperText Transfer Protocol
   
