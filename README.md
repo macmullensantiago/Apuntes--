@@ -3300,6 +3300,14 @@ The public members of a class can be accessed from anywhere in the program using
         I/O devices are the pieces of hardware used by a human (or other system) to communicate with a computer. For instance, a keyboard or computer mouse is an input device for a computer, while monitors and printers are output devices.
    ## Specialize
       * https://amaca.substack.com/p/how-i-got-wealthy-without-working
+   ## Code Review
+      * Code Review
+      Code review is careful, systematic study of source code by people who are not the original author of the code. It’s analogous to proofreading a term paper.
+
+      Code review really has two purposes:
+
+      Improving the code. Finding bugs, anticipating possible bugs, checking the clarity of the code, and checking for consistency with the project’s style standards.
+      Improving the programmer. Code review is an important way that programmers learn and teach each other, about new language features, changes in the design of the project or its coding standards, and new techniques. In open source projects, particularly, much conversation happens in the context of code reviews.
       
    ## Interview
       * https://www.acefrontend.com/
