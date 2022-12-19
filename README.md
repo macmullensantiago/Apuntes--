@@ -232,9 +232,179 @@
                 Objects are accessed somewhat like variables with complex internal structure, and in many languages are effectively pointers, serving as actual references to a single instance of said object in memory within a heap or stack. They provide a layer of abstraction which can be used to separate internal from external code. External code can use an object by calling a specific instance method with a certain set of input parameters, read an instance variable, or write to an instance variable. Objects are created by calling a special type of method in the class known as a constructor. A program may create many instances of the same class as it runs, which operate independently. This is an easy way for the same procedures to be used on different sets of data.
 
                 Object-oriented programming that uses classes is sometimes called class-based programming, while prototype-based programming does not typically use classes. As a result, significantly different yet analogous terminology is used to define the concepts of object and instance.
+            
+            ## Data Structures
+                * Data structures 
+                     Data Structures are basically just that - they are structures which can hold some data together. In other words, they are used to store a collection of related data.
+
+                There are four built-in data structures in Python - list, tuple, dictionary and set. We will see how to use each of them and how they make life easier for us.
+
+              * List
+                  A list is a data structure that holds an ordered collection of items i.e. you can store a sequence of items in a list. This is easy to imagine if you can think of a shopping list where you have a list of items to buy, except that you probably have each item on a separate line in your shopping list whereas in Python you put commas in between them.
+
+                  The list of items should be enclosed in square brackets so that Python understands that you are specifying a list. Once you have created a list, you can add, remove or search for items in the list. Since we can add and remove items, we say that a list is a mutable data type i.e. this type can be altered.
+                  
+                * Objects And Classes
+                    Although I've been generally delaying the discussion of objects and classes till now, a little explanation is needed right now so that you can understand lists better. We will explore this topic in detail in a later chapter.
+
+                    A list is an example of usage of objects and classes. When we use a variable i and assign a value to it, say integer 5 to it, you can think of it as creating an object (i.e. instance) i of class (i.e. type) int. In fact, you can read help(int) to understand this better.
+
+                    A class can also have methods i.e. functions defined for use with respect to that class only. You can use these pieces of functionality only when you have an object of that class. For example, Python provides an append method for the list class which allows you to add an item to the end of the list. For example, mylist.append('an item') will add that string to the list mylist. Note the use of dotted notation for accessing methods of the objects.
+
+                    A class can also have fields which are nothing but variables defined for use with respect to that class only. You can use these variables/names only when you have an object of that class. Fields are also accessed by the dotted notation, for example, mylist.field.
+
+               * Tuple
+                    Tuples are used to hold together multiple objects. Think of them as similar to lists, but without the extensive functionality that the list class gives you. One major feature of tuples is that they are immutable like strings i.e. you cannot modify tuples.
+
+                    Tuples are defined by specifying items separated by commas within an optional pair of parentheses.
+
+                    Tuples are usually used in cases where a statement or a user-defined function can safely assume that the collection of values (i.e. the tuple of values used) will not change.
+                  
+               * Dictionary
+                    A dictionary is like an address-book where you can find the address or contact details of a person by knowing only his/her name i.e. we associate keys (name) with values (details). Note that the key must be unique just like you cannot find out the correct information if you have two persons with the exact same name.
+
+                    Note that you can use only immutable objects (like strings) for the keys of a dictionary but you can use either immutable or mutable objects for the values of the dictionary. This basically translates to say that you should use only simple objects for keys.
+
+                    Pairs of keys and values are specified in a dictionary by using the notation d = {key1 : value1, key2 : value2 }. Notice that the key-value pairs are separated by a colon and the pairs are separated themselves by commas and all this is enclosed in a pair of curly braces.
+
+                    Remember that key-value pairs in a dictionary are not ordered in any manner. If you want a particular order, then you will have to sort them yourself before using it.
+
+                    The dictionaries that you will be using are instances/objects of the dict class.
+                    
+               * Sequence
+                    Lists, tuples and strings are examples of sequences, but what are sequences and what is so special about them?
+
+                    The major features are membership tests, (i.e. the in and not in expressions) and indexing operations, which allow us to fetch a particular item in the sequence directly.
+
+                    The three types of sequences mentioned above - lists, tuples and strings, also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
+               * Set
+                    Sets are unordered collections of simple objects. These are used when the existence of an object in a collection is more important than the order or how many times it occurs.
+
+                    Using sets, you can test for membership, whether it is a subset of another set, find the intersection between two sets, and so on.
+               * References
+                    When you create an object and assign it to a variable, the variable only refers to the object and does not represent the object itself! That is, the variable name points to that part of your computer's memory where the object is stored. This is called binding the name to the object.
+
+                    Generally, you don't need to be worried about this, but there is a subtle effect due to references which you need to be aware of:
+              * Strings
+                    We have already discussed strings in detail earlier. What more can there be to know? Well, did you know that strings are also objects and have methods which do everything from checking part of a string to stripping spaces? In fact, you've already been using a string method... the format method!
+
+                    The strings that you use in programs are all objects of the class str. Some useful methods of this class are demonstrated in the next example. For a complete list of such methods, see help(str).
+                    
+            ## Object Oriented Programming
+                  In all the programs we wrote till now, we have designed our program around functions i.e. blocks of statements which manipulate data. This is called the procedure-oriented way of programming. There is another way of organizing your program which is to combine data and functionality and wrap it inside something called an object. This is called the object oriented programming paradigm. Most of the time you can use procedural programming, but when writing large programs or have a problem that is better suited to this method, you can use object oriented programming techniques.
+
+                  Classes and objects are the two main aspects of object oriented programming. A class creates a new type where objects are instances of the class. An analogy is that you can have variables of type int which translates to saying that variables that store integers are variables which are instances (objects) of the int class.
+                  Objects can store data using ordinary variables that belong to the object. Variables that belong to an object or class are referred to as fields. Objects can also have functionality by using functions that belong to a class. Such functions are called methods of the class. This terminology is important because it helps us to differentiate between functions and variables which are independent and those which belong to a class or object. Collectively, the fields and methods can be referred to as the attributes of that class.
+
+Fields are of two types - they can belong to each instance/object of the class or they can belong to the class itself. They are called instance variables and class variables respectively.
+
+A class is created using the class keyword. The fields and methods of the class are listed in an indented block.
+
+            ### Classes
+                The simplest class possible is shown in the following example (save as oop_simplestclass.py).
+
+                class Person:
+                    pass  # An empty block
+
+                p = Person()
+                print(p)
+                
+            ### Methods
+                  We have already discussed that classes/objects can have methods just like functions except that we have an extra self variable. We will now see an example (save as oop_method.py).
+
+                  class Person:
+                      def say_hi(self):
+                          print('Hello, how are you?')
+
+                  p = Person()
+                  p.say_hi()
+                  # The previous 2 lines can also be written as
+                  # Person().say_hi()
+                  
+            ### Inheritance
+                  One of the major benefits of object oriented programming is reuse of code and one of the ways this is achieved is through the inheritance mechanism. Inheritance can be best imagined as implementing a type and subtype relationship between classes.
+
+                  Suppose you want to write a program which has to keep track of the teachers and students in a college. They have some common characteristics such as name, age and address. They also have specific characteristics such as salary, courses and leaves for teachers and, marks and fees for students.
+
+                  You can create two independent classes for each type and process them but adding a new common characteristic would mean adding to both of these independent classes. This quickly becomes unwieldy.
+
+                  A better way would be to create a common class called SchoolMember and then have the teacher and student classes inherit from this class, i.e. they will become sub-types of this type (class) and then we can add specific characteristics to these sub-types.
+
+                  There are many advantages to this approach. If we add/change any functionality in SchoolMember, this is automatically reflected in the subtypes as well. For example, you can add a new ID card field for both teachers and students by simply adding it to the SchoolMember class. However, changes in the subtypes do not affect other subtypes. Another advantage is that you can refer to a teacher or student object as a SchoolMember object which could be useful in some situations such as counting of the number of school members. This is called polymorphism where a sub-type can be substituted in any situation where a parent type is expected, i.e. the object can be treated as an instance of the parent class.
+
+                  Also observe that we reuse the code of the parent class and we do not need to repeat it in the different classes as we would have had to in case we had used independent classes.
+
+                  The SchoolMember class in this situation is known as the base class or the superclass. The Teacher and Student classes are called the derived classes or subclasses.
+
+                  We will now see this example as a program (save as oop_subclass.py):
+
+                  class SchoolMember:
+                      '''Represents any school member.'''
+                      def __init__(self, name, age):
+                          self.name = name
+                          self.age = age
+                          print('(Initialized SchoolMember: {})'.format(self.name))
+
+                      def tell(self):
+                          '''Tell my details.'''
+                          print('Name:"{}" Age:"{}"'.format(self.name, self.age), end=" ")
 
 
-            ## Data Structure and Algorithms in JavaScript                          
+                  class Teacher(SchoolMember):
+                      '''Represents a teacher.'''
+                      def __init__(self, name, age, salary):
+                          SchoolMember.__init__(self, name, age)
+                          self.salary = salary
+                          print('(Initialized Teacher: {})'.format(self.name))
+
+                      def tell(self):
+                          SchoolMember.tell(self)
+                          print('Salary: "{:d}"'.format(self.salary))
+
+
+                  class Student(SchoolMember):
+                      '''Represents a student.'''
+                      def __init__(self, name, age, marks):
+                          SchoolMember.__init__(self, name, age)
+                          self.marks = marks
+                          print('(Initialized Student: {})'.format(self.name))
+
+                      def tell(self):
+                          SchoolMember.tell(self)
+                          print('Marks: "{:d}"'.format(self.marks))
+
+                  t = Teacher('Mrs. Shrividya', 40, 30000)
+                  s = Student('Swaroop', 25, 75)
+
+                  # prints a blank line
+                  print()
+
+                  members = [t, s]
+                  for member in members:
+                      # Works for both Teachers and Students
+                      member.tell()
+                      
+            ### The if statement
+                The if statement is used to check a condition: if the condition is true, we run a block of statements (called the if-block), else we process another block of statements (called the else-block). The else clause is optional.
+                
+            ### The while Statement
+                The while statement allows you to repeatedly execute a block of statements as long as a condition is true. A while statement is an example of what is called a looping statement. A while statement can have an optional else clause.
+                
+            ### The for loop
+                The for..in statement is another looping statement which iterates over a sequence of objects i.e. go through each item in a sequence. We will see more about sequences in detail in later chapters. What you need to know right now is that a sequence is just an ordered collection of items.
+                
+            ### The break Statement
+                The break statement is used to break out of a loop statement i.e. stop the execution of a looping statement, even if the loop condition has not become False or the sequence of items has not been completely iterated over.
+
+                An important note is that if you break out of a for or while loop, any corresponding loop else block is not executed.
+                
+            ### Data Types
+                Variables can hold values of different types called data types. The basic types are numbers and strings, which we have already discussed. In later chapters, we will see how to create our own types using classes.
+                
+            ## Data Structure and Algorithms in JavaScript    
+            
+            
+            
                  /* Stacks! */ 
 
                  // functions: push, pop, peek, length, 
