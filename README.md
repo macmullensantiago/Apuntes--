@@ -1,8 +1,5 @@
 # Apuntes--
 
-# ARQ
-  * https://retokommerling.com/programas-imprescindibles-arquitectos/
-
 # Think like a Computer Scientist
 
   # Linux
